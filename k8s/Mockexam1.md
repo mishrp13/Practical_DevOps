@@ -405,6 +405,274 @@ kubectl get deploy,pods -n dev-wl07
 cat /root/rolling-back-record.txt
 
 11. 
+The db-deployment-cka05-trb deployment is having 0 out of 1 PODs ready.
+Figure out the issues and fix them, but do not remove or rename any DB-related environment variable names in the deployment
+Do not modify the contents or keys of any existing Secrets.
+
+1. Check Pod Status
+kubectl get pods
+
+Observed:
+
+CreateContainerConfigError
+2. Describe the Failing Pod
+kubectl describe pod <db-pod-name>
+
+Initial error:
+
+couldn't find key db in Secret default/db-cka05-trb
+3. Inspect the Secret
+kubectl get secret db-cka05-trb -o yaml
+
+Found:
+
+data:
+  database: ...
+
+The deployment referenced key db, but the actual key was database.
+
+4. Edit Deployment
+kubectl edit deployment db-deployment-cka05-trb
+
+Changed:
+
+key: db
+
+to:
+
+key: database
+
+while keeping env var name unchanged:
+
+name: DB_DATABASE
+5. Check Pods Again
+kubectl get pods
+
+Still failing.
+
+6. Describe New Pod
+kubectl describe pod <new-db-pod>
+
+Error:
+
+secret "db-user-cka05-trb" not found
+7. List Existing Secrets
+kubectl get secrets
+
+Found:
+
+db-user-pass-cka05-trb
+
+but NOT:
+
+db-user-cka05-trb
+8. Inspect User Secret
+kubectl get secret db-user-pass-cka05-trb -o yaml
+
+Found keys:
+
+username:
+password:
+9. Fix DB_USER Reference
+
+Edited deployment again:
+
+kubectl edit deployment db-deployment-cka05-trb
+
+Changed:
+
+name: db-user-cka05-trb
+key: db-user
+
+to:
+
+name: db-user-pass-cka05-trb
+key: username
+10. Fix DB_PASSWORD Reference
+
+Also changed:
+
+key: db-password
+
+to:
+
+key: password
+
+while keeping env var name unchanged:
+
+name: DB_PASSWORD
+. Verify Deployment
+kubectl get pods
+
+Result:
+
+db-deployment-cka05-trb-xxxxx   1/1 Running
+
+12. 
+Create a new deployment called ocean-tv-wl09 in the default namespace using the image kodekloud/webapp-color:v1.
+Use the following specs for the deployment:
+
+
+1. Replica count should be 3.
+
+2. Set the Max Unavailable to 40% and Max Surge to 55%.
+
+3. Create the deployment and ensure all the pods are ready.
+
+4. After successful deployment, upgrade the deployment image to kodekloud/webapp-color:v2 and inspect the deployment rollout status.
+
+5. Check the rolling history of the deployment, and on the cluster1-controlplane, save the current revision count number to the /opt/revision-count.txt file.
+
+6. Finally, perform a rollback and revert the deployment image to the older version.
+
+
+sol:
+
+1. Create Deployment
+kubectl create deployment ocean-tv-wl09 \
+--image=kodekloud/webapp-color:v1 \
+--replicas=3
+2. Edit Deployment Strategy
+kubectl edit deployment ocean-tv-wl09
+
+Under spec, add/change:
+
+strategy:
+  type: RollingUpdate
+  rollingUpdate:
+    maxUnavailable: 40%
+    maxSurge: 55%
+
+Save and exit.
+
+3. Verify Deployment
+kubectl get deployment ocean-tv-wl09
+
+Expected:
+
+READY   3/3
+
+Check pods:
+
+kubectl get pods
+4. Upgrade Image to v2
+kubectl set image deployment/<deployment-name> <container-name>=<image>
+kubectl set image deployment/ocean-tv-wl09 \
+webapp-color=kodekloud/webapp-color:v2
+5. Check Rollout Status
+kubectl rollout status deployment ocean-tv-wl09
+
+Expected:
+
+successfully rolled out
+6. Check Rollout History
+kubectl rollout history deployment ocean-tv-wl09
+
+Example:
+
+REVISION  CHANGE-CAUSE
+1         <none>
+2         <none>
+7. Save Revision Number
+echo 2 > /opt/revision-count.txt
+
+Verify:
+
+cat /opt/revision-count.txt
+
+Output:
+
+2
+8. Roll Back Deployment
+kubectl rollout undo deployment ocean-tv-wl09
+9. Verify Rollback
+kubectl describe deployment ocean-tv-wl09 | grep Image
+
+Expected:
+
+kodekloud/webapp-color:v1
+
+13. 
+
+There is a deployment nginx-deployment-cka04-svcn in cluster3 which is exposed using service nginx-service-cka04-svcn.
+Create an ingress resource nginx-ingress-cka04-svcn to load balance the incoming traffic with the following specifications:
+ingressClassName: nginx-cka04
+pathType: Prefix and path: /
+Backend Service Name: nginx-service-cka04-svcn
+Backend Service Port: 80
+ssl-redirect is set to false
+IS the "nginx-ingress-cka04-svcn" ingress resource created?
+
+Is PathType: "Prefix"?
+
+Is Path: "/"?
+
+Is Backend serviceName: "nginx-service-cka04-svcn"?
+
+Is Backend servicePort: "80"?
+
+Is "ssl-redirect" is set to "false"?
+
+Is ingress working?
+
+sol:
+1. Create Ingress YAML
+vi ingress.yaml
+
+Paste:
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx-ingress-cka04-svcn
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+
+spec:
+  ingressClassName: nginx-cka04
+
+  rules:
+  - http:
+      paths:
+      - path: /
+        pathType: Prefix
+
+        backend:
+          service:
+            name: nginx-service-cka04-svcn
+            port:
+              number: 80
+
+Save and exit.
+
+2. Apply the Ingress
+kubectl apply -f ingress.yaml
+
+Expected:
+
+ingress.networking.k8s.io/nginx-ingress-cka04-svcn created
+3. Verify Ingress Created
+kubectl get ingress
+
+Expected:
+
+nginx-ingress-cka04-svcn
+4. Check Ingress Details
+kubectl describe ingress nginx-ingress-cka04-svcn
+
+14. 
+
+It appears that the black-cka25-trb deployment in cluster1 isn't up to date. While listing the deployments, we are currently seeing 0 under the UP-TO-DATE section for this deployment. Troubleshoot, fix, and make sure that this deployment is up to date.
+
+sol:
+
+1. Describe the deployment
+2. kubectl rollout resume deployment black-cka25-trb
+
+15. 
+
+
+
 
 
 
