@@ -670,6 +670,78 @@ sol:
 2. kubectl rollout resume deployment black-cka25-trb
 
 15. 
+The purple-app-cka27-trb pod is an nginx based app on the container port 80. This app is exposed within the cluster using a ClusterIP type service called purple-svc-cka27-trb.
+There is another pod called purple-curl-cka27-trb which continuously monitors the status of the app running within purple-app-cka27-trb pod by accessing the purple-svc-cka27-trb service using curl.
+Recently, we started seeing some errors in the logs of the purple-curl-cka27-trb pod.
+
+sol.
+
+kubectl get svc purple-svc-cka27-trb -o yaml
+kubectl get endpoints purple-svc-cka27-trb
+kubectl get pod purple-app-cka27-trb --show-labels
+kubectl describe pod purple-app-cka27-trb
+
+Look for:
+
+Selector mismatch → endpoints will be empty.
+Wrong targetPort → service points to a port other than 80.
+
+Most likely fix:
+
+kubectl edit svc purple-svc-cka27-trb
+
+Ensure it looks similar to:
+
+spec:
+  selector:
+    app: purple-app-cka27-trb
+  ports:
+  - port: 80
+    targetPort: 80
+
+Or patch the target port directly:
+
+kubectl patch svc purple-svc-cka27-trb \
+-p '{"spec":{"ports":[{"port":80,"targetPort":80}]}}'
+
+Then verify:
+
+kubectl get endpoints purple-svc-cka27-trb
+kubectl logs purple-curl-cka27-trb
+
+Success looks like HTML from nginx instead of:
+
+Not able to connect to the nginx app...
+
+16. Create a storage class with the name banana-sc-cka08-str as per the properties given below:
+
+
+- Provisioner should be kubernetes.io/no-provisioner.
+
+- Volume binding mode should be WaitForFirstConsumer.
+
+- Volume expansion should be enabled.
+
+sol:  refer k8s
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: banana-sc-cka08-str
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "false"
+provisioner: kubernetes.io/no-provisioner
+reclaimPolicy: Retain # default value is Delete
+allowVolumeExpansion: true
+mountOptions:
+  - discard # this might enable UNMAP / TRIM at the block storage layer
+volumeBindingMode: WaitForFirstConsumer
+parameters:
+  guaranteedReadWriteLatency: "true" # provider-specific
+
+
+
+
+
 
 
 
