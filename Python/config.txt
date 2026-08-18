@@ -1,2 +1,0 @@
-Setting=value
-another=value

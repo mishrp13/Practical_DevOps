@@ -1,3 +1,6 @@
+
+# Write a script to read a file and print its contents line by line.
+
 import sys
 
 def read_file(file_path):
