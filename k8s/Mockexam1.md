@@ -1,6 +1,25 @@
 1. Just write HPA refrence K8s docs
 
 
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: php-apache
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: php-apache
+  minReplicas: 1
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
+
 Q. We have created a service account called green-sa-cka22-arch, a cluster role called green-role-cka22-arch, and a cluster role binding called green-role-binding-cka22-arch.
 Update the permissions of this service account so that it can only get all the namespaces in cluster1.
 Are service account permissions updated?
