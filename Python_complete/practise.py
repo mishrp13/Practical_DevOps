@@ -1,60 +1,19 @@
-import subprocess
-import logging
-import sys
-from pathlib import Path
+class Solution:
 
-CPU_THRESHOLD= 80
-MEMORY_THRESHOLD=80
-DISK_THRESHOLD=80
+    def Pattern2(self,n):
 
-LOG_DIRECTORY= Path("logs")
-LOG_FILE=LOG_DIRECTORY/"health.log"
+        for i in range(n):
+            for j in range(i+1):
+                print(j+1,end="")
 
-LOG_DIRECTORY.mkdir(exist_ok=True)
-
-logging.basicConfig(
-    filename=LOG_FILE,
-    level=logging.INFO,
-    format= "%(asctime)s -%(levelname)s -%(message)s"
-)
+            print()
 
 
-
-def run_command(command):
-
-    try:
-        result= subprocess.run(
-            command,
-            capture_output=True,
-            text=True,
-            check=True
-        )
-
-        return result.stdout.strip()
-
-    except subprocess.CalledProcessError as error:
-
-        logging.error(
-            " command Failed: %s",
-            error
-        )
+    def main(self):
+        N=5
+        sol=Solution()
+        sol.Pattern2(N)
 
 
-def get_cpu_usage():
-
-    output= run_command(
-        [
-            "bash",
-            "-c",
-            "top bn1 | grep 'Cpu(s)' "
-        ]
-
-    )
-
-    if not output:
-        return None
-
-    try:
-        
-    
-
+if __name__=="__main__":
+    Solution().main()
