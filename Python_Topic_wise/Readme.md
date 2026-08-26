@@ -65,3 +65,7 @@ I structured the script into separate functions, where each function had a speci
 For Linux-specific information, I used Python's subprocess module to execute commands such as free, df, hostname and uptime. I captured stdout and stderr and checked the command's return code to determine whether the command succeeded. I also added timeout and exception handling so a failed or hanging command wouldn't bring down the entire script.
 
 The output was then formatted into a system information report. If I were productionizing it, I would add structured logging, JSON output, command-line arguments, proper exit codes and unit tests so the script could be integrated into a CI/CD or monitoring workflow."
+
+------------------------------------------------------------------------2.
+
+"I developed a Python-based File and Directory Manager to automate basic file-management tasks that are commonly required in DevOps. I used Python's pathlib module for handling files and directories and os for operating-system-related operations. The script can create directories and files, list files, check file sizes, rename files, and delete files. I also added input validation and a menu-driven interface so the user can select the required operation. This helped me understand how Python can be used to automate Linux file-system tasks instead of performing them manually."

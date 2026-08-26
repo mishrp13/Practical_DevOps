@@ -1,118 +1,318 @@
-#!/usr/bin/env python3
-
-import os
-import platform
-import socket
 import subprocess
+import logging
 import sys
+from pathlib import Path
 
+
+# ============================================================
+# CONFIGURATION
+# ============================================================
+
+CPU_THRESHOLD = 80
+MEMORY_THRESHOLD = 80
+DISK_THRESHOLD = 80
+
+LOG_DIRECTORY = Path("logs")
+LOG_FILE = LOG_DIRECTORY / "health.log"
+
+
+# ============================================================
+# LOGGING CONFIGURATION
+# ============================================================
+
+LOG_DIRECTORY.mkdir(exist_ok=True)
+
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+
+# ============================================================
+# RUN LINUX COMMAND
+# ============================================================
 
 def run_command(command):
     """
     Execute a Linux command and return its output.
     """
+
     try:
         result = subprocess.run(
             command,
-            shell=True,
             capture_output=True,
             text=True,
-            timeout=10
+            check=True
         )
-
-        if result.returncode != 0:
-            return f"Command failed: {result.stderr.strip()}"
 
         return result.stdout.strip()
 
-    except subprocess.TimeoutExpired:
-        return "Command timed out"
+    except subprocess.CalledProcessError as error:
 
-    except Exception as e:
-        return f"Error: {e}"
+        logging.error(
+            "Command failed: %s",
+            error
+        )
 
-
-def get_hostname():
-    return socket.gethostname()
-
-
-def get_os_information():
-    return platform.system()
+        return None
 
 
-def get_os_version():
-    return platform.release()
+# ============================================================
+# CPU CHECK
+# ============================================================
+
+def get_cpu_usage():
+    """
+    Get CPU utilization percentage.
+    """
+
+    output = run_command(
+        [
+            "bash",
+            "-c",
+            "top -bn1 | grep 'Cpu(s)'"
+        ]
+    )
+
+    if not output:
+        return None
+
+    try:
+
+        idle = float(
+            output.split("id,")[0].split()[-1]
+        )
+
+        cpu_usage = 100 - idle
+
+        return round(cpu_usage, 2)
+
+    except (ValueError, IndexError):
+
+        logging.error(
+            "Unable to parse CPU information"
+        )
+
+        return None
 
 
-def get_architecture():
-    return platform.machine()
+# ============================================================
+# MEMORY CHECK
+# ============================================================
+
+def get_memory_usage():
+    """
+    Get memory utilization percentage.
+    """
+
+    output = run_command(
+        ["free", "-m"]
+    )
+
+    if not output:
+        return None
+
+    try:
+
+        lines = output.splitlines()
+
+        memory_line = lines[1].split()
+
+        total_memory = int(memory_line[1])
+        used_memory = int(memory_line[2])
+
+        memory_usage = (
+            used_memory / total_memory
+        ) * 100
+
+        return round(memory_usage, 2)
+
+    except (
+        ValueError,
+        IndexError,
+        ZeroDivisionError
+    ):
+
+        logging.error(
+            "Unable to parse memory information"
+        )
+
+        return None
 
 
-def get_cpu_count():
-    return os.cpu_count()
-
-
-def get_memory():
-    return run_command("free -h | awk '/Mem:/ {print $2}'")
-
+# ============================================================
+# DISK CHECK
+# ============================================================
 
 def get_disk_usage():
-    return run_command("df -h / | awk 'NR==2 {print $5}'")
+    """
+    Get root filesystem utilization percentage.
+    """
+
+    output = run_command(
+        ["df", "-P", "/"]
+    )
+
+    if not output:
+        return None
+
+    try:
+
+        lines = output.splitlines()
+
+        disk_line = lines[1].split()
+
+        usage = disk_line[4]
+
+        usage = usage.replace("%", "")
+
+        return int(usage)
+
+    except (
+        ValueError,
+        IndexError
+    ):
+
+        logging.error(
+            "Unable to parse disk information"
+        )
+
+        return None
 
 
-def get_ip_address():
-    return run_command("hostname -I | awk '{print $1}'")
-
+# ============================================================
+# UPTIME CHECK
+# ============================================================
 
 def get_uptime():
-    return run_command("uptime -p")
+    """
+    Get server uptime.
+    """
+
+    output = run_command(
+        ["uptime", "-p"]
+    )
+
+    return output
 
 
-def get_python_version():
-    return sys.version.split()[0]
+# ============================================================
+# HEALTH CHECK
+# ============================================================
+
+def check_health(cpu, memory, disk):
+    """
+    Determine overall server health.
+    """
+
+    if cpu is None:
+        return "UNKNOWN"
+
+    if memory is None:
+        return "UNKNOWN"
+
+    if disk is None:
+        return "UNKNOWN"
+
+    if cpu > CPU_THRESHOLD:
+        return "UNHEALTHY"
+
+    if memory > MEMORY_THRESHOLD:
+        return "UNHEALTHY"
+
+    if disk > DISK_THRESHOLD:
+        return "UNHEALTHY"
+
+    return "HEALTHY"
 
 
-def display_report():
+# ============================================================
+# DISPLAY RESULTS
+# ============================================================
+
+def display_results(cpu, memory, disk, uptime, status):
+
+    print()
     print("=" * 50)
-    print("        SYSTEM INFORMATION REPORT")
+    print("             SERVER HEALTH CHECK")
     print("=" * 50)
 
-    print(f"Hostname       : {get_hostname()}")
-    print(f"Operating System: {get_os_information()}")
-    print(f"Kernel Version : {get_os_version()}")
-    print(f"Architecture   : {get_architecture()}")
-    print(f"CPU Cores      : {get_cpu_count()}")
-    print(f"Memory         : {get_memory()}")
-    print(f"Disk Usage     : {get_disk_usage()}")
-    print(f"IP Address     : {get_ip_address()}")
-    print(f"Python Version : {get_python_version()}")
-    print(f"Uptime         : {get_uptime()}")
+    print(f"CPU Usage       : {cpu}%")
+    print(f"Memory Usage    : {memory}%")
+    print(f"Disk Usage      : {disk}%")
+    print(f"Server Uptime   : {uptime}")
+
+    print("-" * 50)
+
+    print(f"Server Status   : {status}")
 
     print("=" * 50)
+    print()
 
+
+# ============================================================
+# MAIN FUNCTION
+# ============================================================
+
+def main():
+
+    logging.info(
+        "Starting server health check"
+    )
+
+    cpu = get_cpu_usage()
+
+    memory = get_memory_usage()
+
+    disk = get_disk_usage()
+
+    uptime = get_uptime()
+
+    status = check_health(
+        cpu,
+        memory,
+        disk
+    )
+
+    display_results(
+        cpu,
+        memory,
+        disk,
+        uptime,
+        status
+    )
+
+    # --------------------------------------------------------
+    # EXIT CODES
+    # --------------------------------------------------------
+
+    if status == "UNHEALTHY":
+
+        logging.warning(
+            "Server health status: UNHEALTHY"
+        )
+
+        sys.exit(1)
+
+    if status == "UNKNOWN":
+
+        logging.error(
+            "Server health status: UNKNOWN"
+        )
+
+        sys.exit(2)
+
+    logging.info(
+        "Server health status: HEALTHY"
+    )
+
+    sys.exit(0)
+
+
+# ============================================================
+# PYTHON ENTRY POINT
+# ============================================================
 
 if __name__ == "__main__":
-    display_report()
-
-
-    #              system_info.py
-    #                 |
-    #                 v
-    #       display_report()
-    #                 |
-    #     +-----------+-----------+
-    #     |           |           |
-    #     v           v           v
-    # hostname      OS         CPU count
-    #     |           |           |
-    #     +-----------+-----------+
-    #                 |
-    #                 v
-    #          Linux commands
-    #                 |
-    #                 v
-    #           System data
-    #                 |
-    #                 v
-    #             print()
-
+    main()
