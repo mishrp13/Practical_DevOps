@@ -1,29 +1,16 @@
-class Solution():
+def update_server_conf(file_path,key,value):
 
-    def reverse_number(self,n):
+    with open(file_path,'r') as file:
+        lines= file.readlines()
 
-        copy=n
+    with open(file_path,'w') as file:
+        for line in lines:
 
-        reverse_number=0
-
-        while n>0:
-
-            last_digit= n%10
-            reverse_number=(reverse_number*10)+last_digit
-            n=n//10
-
-        return reverse_number == copy
+            if key in line:
+                file.write(key + "=" + value + "\n")
+            else:
+                file.write(line)
 
 
-n=121
-sol=Solution()
-ans=sol.reverse_number(n)
-print(f"{ans}")
-
-
-
-
-
-       
-       
-
+update_server_conf("server.conf","PORT","9090")
+            
