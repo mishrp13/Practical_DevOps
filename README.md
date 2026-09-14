@@ -1,2870 +1,3878 @@
 Version 1 — Standard (2 minutes — use this most)
 "Good morning. Thank you for this opportunity.
 
-My name is Prabal Mishra and I am an
-Application Support Engineer with 4+ years
-of hands-on experience in production support,
-incident management, and system monitoring
-for enterprise-level banking applications.
+My name is Prabal Mishra and I am a DevOps
+Engineer with 4+ years of hands-on experience
+at Tata Consultancy Services where I have
+worked for two major banking clients —
+Citibank and Commonwealth Bank of Australia.
 
-I am currently at Tata Consultancy Services
-working for Commonwealth Bank of Australia —
-one of Australia's largest financial institutions.
-My day-to-day work involves tier-2 and tier-3
-support for Credit Risk and Market Risk
-applications running on Linux and UNIX platforms.
+My core expertise spans the full DevOps
+lifecycle — from infrastructure provisioning
+using Terraform on AWS and Azure, to building
+and managing CI/CD pipelines with Jenkins,
+GitHub Actions, and Tekton, to deploying
+and operating containerized microservices
+on Kubernetes clusters including EKS and AKS.
 
-My core strengths are incident management using
-ServiceNow, Autosys batch job scheduling,
-Oracle and MySQL database administration,
-shell scripting for automation, and root cause
-analysis for complex production issues.
+On the security side I have embedded
+DevSecOps practices across delivery pipelines
+including SAST/DAST scanning, secrets
+management, vulnerability scanning, and
+compliance automation — achieving zero
+production security incidents.
 
-Some highlights from my current role:
-I have maintained 99.9% application uptime
-across 24x7 operations, reduced P2 incident
-resolution time by 35%, automated 40% of
-manual monitoring tasks through Bash scripting,
-and managed 100+ production Autosys jobs with
-zero missed SLA windows.
+For observability I have integrated the
+full monitoring stack — Prometheus, Grafana,
+ELK Stack, Datadog, and Splunk — enabling
+proactive alerting and faster root cause
+analysis for production incidents.
 
-I also have strong experience in ITIL practices,
-SOX compliance, change management through
-ServiceNow, and cross-functional collaboration
-with development, DBA, QA, and infrastructure
-teams.
+Two specific achievements I am proud of:
+I improved Kubernetes cluster resource
+utilization by 20% through an Ingress
+Controller optimization POC, and reduced
+Java Maven pipeline build times by 20%
+through intelligent caching and
+parallelization strategies.
 
-I am excited about this opportunity and look
-forward to contributing my production support
-expertise to your team."
-Version 2 — Short (1 minute — when asked to be brief)
+I work in Agile and Scrum environments
+and have experience with GitOps, SRE
+principles, and multi-cloud deployments
+across AWS and Azure simultaneously.
+
+I am excited about this opportunity and
+look forward to discussing how my experience
+can contribute to your team."
+Version 2 — Short (1 minute)
 "Good morning. My name is Prabal Mishra.
 
-I am an Application Support Engineer at TCS
-with 4+ years of experience supporting
-enterprise banking applications for
-Commonwealth Bank of Australia.
+I am a DevOps Engineer at TCS with 4+
+years of experience supporting Citibank
+and Commonwealth Bank of Australia.
 
-My expertise is in tier-2 and tier-3
-production support, incident management
-on ServiceNow, Autosys batch scheduling,
-Oracle and MySQL databases, and Linux
-shell scripting for automation.
+My expertise is in Kubernetes, Terraform,
+CI/CD pipelines with Jenkins and GitHub
+Actions, DevSecOps, and multi-cloud
+infrastructure on AWS and Azure.
 
-Key achievements: 99.9% uptime maintained,
-35% MTTR reduction, 40% manual tasks
-automated, and zero SOX audit findings
-across two consecutive audits.
+Key achievements: 20% Kubernetes resource
+optimization, 20% Maven build speed
+improvement, zero-downtime deployments
+using Blue-Green and Canary strategies,
+and full DevSecOps pipeline integration
+with zero production security incidents.
 
-I am looking forward to discussing how my
-experience aligns with this role."
+I look forward to our discussion."
 Version 3 — Senior Role (2.5 minutes)
 "Good morning. My name is Prabal Mishra.
 
-I bring 4+ years of enterprise production
-support experience from TCS, where I work
-for Commonwealth Bank of Australia —
-supporting Credit Risk and Market Risk
-applications that are critical to the bank's
-daily operations.
+I bring 4+ years of enterprise DevOps
+experience from TCS where I have operated
+in some of the most demanding banking
+environments in the world — Citibank
+globally and Commonwealth Bank of Australia.
 
-What makes my background unique is the
-combination of depth and breadth. On the
-technical side I am hands-on with Linux
-administration, Oracle and MySQL databases,
-Autosys job scheduling, Bash scripting,
-and ITSM tools including ServiceNow and
-Salesforce. On the operational side I have
-managed the full P1 to P3 incident lifecycle,
-handled SOX compliance audits, led change
-management processes, and built a knowledge
-base of 50+ articles that reduced repeat
-escalations by 30%.
+What differentiates my profile is the
+combination of depth across the entire
+DevOps toolchain and real production
+experience in financial services where
+uptime, security, and compliance are
+non-negotiable.
 
-I have operated in a true 24x7 banking
-environment where uptime is non-negotiable —
-which has sharpened my instincts for
-proactive monitoring, fast root cause analysis,
-and clear stakeholder communication under
-pressure.
+On infrastructure I design and deploy
+using Terraform across AWS and Azure —
+everything from VPCs, IAM, EKS clusters
+to Lambda and serverless architectures.
+I manage multi-cloud environments
+simultaneously with consistent IaC
+practices and cost optimization built in.
 
-My numbers speak to what I have delivered:
-99.9% uptime, 35% faster incident resolution,
-40% reduction in manual effort through
-automation, and zero audit findings across
-two SOX compliance cycles.
+On Kubernetes I go beyond basic deployment —
+I manage cluster upgrades, node pool
+management, Ingress controller configuration,
+and operate Istio service mesh for mTLS,
+traffic management, and resilience patterns.
 
-I am genuinely passionate about production
-stability and operational excellence and I
-am looking for an environment where I can
-continue to grow and take on more complex
-challenges. I believe this role is that
-opportunity and I look forward to our
-conversation."
+On CI/CD I build pipelines that are not
+just automated but security-embedded —
+SAST/DAST at every stage, quality gates,
+artifact management with JFrog Artifactory
+and Nexus, and compliance checks
+baked into the delivery workflow.
+
+For observability I have built and
+operated the full stack: Prometheus
+and Grafana for metrics, ELK for
+centralized logging, Datadog for
+APM, and OpenTelemetry for
+distributed tracing with Jaeger.
+
+My numbers: 20% Kubernetes resource
+improvement, 20% faster build pipelines,
+zero security incidents post-DevSecOps
+integration, and zero-downtime deployments
+across multi-cloud with Blue-Green
+and Canary strategies.
+
+I am looking for an environment where
+I can continue to push boundaries on
+cloud-native architecture and I believe
+this role offers exactly that.
+I look forward to our conversation."
 50 INTERVIEW QUESTIONS AND ANSWERS
-SECTION 1 — PRODUCTION SUPPORT FUNDAMENTALS (Q1-Q10)
+SECTION 1 — CI/CD PIPELINES (Q1-Q10)
 
-Q1: Tell me about your production support experience
-
-Answer:
-"I have 4+ years of tier-2 and tier-3
-production support experience at TCS
-for Commonwealth Bank of Australia.
-
-The applications I support are Credit Risk
-and Market Risk — core banking systems
-deployed on Linux and UNIX platforms
-that run 24x7 and directly impact the
-bank's financial operations.
-
-My daily responsibilities include:
-→ Monitoring system health and logs
-→ Triaging and resolving incidents
-  in ServiceNow
-→ Managing Autosys batch jobs
-→ Oracle and MySQL database queries
-  and administration
-→ Shell scripting for automation
-→ Change management and releases
-→ SOX compliance and audit support
-
-What I am most proud of is maintaining
-99.9% application uptime over the course
-of my engagement — in a banking environment
-where even minutes of downtime have
-significant business and regulatory impact."
-
-Q2: What is the difference between Tier 1, Tier 2, and Tier 3 support?
+Q1: Walk me through a CI/CD pipeline you have built end to end
 
 Answer:
-"Support tiers represent increasing
-levels of technical complexity
-and escalation.
+"I will walk you through the pipeline
+I built at Citibank using Jenkins
+and integrated with our Kubernetes
+deployment on EKS.
 
-Tier 1 — First Line Support:
-→ Initial point of contact
-→ Basic troubleshooting
-→ Password resets, access issues
-→ Follows scripts and runbooks
-→ Logs ticket in ServiceNow
-→ Resolves simple issues or escalates
+STAGE 1: Source Control Trigger
+→ Developer pushes code to GitHub
+→ Webhook triggers Jenkins pipeline
+→ Branch strategy: feature branches
+  merge to develop, develop to main
+→ Pipeline starts automatically
 
-Tier 2 — Application Support (My level):
-→ Deeper technical investigation
-→ Application-specific expertise
-→ Log analysis, database queries
-→ Autosys job failures
-→ Root cause analysis
-→ Coordinates with development teams
-→ Resolves most production issues
+STAGE 2: Build
+→ Maven builds the Java application
+→ Dependency caching enabled
+  (reduced build time by 20% at CBA)
+→ Unit tests run in parallel
+→ Build artifact created as JAR
 
-Tier 3 — Engineering/Development:
-→ Code-level fixes required
-→ Architecture changes
-→ Vendor escalations
-→ Complex infrastructure issues
-→ Development team involvement
-→ Takes code to production
+STAGE 3: Code Quality Gate
+→ SonarQube SAST scan runs
+→ Quality gate: must pass threshold
+  (coverage %, code smells, bugs)
+→ Pipeline fails if gate not passed
+→ No exceptions in production branch
 
-In my role at CBA I handle tier-2 issues
-directly and escalate to tier-3 when
-code changes are needed. I always
-aim to resolve at tier-2 to reduce
-escalations and protect development
-team capacity."
+STAGE 4: Security Scanning
+→ SAST: SonarQube static analysis
+→ Dependency scan: OWASP
+  Dependency Check for CVEs
+→ Secret scanning: detect
+  hardcoded credentials
+→ Pipeline fails on critical findings
 
-Q3: How do you prioritise incidents when multiple come in at the same time?
+STAGE 5: Docker Build and Scan
+→ Docker image built from Dockerfile
+→ Trivy container image scan
+→ Image must pass before push
+→ Image tagged: app:git-commit-sha
 
-Answer:
-"Incident prioritisation follows the
-ITIL framework which I apply daily
-in my role at CBA.
+STAGE 6: Artifact Push
+→ Docker image pushed to
+  JFrog Artifactory or ECR
+→ Image promoted to staging registry
+→ Build metadata stored in Nexus
 
-Priority levels in our environment:
+STAGE 7: Deploy to Staging
+→ Helm chart updated with new image tag
+→ kubectl apply or helm upgrade
+→ Kubernetes rolling update in staging
+→ Health checks verify pods running
 
-P1 — Critical:
-→ Complete system outage
-→ Core banking application down
-→ Entire user base impacted
-→ Response: Immediate — within 15 mins
-→ Resolution target: 1-2 hours
-→ War-room initiated, all hands on
+STAGE 8: Integration Tests
+→ Automated regression tests run
+→ API tests via Postman/Newman
+→ Performance baseline check
 
-P2 — High:
-→ Major functionality impaired
-→ Significant user group affected
-→ Workaround may exist
-→ Response: Within 30 minutes
-→ Resolution target: 4 hours
+STAGE 9: Approval Gate (Production)
+→ Manual approval required
+→ Release manager approves
+→ Change ticket number required
 
-P3 — Medium:
-→ Minor functionality affected
-→ Limited user impact
-→ Workaround available
-→ Resolution target: 8-24 hours
+STAGE 10: Production Deploy
+→ Blue-Green or Canary strategy
+→ Traffic shifted gradually
+→ Monitoring alerts watched live
+→ Automated rollback on error rate spike
 
-P4 — Low:
-→ Minimal impact
-→ Informational or cosmetic
-→ Resolution target: 72 hours
+STAGE 11: Post Deploy Verification
+→ Smoke tests run automatically
+→ Prometheus alerts checked
+→ Pipeline marks build as Successful
 
-When multiple tickets arrive together
-I first check for P1s — those get
-immediate attention regardless of
-anything else. For same-priority
-tickets I assess business impact:
-which application, how many users,
-is there a regulatory reporting
-deadline today, is it market hours.
-I communicate status to all
-stakeholders immediately and
-provide ETA updates every 30
-minutes on P1/P2 incidents."
+Total pipeline time: approximately
+25-35 minutes for full run."
 
-Q4: Walk me through how you handle a P1 incident from start to resolution
+Q2: What is the difference between Jenkins, GitHub Actions, and Tekton?
 
 Answer:
-"This is my bread and butter —
-I handle P1s regularly in a
-24x7 banking environment.
+"I have used all three in production
+and each has distinct characteristics.
 
-Step 1: Alert received
-→ PagerDuty or monitoring alert fires
-→ Or ServiceNow ticket raised as P1
-→ I acknowledge immediately
-→ Start the clock — SLA begins
+JENKINS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Type: Self-hosted CI/CD server
+Deployment: Runs on your own server
+  or VM — you manage it
 
-Step 2: Initial assessment (first 5 mins)
-→ What application is affected?
-→ What is the exact symptom?
-→ How many users impacted?
-→ When did it start?
-→ Any recent changes deployed?
-  (check change log in ServiceNow)
+Strengths:
+→ Most mature and feature-rich
+→ Huge plugin ecosystem (1800+ plugins)
+→ Very flexible — can integrate
+  with almost anything
+→ Works well for complex pipelines
+→ Good for legacy enterprise environments
+→ Full control over execution environment
 
-Step 3: Notify stakeholders
-→ Incident bridge call initiated
-→ Notify: Application manager,
-  development lead, DBA team,
-  infrastructure team
-→ Send initial impact communication
-  to business stakeholders
-→ Update ServiceNow ticket with
-  initial findings
+Weaknesses:
+→ Requires maintenance (upgrades,
+  plugin management, security patches)
+→ UI feels dated compared to modern tools
+→ Groovy DSL has learning curve
+→ Can become complex to maintain
 
-Step 4: Investigation
-→ Check application logs on Linux:
-  tail -f /app/logs/app.log
-  grep -i error /app/logs/app.log
-→ Check Autosys jobs if batch related
-→ Check Oracle database connections
-→ Check CPU, memory, disk on server
-→ Check network connectivity
-→ Compare with yesterday's baseline
+Jenkinsfile example:
+pipeline {
+  agent any
+  stages {
+    stage('Build') {
+      steps { sh 'mvn clean package' }
+    }
+    stage('Test') {
+      steps { sh 'mvn test' }
+    }
+    stage('Deploy') {
+      steps { sh './deploy.sh' }
+    }
+  }
+}
 
-Step 5: Coordinate resolution
-→ Share findings on bridge call
-→ Engage correct team
-  (dev for code, DBA for database,
-  infra for server/network)
-→ Execute fix or workaround
-→ Verify restoration
+I used Jenkins at Citibank for complex
+multi-stage enterprise pipelines.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Step 6: Closure
-→ Confirm with business that
-  service is restored
-→ Update ServiceNow ticket
-→ Send all-clear communication
-→ Schedule post-incident review
+GITHUB ACTIONS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Type: Cloud-native, GitHub-integrated CI/CD
+Deployment: Runs on GitHub-hosted runners
+  or self-hosted runners
 
-Step 7: Post-Incident Review (PIR)
-→ Within 24-48 hours
-→ Timeline of events
-→ Root cause identified
-→ Action items to prevent recurrence
-→ Knowledge base article created
+Strengths:
+→ Native GitHub integration —
+  triggers on any GitHub event
+→ No server to maintain
+→ YAML-based — easy to read
+→ Marketplace with 15,000+ actions
+→ Free for public repos
+→ Excellent for cloud-native workflows
+→ Matrix builds for parallel testing
 
-This structured approach is why we
-achieved 35% reduction in MTTR
-in our environment."
+Weaknesses:
+→ Tightly coupled to GitHub
+→ Less flexible for complex enterprise
+  multi-system pipelines
+→ Costs can grow with large teams
 
-Q5: What is Root Cause Analysis (RCA) and how do you perform it?
+I used GitHub Actions at CBA —
+reduced complexity significantly
+compared to managing Jenkins.
 
-Answer:
-"Root Cause Analysis is the process
-of identifying the fundamental reason
-why an incident occurred — not just
-fixing the symptom but preventing
-it from happening again.
+YAML example:
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        run: mvn clean package
+      - name: Deploy
+        run: ./deploy.sh
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-My RCA approach uses the
-5 Whys technique:
+TEKTON:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Type: Kubernetes-native CI/CD framework
+Deployment: Runs as Kubernetes CRDs
+  (Custom Resource Definitions)
 
-Example from my CBA experience:
+Strengths:
+→ Cloud-native — runs IN Kubernetes
+→ Highly scalable (uses K8s pods)
+→ Reusable Tasks and Pipelines
+→ Perfect for GitOps workflows
+→ No external server needed
+→ CNCF graduated project
 
-Problem: Credit Risk batch job failed
-at 2 AM causing morning report delay
+Weaknesses:
+→ Steeper learning curve
+→ Requires Kubernetes knowledge
+→ Less out-of-box integrations
+  compared to Jenkins
 
-Why 1: Why did the job fail?
-→ Database connection timed out
+I used Tekton at Citibank for
+Kubernetes-native deployments where
+the pipeline runs as pods in the
+same cluster — very clean architecture.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Why 2: Why did connection time out?
-→ Database was running slow
+When to use which:
+Legacy enterprise → Jenkins
+GitHub-centric teams → GitHub Actions
+Kubernetes-native → Tekton"
 
-Why 3: Why was database slow?
-→ Tablespace was 98% full
-
-Why 4: Why was tablespace full?
-→ Archive logs accumulated
-  for 3 months not purged
-
-Why 5: Why were archive logs not purged?
-→ No automated purge job existed
-  and no monitoring on tablespace
-
-Root Cause: Missing automated
-tablespace monitoring and purge process
-
-Resolution:
-→ Immediate: Purge old archive logs
-→ Short term: Set up tablespace
-  alert at 80% threshold
-→ Long term: Create Autosys job
-  for weekly automated purge
-→ Knowledge article created
-
-Result: This class of incident
-never recurred in our environment.
-
-A good RCA results in permanent
-prevention not just a temporary fix."
-
-Q6: What monitoring do you do daily and what tools do you use?
-
-Answer:
-"Daily monitoring in my role
-covers multiple layers:
-
-Application Layer:
-→ Review application logs for
-  errors, warnings, exceptions
-→ Commands I use:
-  tail -100 /app/logs/app.log
-  grep -i 'error\|exception\|fatal'
-  /app/logs/app.log | tail -50
-  grep -c 'ERROR' app.log
-  (count errors and compare to baseline)
-
-Autosys Batch Layer:
-→ Review overnight batch job status
-  every morning
-→ Check for failed, on-ice,
-  or terminated jobs
-→ Verify completion times
-  against expected SLA
-
-Database Layer:
-→ Check Oracle alert log for ORA- errors
-→ Monitor tablespace utilisation
-→ Check active sessions and locks
-→ Verify backup job status
-
-Infrastructure Layer:
-→ CPU utilisation
-→ Memory usage
-→ Disk space (df -h)
-→ Network connectivity
-
-ServiceNow:
-→ Review open P1/P2 tickets
-→ Check tickets breaching SLA
-→ Review overnight incidents
-
-This proactive monitoring approach
-is how we maintain 99.9% uptime —
-we catch issues before users do."
-
-Q7: What is SLA and how do you ensure you meet it?
+Q3: What is the difference between Blue-Green and Canary deployment?
 
 Answer:
-"SLA — Service Level Agreement —
-is the contractual commitment on
-response and resolution times
-for incidents by priority.
+"Both are zero-downtime deployment
+strategies and I have implemented
+both in production at Citibank.
 
-At CBA our SLAs are:
-→ P1: Response 15 min, Resolve 2 hrs
-→ P2: Response 30 min, Resolve 4 hrs
-→ P3: Response 2 hrs, Resolve 24 hrs
-→ P4: Response 8 hrs, Resolve 72 hrs
+BLUE-GREEN DEPLOYMENT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Concept:
+→ Two identical production environments:
+  Blue = currently live (old version)
+  Green = new version deployed to
+→ All traffic goes to Blue
+→ Deploy new version to Green
+→ Run tests on Green
+→ Switch ALL traffic from Blue to Green
+→ Blue becomes standby for rollback
 
-How I ensure SLA compliance:
+How it works:
+Blue environment (v1.0): 100% traffic
+Deploy v2.0 to Green
+Test Green thoroughly
+Switch load balancer: 100% to Green
+Green (v2.0): 100% traffic
+Blue (v1.0): standby
 
-1. ServiceNow SLA clock visibility
-   → Every ticket shows SLA countdown
-   → I check this first thing
-   → Filter for near-breach tickets
+Traffic switch in Kubernetes:
+Change service selector:
+selector:
+  app: myapp
+  version: green  # was: blue
 
-2. Proactive monitoring
-   → Catching issues early reduces
-     resolution time
-   → Most P1s start as warnings
-     if you catch them in time
+Rollback: switch selector back to blue
+→ Instant rollback — one command
 
-3. Clear escalation paths
-   → I know exactly who to call
-     for each application
-   → No time wasted finding
-     the right person
+Advantages:
+→ Zero downtime
+→ Instant rollback capability
+→ Full testing before traffic switch
+→ Clean cutover
 
-4. Parallel working
-   → While investigation runs
-     I am already communicating
-     to stakeholders
-   → No sequential processing
+Disadvantages:
+→ Requires 2x infrastructure (costly)
+→ All-or-nothing traffic switch
+→ Stateful applications are complex
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-5. Shift handover discipline
-   → Detailed handover notes
-   → No SLA gaps between shifts
+CANARY DEPLOYMENT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Concept:
+→ Gradually shift traffic to new version
+→ Monitor closely at each stage
+→ Increase traffic if metrics are good
+→ Rollback fast if metrics degrade
 
-Result: We have consistently
-maintained SLA compliance above
-98% throughout my engagement."
+Traffic progression:
+Stage 1: 5% to v2.0,  95% to v1.0
+Stage 2: 20% to v2.0, 80% to v1.0
+Stage 3: 50% to v2.0, 50% to v1.0
+Stage 4: 100% to v2.0
 
-Q8: How do you handle an incident where you cannot find the root cause?
+Istio traffic splitting (I used this):
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+spec:
+  http:
+  - route:
+    - destination:
+        host: myapp
+        subset: v1
+      weight: 90
+    - destination:
+        host: myapp
+        subset: v2
+      weight: 10
 
-Answer:
-"This happens in complex environments
-and knowing how to handle it
-professionally is critical.
+Advantages:
+→ Real user traffic validates new version
+→ Limited blast radius if issues occur
+→ Gradual confidence building
+→ A/B testing capability
 
-Step 1: Restore service first
-→ Root cause finding is secondary
-  to service restoration
-→ Restart the application
-→ Fail over to standby
-→ Apply a known workaround
-→ Business is back online first
+Disadvantages:
+→ More complex to manage
+→ Both versions run simultaneously
+→ Stateful sessions need sticky routing
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Step 2: Preserve evidence
-→ Before restarting: take log snapshots
-→ Copy heap dumps if application crashed
-→ Note exact timestamps
-→ Screenshot monitoring dashboards
-→ This evidence is needed for RCA
+When I use which:
+→ Blue-Green: Major releases, database
+  schema changes, high-risk deploys
+→ Canary: Feature releases, performance
+  changes, UI updates where gradual
+  rollout reduces risk"
 
-Step 3: Communicate honestly
-→ Update stakeholders:
-  'Service restored. Root cause
-   investigation ongoing. Update
-   by [specific time].'
-→ Never say 'We do not know'
-  without a follow-up plan
-
-Step 4: Structured investigation
-→ Review all logs from the
-  incident window
-→ Check change records —
-  anything deployed recently?
-→ Check infrastructure changes
-→ Compare with similar past incidents
-→ Engage vendor support if needed
-  (Oracle SR, for example)
-
-Step 5: Document and escalate
-→ If unable to identify cause
-  within expected timeframe
-→ Raise to Tier 3 engineering
-→ Engage application vendor
-→ Document everything attempted
-
-Step 6: Trend analysis
-→ If incident repeats without
-  clear cause: look for patterns
-→ Same time of day?
-→ Same batch job running?
-→ Memory leak pattern?
-
-Being transparent and systematic
-even when you do not have an answer
-builds more trust than pretending."
-
-Q9: What is Change Management and how do you follow it?
+Q4: How do you implement DevSecOps in a CI/CD pipeline?
 
 Answer:
-"Change Management in ITIL is the
-process of controlling changes to
-production systems to minimise
-risk and disruption.
+"DevSecOps means security is built
+into every stage — not bolted on
+at the end. This is exactly what
+I implemented at Citibank achieving
+zero production security incidents.
 
-At CBA we follow a strict
-change management process:
+Security at each stage:
 
-Types of changes:
+STAGE 1: Pre-commit (Developer machine)
+→ Pre-commit hooks:
+  - Secret detection (git-secrets,
+    gitleaks) — stops hardcoded
+    credentials before they are committed
+  - Lint checks for security patterns
 
-Standard Change:
-→ Pre-approved, low risk
-→ Routine maintenance tasks
-→ No CAB approval needed
-→ Example: SSL certificate renewal
+STAGE 2: Source Code (SAST)
+→ Static Application Security Testing
+→ SonarQube scans for:
+  SQL injection vulnerabilities
+  XSS vulnerabilities
+  Insecure cryptography
+  Security hotspots
+→ Quality gate: pipeline fails on
+  Critical or High findings
 
-Normal Change:
-→ Requires CAB review and approval
-→ Risk assessment completed
-→ Rollback plan mandatory
-→ Deployment window agreed
-→ Example: Application patch
+STAGE 3: Dependencies
+→ OWASP Dependency Check
+→ Snyk for known CVEs in libraries
+→ Block on Critical CVEs
+→ Example: Log4Shell (CVE-2021-44228)
+  would have been caught here
 
-Emergency Change:
-→ Unplanned fix for P1 incident
-→ Post-implementation review required
-→ Expedited CAB approval
-→ Higher scrutiny in review
+STAGE 4: Container Image (SAST)
+→ Trivy image scanner
+→ Scans base image AND application layers
+→ Block on Critical and High CVEs
+→ Enforce approved base images only
+  (no ubuntu:latest — must use
+  specific pinned versions)
 
-My change management process:
+STAGE 5: Infrastructure as Code
+→ Checkov scans Terraform code
+→ Catches misconfigurations:
+  S3 bucket with public access
+  Security group open to 0.0.0.0/0
+  Unencrypted RDS instances
+→ Blocks pipeline if IaC violations found
 
-1. Raise Change Request in ServiceNow
-   → Detailed description
-   → Risk assessment (Low/Medium/High)
-   → Implementation steps
-   → Rollback steps — ALWAYS
-   → Testing plan
-   → Deployment window
+STAGE 6: Secrets Management
+→ NO secrets in code or environment variables
+→ AWS Secrets Manager or
+  HashiCorp Vault for all secrets
+→ Kubernetes Secrets sealed with
+  Sealed Secrets or External Secrets
+→ Secrets rotation automated
 
-2. CAB review meeting
-   → Present the change
-   → Answer technical questions
-   → Get approval or rework
+STAGE 7: Runtime Security
+→ Kubernetes Pod Security Standards
+→ Non-root containers enforced
+→ Read-only root filesystem
+→ Falco for runtime threat detection
 
-3. Deployment night
-   → Confirm team availability
-   → Execute pre-deployment checklist
-   → Deploy in change window
-   → Run smoke tests
-   → Confirm success or rollback
+STAGE 8: Compliance
+→ OPA (Open Policy Agent) for
+  policy-as-code enforcement
+→ All deployments must meet
+  defined compliance policies
+→ Automated evidence generation
+  for audit
 
-4. Post-deployment verification
-   → Monitor for 30-60 minutes
-   → Confirm with application team
-   → Update change record to Closed
+Result at Citibank:
+Zero production security incidents
+after full DevSecOps integration."
 
-I have zero unauthorised changes
-in my entire engagement — every
-change in production is documented
-and approved."
-
-Q10: How do you handle on-call duties and after-hours incidents?
-
-Answer:
-"On-call support is a core part
-of supporting 24x7 banking systems.
-
-My on-call approach:
-
-Preparation:
-→ Keep runbooks updated and accessible
-  on my phone (not just on laptop)
-→ Know escalation contacts by heart
-→ Ensure VPN access works from home
-→ Alert thresholds tuned to avoid
-  unnecessary wake-up calls
-
-When alert fires at 2 AM:
-→ Acknowledge within defined SLA
-→ Quickly assess: real issue or false alarm?
-→ Check monitoring dashboard first
-→ Triage: Can I resolve alone or
-  do I need to wake someone up?
-→ Make that decision quickly
-  (better to engage early for P1s)
-
-Communication:
-→ Even at 2 AM: send a brief update
-  to the incident channel
-→ Business stakeholders notified
-  if business impact confirmed
-→ No surprises in the morning
-
-Handover:
-→ When morning shift starts:
-  detailed verbal and written handover
-→ What happened, what was done,
-  what still needs follow-up
-
-Work-life balance reality:
-→ Good on-call means fewer calls
-→ Proactive monitoring prevents
-  most overnight incidents
-→ Our automation work reduced
-  unnecessary on-call triggers by 40%"
-SECTION 2 — AUTOSYS & BATCH JOBS (Q11-Q18)
-
-Q11: What is Autosys and how have you used it?
+Q5: How do you manage artifacts and what is the difference between Nexus and JFrog Artifactory?
 
 Answer:
-"Autosys is an enterprise job scheduling
-tool from Broadcom (formerly CA Technologies).
-It automates, monitors, and manages
-batch job execution across distributed
-environments.
+"Artifact management is a critical
+part of any enterprise CI/CD pipeline.
+I have used both tools in production.
 
-In my role at CBA I use Autosys daily
-to manage 100+ production batch jobs
-for Credit Risk and Market Risk
-application workflows.
+What is artifact management:
+→ Store build outputs centrally
+→ Version and promote artifacts
+→ Avoid rebuilding same artifact
+→ Single source of truth for releases
+→ Scan artifacts for vulnerabilities
+→ Control what reaches production
 
-Key components I work with:
+NEXUS REPOSITORY MANAGER:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Open source (free) and Pro versions
+→ Supports: Maven, npm, Docker,
+  PyPI, NuGet, Helm charts, raw
+→ Proxy repositories:
+  Cache external dependencies locally
+  (Maven Central, Docker Hub)
+  Faster builds + control what
+  developers can pull
 
-Job Definition:
-→ Box jobs (containers for multiple jobs)
-→ Command jobs (execute scripts)
-→ File watcher jobs (trigger on file arrival)
-→ FTP jobs (file transfers)
+I used Nexus at CBA for:
+→ Maven JAR artifact storage
+→ Docker image registry
+→ Proxying Maven Central
+  (builds never hit internet)
 
-Job Dependencies:
-→ Jobs chained using
-  condition: s(previous_job) = 'SUCCESS'
-→ Box jobs group related jobs
-→ Failure of one job can stop chain
+→ Lighter weight than Artifactory
+→ Good for simpler setups
+→ Free version is capable
 
-Key Autosys commands I use daily:
-→ autorep -J job_name -s (job status)
-→ sendevent -J job_name -E STARTJOB
-  (manually start a job)
-→ sendevent -J job_name -E KILLJOB
-  (kill a running job)
-→ sendevent -J job_name -E ON_ICE
-  (put job on hold)
-→ sendevent -J job_name -E OFF_ICE
-  (release from hold)
-→ autorep -J job_name -q
-  (job definition)
+JFROG ARTIFACTORY:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Enterprise-grade artifact manager
+→ More features than Nexus
+→ Supports: same formats as Nexus
+  plus more
+→ Built-in Xray security scanning
+  (deep CVE analysis of all artifacts)
+→ Release lifecycle management:
+  Promote artifact from DEV → QA → PROD
+→ Distribution: deploy to remote
+  edge nodes globally
 
-Common statuses I monitor:
-→ SUCCESS: Completed normally
-→ FAILURE: Job failed
-→ RUNNING: Currently executing
-→ INACTIVE: Waiting for start
-→ ON_HOLD: Manually held
-→ ON_ICE: Dependency not met
-→ TERMINATED: Killed mid-run"
+I used JFrog Artifactory at Citibank for:
+→ Full release lifecycle
+→ Xray scanning every Docker image
+  before promotion
+→ Helm chart repository
+→ Binary promotion between environments
 
-Q12: What do you do when an Autosys job fails?
+Key difference summary:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Feature          Nexus       JFrog Artifactory
+Cost             Free/Pro    Enterprise (costly)
+Security         Basic       Advanced (Xray)
+Promotion        Manual      Built-in lifecycle
+Enterprise       Good        Excellent
+Complexity       Lower       Higher
 
-Answer:
-"Autosys job failure investigation
-is one of my most frequent activities.
-Here is my exact process:
+For Citibank's banking compliance
+requirements: JFrog Artifactory
+was the right choice — every artifact
+scanned and traceable from build to prod."
 
-Step 1: Identify the failed job
-→ Check Autosys monitoring dashboard
-  OR receive alert via email/PagerDuty
-→ Note exact job name and failure time
-
-Step 2: Check job status
-→ autorep -J job_name -s
-→ Note: exit code, start time, end time
-
-Step 3: Check job output/log
-→ Find log file location from
-  job definition
-→ autorep -J job_name -q
-  (shows std_out_file path)
-→ Review last 100 lines of log:
-  tail -100 /path/to/job.log
-→ Look for: ERROR, FAILED, exception,
-  ORA- (Oracle errors), permission denied,
-  file not found, disk full
-
-Step 4: Identify root cause
-Common causes I have seen:
-→ Database connection failure
-→ Input file not arrived (file watcher)
-→ Disk space full on server
-→ Dependent job failed first
-→ Script permission changed
-→ Network timeout to external system
-→ Invalid data in input file
-
-Step 5: Resolve or escalate
-→ If DB connection: check DB health
-→ If file missing: check upstream
-  data feed
-→ If disk full: clear space,
-  alert infra team
-→ If script error: fix or escalate
-  to development team
-
-Step 6: Rerun the job
-→ sendevent -J job_name -E STARTJOB
-→ Monitor to confirm SUCCESS
-
-Step 7: Document
-→ Update ServiceNow ticket
-→ Note cause and resolution
-→ If recurring: create knowledge article
-  and raise for permanent fix"
-
-Q13: What is the difference between ON_ICE and ON_HOLD in Autosys?
+Q6: How do you optimise a slow CI/CD pipeline?
 
 Answer:
-"Both statuses pause a job but
-for different reasons:
+"Pipeline optimization is something
+I directly delivered — improved
+Maven pipeline speed by 20% at CBA.
 
-ON_ICE:
-→ Job's starting conditions
-  are not met
-→ Usually a dependency issue:
-  dependent job has not succeeded yet
-→ Job is waiting automatically
-→ System puts it ON_ICE
-→ Will automatically start when
-  conditions are met
-→ You can manually override with
-  OFF_ICE if needed
-→ Common scenario: File watcher job
-  waiting for input file to arrive
+Here is my systematic approach:
 
-ON_HOLD:
-→ Job has been manually held
-  by an operator or support team
-→ Deliberate human intervention
-→ Will NOT start even if all
-  conditions are met
-→ Someone must explicitly release:
-  sendevent -J job_name -E RELEASE
-→ Common scenario: Holding a job
-  while a maintenance window
-  is in progress, or while an
-  upstream dependency is being fixed
+STEP 1: Measure first
+→ Do not guess — instrument the pipeline
+→ Note time for each stage:
+  Checkout: 30s
+  Build: 8 min
+  Test: 15 min  ← bottleneck
+  Docker build: 4 min
+  Push: 2 min
+  Deploy: 3 min
+  Total: 32 min
 
-Summary:
-ON_ICE = waiting for automatic condition
-ON_HOLD = manually paused by a person
+STEP 2: Dependency caching
+→ Most impactful optimization
+→ Maven dependencies downloaded
+  every build = massive waste
 
-Both prevent the job from running but
-for fundamentally different reasons.
-Always check which it is before
-deciding how to respond."
+Jenkins pipeline cache:
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - ~/.m2/repository
+    - node_modules/
 
-Q14: How do you monitor overnight batch jobs in the morning?
+→ First run: downloads everything
+→ Subsequent runs: uses cache
+→ Impact at CBA: 8 min build
+  reduced to 3 min (dependencies cached)
 
-Answer:
-"Morning batch review is one of
-the first things I do every shift.
+STEP 3: Parallel execution
+→ Identify independent stages
+→ Run them simultaneously
 
-My morning batch review process:
+Jenkins parallel:
+stage('Parallel Tests') {
+  parallel {
+    stage('Unit Tests') {
+      steps { sh 'mvn test' }
+    }
+    stage('Security Scan') {
+      steps { sh 'trivy scan' }
+    }
+    stage('Code Quality') {
+      steps { sh 'sonar-scanner' }
+    }
+  }
+}
 
-Step 1: Dashboard review
-→ Open Autosys dashboard or
-  Autosys GUI (Workload View)
-→ Filter to show jobs from
-  previous night's window
-→ Look for: FAILURE, TERMINATED,
-  or jobs still RUNNING past SLA time
+→ 3 stages in parallel instead of series
+→ Time = longest stage not sum of all
 
-Step 2: Check critical job chain first
-→ Some jobs are business-critical:
-  if they fail, reporting is delayed
-→ These get checked first
-→ Know the priority order of jobs
+STEP 4: Optimise Docker builds
+→ Order Dockerfile layers correctly
+  (less-changing layers first)
+→ Use multi-stage builds
+→ Use .dockerignore aggressively
+→ Use smaller base images:
+  alpine instead of ubuntu
+  distroless for production
 
-Step 3: Investigate failures
-→ For each failed job:
-  check logs (as per Q12 process)
-→ Assess if rerun is safe:
-  is it idempotent? Has data
-  already been partially processed?
+STEP 5: Selective testing
+→ Run unit tests always
+→ Run integration tests only on
+  merge to main or specific flag
+→ Use test impact analysis:
+  only run tests for changed modules
 
-Step 4: Check completion times
-→ Even successful jobs checked
-  against expected SLA window
-→ Job completed 3 hours late
-  even with SUCCESS status
-  could indicate a performance issue
+STEP 6: Optimise artifact push
+→ Push only when tests pass
+→ Use layer caching in registry
 
-Step 5: Cross-check with databases
-→ Did the batch actually load data?
-→ SELECT COUNT(*) FROM target_table
-  WHERE load_date = TRUNC(SYSDATE)
-→ Verify record counts match expected
+Results at CBA:
+Before: 32 minute total pipeline
+After: 26 minutes (20% improvement)
+Key wins: Maven caching + parallel stages"
 
-Step 6: Daily status report
-→ Send batch run summary to
-  application and business teams:
-  'Batch completed: X of Y jobs
-   successful. 2 failures investigated
-   and resolved. Data available
-   by 8 AM as expected.'
-
-This proactive communication means
-business teams trust the process
-and rarely chase the support team."
-
-Q15: What do you do if a job completes with SUCCESS but data is wrong?
+Q7: What are Quality Gates in a CI/CD pipeline?
 
 Answer:
-"This is a tricky scenario and
-more common than people expect.
+"Quality Gates are automated checkpoints
+in the pipeline that must pass before
+the code can proceed to the next stage.
+They enforce standards automatically —
+no human can bypass them.
 
-Autosys shows SUCCESS because the
-script completed without a non-zero
-exit code — but the data may be
-incorrect if the script does not
-validate its own output.
+Types of Quality Gates I implement:
 
-My investigation approach:
+CODE QUALITY GATE (SonarQube):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Conditions we enforce:
+→ Code coverage >= 80%
+  (new code must be tested)
+→ No new Critical or Blocker bugs
+→ No new Critical security hotspots
+→ Technical debt ratio < 5%
+→ Duplicated lines < 3%
 
-Step 1: Verify the data issue
-→ Run validation SQL query:
-  SELECT COUNT(*), SUM(amount)
-  FROM transactions
-  WHERE process_date = TRUNC(SYSDATE)
-→ Compare with expected values
-→ Confirm it is a real data problem
-  not a reporting issue
+If any condition fails:
+→ Pipeline stops at this stage
+→ Build marked FAILED
+→ Developer gets notification
+→ Cannot merge to main
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Step 2: Check job logs carefully
-→ SUCCESS exit code does not mean
-  all data was processed correctly
-→ Look in logs for:
-  'Records processed: 0'
-  'Warning: file empty'
-  'Skipped X records due to validation'
-→ Job may have processed empty file
-  and exited with 0 (success)
+SECURITY GATE (SAST/DAST):
+→ No Critical CVEs in dependencies
+→ No Critical CVEs in Docker image
+→ No hardcoded secrets detected
+→ IaC must pass Checkov scan
+→ Failure = pipeline stops
 
-Step 3: Check input files
-→ Did the correct file arrive?
-→ Correct date in filename?
-→ Correct record count in file?
-→ File not corrupted (checksum)?
+PERFORMANCE GATE:
+→ Load test must pass
+→ p95 response time < 200ms
+→ Error rate < 0.1%
+→ Failure = pipeline stops
 
-Step 4: Check transformation logic
-→ Any data type conversion failures?
-→ Any records silently rejected?
-→ SQL insert errors swallowed by script?
+COMPLIANCE GATE:
+→ All required labels on containers
+→ Approved base images only
+→ Required security context set
+→ Failure = pipeline stops
 
-Step 5: Escalate with evidence
-→ This is typically a development
-  defect or data quality issue
-→ Raise to dev team with full evidence:
-  input file, log extract, SQL results
-→ Rerun may or may not fix it —
-  depends on root cause
+Why Quality Gates matter:
+→ Enforces standards consistently
+→ Removes human bias/pressure
+  ('we will fix it later' is blocked)
+→ Catches issues early when fix is cheap
+→ Provides audit evidence for compliance
 
-Lesson: A SUCCESS status in Autosys
-means the script ran without crashing —
-it does not guarantee data correctness.
-Always validate data separately."
+At Citibank: Quality gates were
+non-negotiable for banking compliance.
+Every pipeline had code quality,
+security, and compliance gates.
+Nothing reached production without
+passing all three."
 
-Q16: What is a Box job in Autosys?
-
-Answer:
-"A Box job in Autosys is a container
-or parent job that groups multiple
-related jobs together.
-
-Purpose:
-→ Logical grouping of related jobs
-→ Control when the entire group runs
-→ Dependencies can be set at Box level
-→ If Box fails: all child jobs stop
-
-Structure:
-Box: BOX_CREDIT_RISK_NIGHTLY
-  Job 1: EXTRACT_SOURCE_DATA
-  Job 2: VALIDATE_DATA
-  Job 3: LOAD_TO_WAREHOUSE
-  Job 4: GENERATE_REPORTS
-  Job 5: SEND_NOTIFICATIONS
-
-Benefits:
-→ One schedule for the entire group
-→ Clear ownership of related jobs
-→ Easier monitoring — check Box status
-→ Dependencies managed at Box level:
-  Job 3 depends on Job 2 success
-  Job 2 depends on Job 1 success
-
-Commands:
-→ Checking Box status:
-  autorep -J BOX_CREDIT_RISK_NIGHTLY -s
-→ Starting entire Box:
-  sendevent -J BOX_CREDIT_RISK_NIGHTLY
-  -E STARTJOB
-→ Killing entire Box and all children:
-  sendevent -J BOX_CREDIT_RISK_NIGHTLY
-  -E KILLJOB
-
-At CBA most of our batch workflows
-are organised into Box jobs by
-application module and run time —
-overnight boxes, end-of-day boxes,
-and intraday boxes."
-
-Q17: How do you add or modify an Autosys job?
+Q8: What is GitOps and how have you applied it?
 
 Answer:
-"Adding or modifying Autosys jobs
-in production follows our change
-management process — it is a
-change request, not an ad-hoc action.
+"GitOps is an operational framework
+where Git is the single source of
+truth for both infrastructure and
+application configuration.
 
-Process:
+Core principles:
+→ Entire system state defined
+  declaratively in Git
+→ Desired state in Git =
+  actual state in cluster
+→ Approved changes only through
+  Git (pull requests)
+→ Automated agent continuously
+  reconciles actual vs desired state
 
-Step 1: Raise change request
-→ ServiceNow change request
-→ Attach JIL (Job Information
-  Language) file with changes
-→ Approval from application owner
+How it works in practice:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Developer makes change:
+→ Updates Kubernetes manifest or
+  Helm values in Git repository
+→ Raises Pull Request
+→ Code review and approval
+→ Merge to main
 
-Step 2: Test in lower environment
-→ Test in DEV or SIT first
-→ Verify job runs correctly
-→ Verify dependencies work
-→ Verify alerts fire correctly
+GitOps controller (ArgoCD/Flux):
+→ Watches the Git repository
+→ Detects change in main branch
+→ Compares desired state (Git)
+  with actual state (cluster)
+→ Applies diff automatically
+→ Cluster now matches Git
 
-Step 3: Production change window
-→ Only during approved window
-→ Use JIL to create/update job:
-  jil < job_definition.jil
+Drift detection:
+→ If someone makes manual change
+  directly in cluster (kubectl apply)
+→ GitOps controller detects drift
+→ Automatically reverts to
+  Git state (desired state wins)
+→ No snowflake environments
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-JIL example for a new job:
-insert_job: DAILY_REPORT_JOB
-job_type: CMD
-command: /app/scripts/daily_report.sh
-machine: prod-server-01
-owner: appuser
-permission: gx, wx
-start_times: '02:00'
-condition: s(EXTRACT_JOB) = 'SUCCESS'
-description: Daily credit risk report
-std_out_file: /app/logs/daily_report.log
-std_err_file: /app/logs/daily_report.err
-alarm_if_fail: 1
-alarm_if_late: 1
+Benefits I have seen:
+→ Full audit trail: every change
+  is a Git commit with author,
+  message, and reviewer
+→ Rollback = git revert
+  (instant, reliable)
+→ Environment consistency:
+  dev/staging/prod all defined
+  in Git — no configuration drift
+→ Disaster recovery: lose a cluster,
+  redeploy from Git in minutes
 
-Step 4: Verify in production
-→ Check job is visible:
-  autorep -J DAILY_REPORT_JOB -q
-→ Confirm definition is correct
-→ Do NOT manually trigger unless
-  required — let next scheduled
-  run confirm it works"
+My application at Citibank:
+→ All Kubernetes manifests in Git
+→ Helm values per environment in Git
+→ Terraform state referenced from Git
+→ Any change via PR — reviewed,
+  approved, traceable
+→ No direct kubectl in production
+  — all changes via GitOps"
 
-Q18: What do you check when a job keeps running longer than expected?
-
-Answer:
-"A job running much longer than
-its normal SLA is a warning sign
-even if it has not failed yet.
-
-My investigation:
-
-Step 1: Check the job runtime
-→ autorep -J job_name -s
-→ Note start time, calculate duration
-→ Compare with historical average:
-  How long does this job normally take?
-
-Step 2: Check what the job is doing
-→ Login to server running the job
-→ ps -ef | grep job_script_name
-→ Check CPU and memory:
-  top -p <PID>
-
-Step 3: Check database
-If job does database work:
-→ Is there a long-running query?
-  SELECT * FROM v$session
-  WHERE status = 'ACTIVE'
-  AND username = 'APPUSER'
-→ Are there database locks?
-  SELECT * FROM v$locked_object
-→ Is tablespace getting full during run?
-
-Step 4: Check server resources
-→ df -h (disk space)
-→ free -m (memory)
-→ iostat (I/O bottleneck?)
-
-Step 5: Check logs mid-run
-→ tail -f /path/to/job.log
-→ Is it actively processing?
-→ Or stuck at one line?
-
-Step 6: Decision
-→ If processing normally but slowly:
-  Alert but let it run, monitor closely
-→ If stuck/hung:
-  Kill and restart with dev team aware
-→ If resource issue:
-  Fix resource first, then restart
-
-Communication:
-→ Even while investigating:
-  notify relevant teams if
-  job will miss its SLA window
-→ Business needs to know if
-  morning reports will be delayed"
-SECTION 3 — LINUX & SHELL SCRIPTING (Q19-Q25)
-
-Q19: What Linux commands do you use most in production support?
+Q9: What is a Helm chart and how do you use it?
 
 Answer:
-"Linux commands are my daily toolkit.
-Most frequently used in production:
+"Helm is the package manager for
+Kubernetes — Helm charts are
+reusable templates for Kubernetes
+applications.
 
-LOG INVESTIGATION:
-tail -f /app/logs/app.log
-  (live log monitoring)
+Without Helm:
+→ Maintain separate YAML files for
+  every environment (dev/staging/prod)
+→ 10 services × 4 files × 3 envs
+  = 120 YAML files to manage
+→ Manual updates everywhere when
+  image tag changes
 
-tail -100 /app/logs/app.log
-  (last 100 lines)
+With Helm:
+→ One chart template
+→ Values files per environment
+→ Change one value → all refs updated
 
-grep -i 'error\|exception\|fatal' app.log
-  (find errors case-insensitive)
+Helm chart structure:
+myapp/
+  Chart.yaml        # metadata
+  values.yaml       # default values
+  values-prod.yaml  # prod overrides
+  templates/
+    deployment.yaml
+    service.yaml
+    ingress.yaml
+    configmap.yaml
+    hpa.yaml
 
-grep -c 'ERROR' app.log
-  (count errors)
+Template example (deployment.yaml):
+apiVersion: apps/v1
+kind: Deployment
+spec:
+  replicas: {{ .Values.replicas }}
+  template:
+    spec:
+      containers:
+      - name: myapp
+        image: {{ .Values.image.repo }}:
+               {{ .Values.image.tag }}
+        resources:
+          requests:
+            cpu: {{ .Values.resources.cpu }}
+            memory: {{ .Values.resources.memory }}
 
-grep 'ERROR' app.log | wc -l
-  (count with pipe)
+values.yaml (defaults):
+replicas: 1
+image:
+  repo: myapp
+  tag: latest
+resources:
+  cpu: 100m
+  memory: 128Mi
 
-awk '/ERROR/ {print $0}' app.log
-  (pattern matching)
+values-prod.yaml (overrides):
+replicas: 5
+image:
+  tag: v2.4.1
+resources:
+  cpu: 500m
+  memory: 512Mi
 
-grep 'ERROR' app.log | tail -20
-  (last 20 error lines)
+Deploy commands I use:
+helm install myapp ./myapp
+  -f values-prod.yaml
+  --namespace production
 
-SYSTEM HEALTH:
-df -h
-  (disk space — critical to check daily)
+helm upgrade myapp ./myapp
+  -f values-prod.yaml
+  --set image.tag=v2.4.2
 
-free -m
-  (memory usage in MB)
+helm rollback myapp 1
+  (rollback to previous release)
 
-top
-  (CPU and memory live)
+helm list -n production
+  (list all releases)
 
-ps -ef | grep application_name
-  (check if process running)
+At Citibank I developed and maintained
+Helm charts for all microservices —
+significantly reduced deployment
+complexity and drift between environments."
 
-uptime
-  (server uptime and load average)
-
-netstat -tuln
-  (open ports and listening services)
-
-PROCESS MANAGEMENT:
-kill -9 PID
-  (force kill process)
-
-nohup script.sh &
-  (run in background)
-
-ps aux | grep java
-  (find Java processes)
-
-FILE OPERATIONS:
-find /app/logs -name '*.log'
-  -mtime +7 (files older than 7 days)
-
-chmod 755 script.sh
-  (permissions)
-
-chown appuser:appgrp file.txt
-  (ownership)
-
-wc -l filename.txt
-  (count lines — verify file record count)
-
-ARCHIVE AND TRANSFER:
-tar -czf backup.tar.gz /app/logs/
-cp -r /source /destination
-scp file.txt user@server:/path"
-
-Q20: Walk me through a shell script you wrote for automation
-
-Answer:
-"One of my most impactful scripts
-at CBA was an automated log monitoring
-and alerting script.
-
-The problem:
-We were manually checking 8 application
-log files every morning for errors.
-This took 30-45 minutes daily and
-errors were sometimes missed.
-
-The script I wrote:
-
-#!/bin/bash
-
-# Daily Log Error Check Script
-# Runs via Autosys at 7 AM daily
-
-LOG_DIR='/app/logs'
-REPORT_FILE='/tmp/daily_error_report.txt'
-EMAIL_LIST='support-team@cba.com.au'
-DATE=$(date +%Y-%m-%d)
-ERROR_THRESHOLD=10
-
-echo 'Daily Error Report - '$DATE > $REPORT_FILE
-echo '=========================' >> $REPORT_FILE
-
-TOTAL_ERRORS=0
-
-for LOG_FILE in $LOG_DIR/*.log; do
-    APP_NAME=$(basename $LOG_FILE .log)
-    ERROR_COUNT=$(grep -c 'ERROR' $LOG_FILE 2>/dev/null || echo 0)
-    TOTAL_ERRORS=$((TOTAL_ERRORS + ERROR_COUNT))
-
-    echo '' >> $REPORT_FILE
-    echo 'Application: '$APP_NAME >> $REPORT_FILE
-    echo 'Error Count: '$ERROR_COUNT >> $REPORT_FILE
-
-    if [ $ERROR_COUNT -gt $ERROR_THRESHOLD ]; then
-        echo 'STATUS: ALERT - Above threshold' >> $REPORT_FILE
-        grep 'ERROR' $LOG_FILE | tail -5 >> $REPORT_FILE
-    else
-        echo 'STATUS: NORMAL' >> $REPORT_FILE
-    fi
-done
-
-echo '' >> $REPORT_FILE
-echo 'Total Errors: '$TOTAL_ERRORS >> $REPORT_FILE
-
-# Send email report
-mail -s 'Daily Log Report - '$DATE $EMAIL_LIST < $REPORT_FILE
-
-Result:
-→ Morning check time: 30 min → 5 min
-→ No errors missed
-→ Part of the 40% effort reduction
-  I achieved through automation
-→ Now runs as Autosys job daily at 7 AM"
-
-Q21: How do you check if a process or service is running on Linux?
+Q10: What is Nexus/JFrog used for and how does artifact promotion work?
 
 Answer:
-"Multiple ways depending on the
-type of service:
+"Artifact promotion is the process
+of moving a validated artifact through
+environments — ensuring the exact
+same binary that passed all tests
+reaches production.
 
-For any process:
-ps -ef | grep application_name
-→ If output shows the process
-  with a real PID it is running
-→ If only shows the grep command
-  itself it is NOT running
+The key principle:
+BUILD ONCE — PROMOTE MANY TIMES
 
-For systemd services (modern Linux):
-systemctl status service_name
-→ Active: active (running) = OK
-→ Active: inactive (dead) = not running
-→ Active: failed = crashed
+Never rebuild for each environment.
+Rebuild = potential inconsistency.
+Promote = guaranteed consistency.
 
-For specific port (is application
-listening on expected port?):
-netstat -tuln | grep :8080
-ss -tuln | grep :8080
+Promotion flow I implemented:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. CI pipeline builds artifact:
+   myapp:abc123 (git commit SHA as tag)
+   → Pushed to: artifactory/dev-repo
 
-Check if application is responding:
-curl -s http://localhost:8080/health
-→ Returns response = running
-→ Connection refused = not running
+2. Unit and integration tests pass:
+   → Artifact promoted to:
+     artifactory/qa-repo
+   → Tag: myapp:abc123 (same artifact)
 
-Check Java processes specifically:
-ps aux | grep java
-→ Shows all Java processes
-→ Check against expected process list
+3. QA tests pass + security scan:
+   → Artifact promoted to:
+     artifactory/staging-repo
+   → JFrog Xray scan runs here
 
-Check by PID file
-(many apps write their PID to file):
-cat /app/run/myapp.pid
-→ Get the PID
-kill -0 $(cat /app/run/myapp.pid)
-→ Exit 0 = process alive
-→ Exit 1 = process dead
+4. Staging tests + approval:
+   → Artifact promoted to:
+     artifactory/prod-repo
+   → Tag: myapp:v2.4.1 (release tag)
 
-At CBA I use a combination —
-ps to check process exists,
-netstat to verify port is listening,
-and curl to verify application
-is actually responding to requests.
-All three together confirm true health."
+5. Production deployment:
+   → Pulls from prod-repo only
+   → Never from dev-repo or staging-repo
 
-Q22: How do you search for a specific error in logs across multiple servers?
+Why this matters:
+→ Immutable artifacts — same bits
+  deployed everywhere
+→ Full traceability: which commit,
+  who built it, which tests passed
+→ Production can ONLY deploy
+  artifacts that passed all gates
+→ Rollback = promote previous
+  artifact back to prod-repo
 
-Answer:
-"Log searching across multiple servers
-is a common production support task.
+At Citibank for banking compliance:
+→ Every artifact has full lineage
+→ Auditors can trace any production
+  binary back to its source commit
+→ JFrog Xray CVE report attached
+  to every promoted artifact
+→ This is required for SOX compliance"
+SECTION 2 — KUBERNETES & CONTAINERS (Q11-Q20)
 
-Single server:
-grep -i 'ORA-00001' /app/logs/app.log
-  (case insensitive search)
-grep -n 'ORA-00001' /app/logs/app.log
-  (show line numbers)
-grep -A 5 'Exception' /app/logs/app.log
-  (5 lines AFTER match — context)
-grep -B 3 'Exception' /app/logs/app.log
-  (3 lines BEFORE match — context)
-grep -C 5 'Exception' /app/logs/app.log
-  (5 lines before AND after)
-
-Date-specific error search:
-grep '2024-01-15.*ERROR' app.log
-  (errors on specific date)
-grep '2024-01-15 02:' app.log
-  (errors in 2 AM hour)
-
-Multiple files on one server:
-grep -r 'ERROR' /app/logs/
-  (recursive search all files)
-grep -l 'ORA-04031' /app/logs/*.log
-  (which files contain this error?)
-
-Multiple servers using SSH:
-for server in web01 web02 db01; do
-    echo 'Checking '$server
-    ssh $server 'grep -c ERROR
-    /app/logs/app.log'
-done
-
-Search compressed old logs:
-zgrep 'ERROR' app.log.gz
-  (grep inside gzip file)
-
-At CBA we also use centralised
-log management where all server
-logs are forwarded to a central
-platform — I can search across
-all servers from one place using
-keyword and time filters.
-This is much faster than
-SSH-ing to each server individually."
-
-Q23: What does this command do: grep -i 'error' app.log | awk '{print $1,$2}' | sort | uniq -c | sort -rn | head -10
+Q11: Explain your Kubernetes experience in detail
 
 Answer:
-"This is a log analysis pipeline
-and I use commands like this
-regularly. Breaking it down:
+"Kubernetes is one of my strongest
+areas — I manage EKS on AWS and
+AKS on Azure in production at Citibank.
 
-grep -i 'error' app.log
-→ Find all lines containing 'error'
-  (case insensitive: Error, ERROR, error)
+My day-to-day Kubernetes work:
 
-| awk '{print $1,$2}'
-→ From each matching line print
-  only field 1 and field 2
-→ Typically: date and time
-→ Example output: '2024-01-15 02:34:15'
+CLUSTER MANAGEMENT:
+→ Cluster provisioning with Terraform
+  (eksctl or Terraform AWS provider)
+→ Node group management:
+  on-demand for critical workloads
+  spot instances for batch/non-critical
+→ Cluster upgrades:
+  Blue-Green cluster upgrade strategy
+  New cluster version deployed,
+  workloads migrated, old cluster removed
+→ RBAC configuration:
+  Roles, RoleBindings, ClusterRoles
+  Integrated with AWS IAM via IRSA
 
-| sort
-→ Sort the date-time values
-  alphabetically/chronologically
+WORKLOAD MANAGEMENT:
+→ Deployments, StatefulSets, DaemonSets
+→ HPA (Horizontal Pod Autoscaler):
+  Scale based on CPU/memory/custom metrics
+→ VPA (Vertical Pod Autoscaler):
+  Right-size container resources
+→ Pod Disruption Budgets:
+  Minimum availability during updates
+→ Resource requests and limits:
+  Every pod has both — no unbounded pods
 
-| uniq -c
-→ Count consecutive duplicate lines
-→ Prepend count to each unique line
-→ Output: '    5 2024-01-15 02:34'
+NETWORKING:
+→ Ingress controllers (Nginx, ALB)
+→ Ingress Controller optimization:
+  Reduced resource waste by 20%
+→ Network Policies: pod-to-pod firewall
+→ Service mesh with Istio:
+  mTLS between all services
+  Traffic management rules
+  Circuit breaking
+  Observability with Kiali/Jaeger
 
-| sort -rn
-→ Sort numerically (-n) in reverse (-r)
-→ Highest counts appear first
+STORAGE:
+→ PersistentVolumes and PVCs
+→ StorageClasses for EBS and EFS
+→ StatefulSet persistent storage
 
-| head -10
-→ Show only top 10 results
+SECURITY:
+→ Pod Security Standards enforced
+→ Non-root containers
+→ Read-only root filesystems
+→ Secrets management via
+  External Secrets Operator
+→ Image pull from approved registry only
 
-Overall purpose:
-Finds which time periods had the
-most errors in the application log.
+MONITORING:
+→ Prometheus operator installed
+→ ServiceMonitors for each application
+→ Grafana dashboards per namespace"
 
-Output example:
-     47 2024-01-15 02:34
-     23 2024-01-15 02:35
-     12 2024-01-15 03:12
-      8 2024-01-15 04:01
-
-This tells me the error spike
-was between 02:34 and 02:35 AM
-on 15th January — I now know
-exactly where to focus my
-investigation in the logs.
-
-This type of analysis is how
-I identify error patterns and
-peak failure times quickly."
-
-Q24: How do you check disk space and what do you do when it is nearly full?
-
-Answer:
-"Disk space monitoring is critical —
-full disk causes application crashes,
-batch job failures, and database issues.
-
-Check disk space:
-df -h
-→ Human readable (GB/MB)
-→ Shows all mounted filesystems
-
-df -h /app
-→ Specific mount point
-
-Check what is consuming space:
-du -sh /app/logs/*
-→ Size of each directory/file
-
-du -sh /app/logs/* | sort -rh | head -10
-→ Top 10 largest items
-
-Find large files:
-find /app -size +1G -type f
-  (files over 1GB)
-
-find /app/logs -name '*.log'
-  -mtime +30 -size +100M
-  (old large log files)
-
-What I do when disk is nearly full:
-
-Immediate actions (buy time):
-1. Identify what is consuming space
-   du -sh /app/logs/*
-2. Archive and compress old logs:
-   tar -czf logs_jan2024.tar.gz
-   /app/logs/2024-01/
-   (then delete originals)
-3. Delete old archived files
-   that are already backed up
-4. Truncate or rotate application logs
-   if safe to do so
-
-Alert infra team:
-→ Raise ticket for permanent fix:
-  increase volume size
-  or add mount point
-
-Permanent preventive measures:
-→ Set up monitoring alert at 80%
-→ Autosys job for weekly log cleanup
-→ Log rotation configured (logrotate)
-→ Retention policy enforced
-
-At CBA I set up a daily disk
-check script that alerts the team
-at 80% threshold — we never reach
-90%+ any more since implementing this."
-
-Q25: What is the difference between kill, kill -9, and killall?
+Q12: What is Istio and how have you used it?
 
 Answer:
-"These commands terminate processes
-but with important differences:
+"Istio is a service mesh that adds
+observability, security, and traffic
+management to Kubernetes without
+changing application code.
 
-kill PID:
-→ Sends SIGTERM signal (15) by default
-→ Graceful termination request
-→ Process CAN ignore this signal
-→ Application gets chance to:
-  clean up temp files
-  close database connections
-  flush buffers to disk
-  complete current transaction
-→ Always try this FIRST
-→ Example: kill 12345
+What Istio adds:
+→ Sidecar proxy (Envoy) injected
+  into every pod automatically
+→ All traffic flows through proxies
+→ Control plane manages all proxies
 
-kill -9 PID:
-→ Sends SIGKILL signal (9)
-→ Immediate forced termination
-→ Process CANNOT ignore this
-→ Kernel kills process immediately
-→ No cleanup possible:
-  may leave temp files
-  may leave DB connections open
-  may cause data corruption
-→ Use only when kill fails
-→ Last resort
-→ Example: kill -9 12345
+KEY FEATURES I USE:
 
-killall process_name:
-→ Kills ALL processes with that name
-→ Sends SIGTERM by default
-→ Example: killall java
-  (kills ALL Java processes)
-→ Dangerous in production —
-  can kill multiple apps at once
-→ Use with caution — confirm
-  which processes will be killed first:
-  ps -ef | grep java
+MTLS (Mutual TLS):
+→ All service-to-service communication
+  encrypted automatically
+→ No code changes needed
+→ Certificate rotation automated
+→ Critical for banking compliance
 
-My approach in production:
-1. Always try kill (SIGTERM) first
-2. Wait 30 seconds
-3. Check if process died: ps -ef | grep PID
-4. If still running: kill -9
+PeerAuthentication policy:
+apiVersion: security.istio.io/v1beta1
+kind: PeerAuthentication
+metadata:
+  name: default
+  namespace: production
+spec:
+  mtls:
+    mode: STRICT  # all traffic must be mTLS
 
-Never use killall in production
-without confirming exactly which
-processes will be affected."
-SECTION 4 — ORACLE DATABASE (Q26-Q32)
+TRAFFIC MANAGEMENT:
+→ Canary deployments via VirtualService
+→ Traffic splitting (90/10, 50/50)
+→ Retry policies:
+  Retry failed requests 3 times
+  Timeout after 5 seconds
+→ Circuit breaking:
+  Stop sending requests to
+  unhealthy service instances
 
-Q26: What Oracle database administration tasks do you perform?
+VirtualService example:
+spec:
+  http:
+  - retries:
+      attempts: 3
+      perTryTimeout: 2s
+    route:
+    - destination:
+        host: myservice
+        subset: v1
+      weight: 90
+    - destination:
+        host: myservice
+        subset: v2
+      weight: 10
 
-Answer:
-"In my support role I perform
-DBA-adjacent tasks — not full
-DBA responsibilities but the
-operational tasks that production
-support requires.
+OBSERVABILITY with Kiali:
+→ Service topology visualization
+→ See real-time traffic flow
+→ Identify which service is failing
+→ Latency between services visible
 
-Daily tasks:
+DISTRIBUTED TRACING with Jaeger:
+→ Trace a request across 10 microservices
+→ See exactly where time is spent
+→ Identify bottlenecks in service chain
 
-1. Check Oracle alert log for errors:
-   tail -100 $ORACLE_BASE/diag/rdbms/
-   ORCL/ORCL/trace/alert_ORCL.log
-   Look for: ORA- errors, block
-   corruption, archivelog issues
+At Citibank:
+→ Istio deployed across EKS clusters
+→ Strict mTLS mode for all services
+→ Traffic policies for each microservice
+→ Kiali for ops team visualization
+→ Critical for zero-trust security model"
 
-2. Monitor tablespace usage:
-   SELECT tablespace_name,
-   ROUND(used_space * 8192/1024/1024) used_MB,
-   ROUND(tablespace_size * 8192/1024/1024) total_MB,
-   ROUND(used_percent,2) pct_used
-   FROM dba_tablespace_usage_metrics
-   ORDER BY pct_used DESC;
-
-3. Check active sessions and locks:
-   SELECT s.sid, s.serial#,
-   s.username, s.status,
-   s.sql_id
-   FROM v$session s
-   WHERE s.status = 'ACTIVE'
-   AND s.username IS NOT NULL;
-
-4. Check long-running queries:
-   SELECT s.username, s.sql_id,
-   sq.elapsed_time/1000000 elapsed_secs
-   FROM v$session s
-   JOIN v$sql sq ON s.sql_id = sq.sql_id
-   WHERE s.status = 'ACTIVE'
-   ORDER BY elapsed_secs DESC;
-
-5. Verify backup status:
-   Check RMAN backup logs
-   Confirm backup completed nightly
-
-6. Data extraction for incidents:
-   Write SELECT queries to
-   investigate data issues
-   reported by business users"
-
-Q27: What is a tablespace and what do you do when it is full?
+Q13: How did you optimize Kubernetes Ingress Controller by 20%?
 
 Answer:
-"A tablespace is a logical storage
-container in Oracle database.
-It stores tables, indexes, and
-other database objects.
+"This was a POC I led at Citibank
+that I am particularly proud of
+because it started from an observation
+and ended with a measurable improvement
+presented to senior stakeholders.
 
-Common tablespaces:
-→ SYSTEM: Core Oracle data dictionary
-→ SYSAUX: Auxiliary Oracle data
-→ USERS: Default user objects
-→ TEMP: Temporary sort operations
-→ UNDOTBS: Undo/rollback data
-→ Custom: Application-specific (e.g. CREDIT_RISK_DATA)
+THE PROBLEM I OBSERVED:
+→ Nginx Ingress Controller pods were
+  consuming 40% of CPU and memory
+  on the nodes they ran on
+→ Actual traffic routing was simple —
+  did not warrant that resource usage
+→ This was limiting how many
+  application pods we could schedule
 
-Check tablespace usage:
-SELECT tablespace_name,
-ROUND(used_space * 8192/1024/1024,2) used_MB,
-ROUND(tablespace_size * 8192/1024/1024,2) total_MB,
-ROUND(used_percent,2) pct_used
-FROM dba_tablespace_usage_metrics
-ORDER BY pct_used DESC;
+INVESTIGATION:
+Step 1: Metrics analysis
+→ Checked Prometheus metrics for
+  Ingress controller pods
+→ Found: worker processes were
+  over-provisioned
+→ Default config had 4 worker
+  processes but traffic did not
+  justify this
 
-When tablespace is nearly full:
+Step 2: Configuration review
+→ Reviewed nginx Ingress ConfigMap
+→ Found several sub-optimal settings:
+  worker-processes: auto (took 4 CPUs)
+  upstream keep-alive connections: 0
+  (new connection per request)
+  Buffer sizes: over-configured
 
-Immediate actions:
-1. Add a datafile to the tablespace:
-   ALTER TABLESPACE CREDIT_RISK_DATA
-   ADD DATAFILE '/u01/oradata/credit_risk_data02.dbf'
-   SIZE 2G AUTOEXTEND ON NEXT 512M
-   MAXSIZE 10G;
-   (This is done by DBA — I raise
-   the request and get approval)
+Step 3: Optimizations applied in POC environment:
+worker-processes: 2
+  (right-sized for our traffic volume)
 
-2. Enable autoextend if not on:
-   ALTER DATABASE DATAFILE
-   '/u01/oradata/credit_risk_data01.dbf'
-   AUTOEXTEND ON NEXT 256M MAXSIZE 5G;
+upstream keepalive: 100
+  (reuse connections to backends)
 
-3. Purge unnecessary data:
-   Work with DBA to identify and
-   archive old data if retention
-   policy allows
+proxy-buffer-size: 4k
+  (reduced from 8k — sufficient
+  for our response headers)
 
-4. TEMP tablespace full specifically:
-   May indicate runaway sort operation
-   Kill the session:
-   ALTER SYSTEM KILL SESSION 'SID,SERIAL#';
+enable-brotli: true
+  (better compression than gzip)
 
-Prevention:
-→ Alert at 80% threshold
-→ Autosys job to check weekly
-→ Regular purge of old data
-→ Capacity planning quarterly review"
+load-balance: least_conn
+  (better distribution than round-robin)
 
-Q28: What Oracle errors have you encountered most in production?
+Step 4: Results measured:
+CPU usage: 40% → 22% (45% reduction)
+Memory: reduced by 30%
+Request latency: improved 8ms avg
+Cluster node capacity for app pods:
+  increased by 20%
 
-Answer:
-"From my 4+ years at CBA these are
-the most common Oracle errors
-and how I handle them:
+Step 5: Presented to stakeholders
+→ Before/after metrics graphs
+→ Cost savings calculation
+→ Recommended rolling to production
 
-ORA-00942: Table or view does not exist
-→ Cause: Wrong schema, wrong table name,
-  missing synonym, or permission issue
-→ Fix: Verify table name, check grants,
-  create synonym if needed
+Result: Approved and implemented.
+20% more pods schedulable per node
+= effectively 20% more cluster capacity
+without adding nodes = cost saving."
 
-ORA-01555: Snapshot too old
-→ Cause: Long-running query, undo
-  tablespace too small or retention low
-→ Fix: Increase UNDO retention,
-  reschedule long queries,
-  increase undo tablespace
-→ Common in batch jobs doing
-  large data reads
-
-ORA-04031: Unable to allocate shared memory
-→ Cause: Shared pool full (SGA issue)
-→ Fix: Flush shared pool (DBA action),
-  increase SGA, investigate
-  memory leak in application
-
-ORA-00060: Deadlock detected
-→ Cause: Two sessions waiting for
-  each other's locks
-→ Fix: Oracle auto-resolves by
-  killing one session
-→ Need to investigate why deadlock
-  occurs and fix application logic
-
-ORA-12170: TNS connect timeout occurred
-→ Cause: Database listener not running,
-  network issue, wrong host/port
-→ Fix: Check listener status,
-  check network, verify connection string
-
-ORA-01652: Unable to extend temp segment
-→ Cause: TEMP tablespace full
-→ Fix: Kill large sort operation,
-  add space to TEMP tablespace
-
-ORA-00001: Unique constraint violated
-→ Cause: Duplicate key being inserted
-→ Fix: Application or data issue —
-  escalate to development team"
-
-Q29: How do you find and kill a locking session in Oracle?
+Q14: What is the difference between a Deployment and a StatefulSet in Kubernetes?
 
 Answer:
-"Database locks blocking other sessions
-are a common production issue that
-I resolve regularly.
+"This is a fundamental Kubernetes
+concept and choosing wrong causes
+production issues.
 
-Step 1: Identify the lock:
-SELECT
-  l.sid blocking_sid,
-  l.serial# blocking_serial,
-  s.username blocking_user,
-  l.type lock_type,
-  o.object_name locked_object
-FROM v$lock l
-JOIN v$session s ON l.sid = s.sid
-JOIN dba_objects o ON l.id1 = o.object_id
-WHERE l.block = 1;
+DEPLOYMENT:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ For STATELESS applications
+→ Pods are interchangeable
+→ Pod names: myapp-xyz123 (random)
+→ No stable network identity
+→ No persistent storage per pod
+→ Can be scaled up/down freely
+→ Rolling update replaces pods randomly
 
-Step 2: Find who is waiting:
-SELECT
-  w.sid waiting_sid,
-  ws.username waiting_user,
-  b.sid blocking_sid,
-  bs.username blocking_user
-FROM v$lock w
-JOIN v$session ws ON w.sid = ws.sid
-JOIN v$lock b ON w.id1 = b.id1
-  AND b.block = 1
-JOIN v$session bs ON b.sid = bs.sid
-WHERE w.request > 0;
+Use for:
+→ Web servers (Nginx, APIs)
+→ Microservices
+→ Worker processes
+→ Any app where pods are identical
 
-Step 3: Review what the blocker is doing:
-SELECT sq.sql_text
-FROM v$session s
-JOIN v$sql sq ON s.sql_id = sq.sql_id
-WHERE s.sid = [blocking_sid];
+Example:
+→ 3 replicas of an API service
+→ Any pod can handle any request
+→ Load balancer distributes randomly
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Step 4: Decision
-→ Is the blocking session doing
-  legitimate long-running work?
-  → Wait if near completion
-→ Is it a hung/idle session?
-  → Kill it
+STATEFULSET:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ For STATEFUL applications
+→ Pods have stable identity
+→ Pod names: mydb-0, mydb-1, mydb-2
+  (ordered, predictable)
+→ Stable network identity:
+  mydb-0.mydb.default.svc.cluster.local
+→ Each pod gets its OWN persistent volume
+→ Ordered deployment and scaling
+→ Ordered rolling updates (one at a time)
 
-Step 5: Kill the blocking session:
-ALTER SYSTEM KILL SESSION 'SID,SERIAL#';
--- Example:
-ALTER SYSTEM KILL SESSION '45,1234';
+Use for:
+→ Databases (MySQL, PostgreSQL, MongoDB)
+→ Message queues (Kafka, RabbitMQ)
+→ Distributed systems (Elasticsearch)
+→ Any app where pod identity matters
 
-Step 6: Verify lock released:
-→ Rerun the lock query — should be empty
-→ Confirm waiting sessions proceed
+Example:
+→ Kafka cluster needs:
+  kafka-0 to always be the same node
+  kafka-0's data to persist even
+  if pod restarts
+  kafka-1 to know it can reach
+  kafka-0 at stable DNS name
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Note: I always get DBA or
-application owner confirmation
-before killing a session in
-production — it can roll back
-a long transaction."
+KEY DIFFERENCES:
+Feature          Deployment        StatefulSet
+Pod names        Random suffix     Ordered (0,1,2)
+Network identity Unstable          Stable DNS
+Storage          Shared or none    Per-pod PVC
+Scaling          Any order         Ordered
+Updates          Random            Ordered
+Use case         Stateless         Stateful
 
-Q30: What SQL queries do you commonly write for production support?
+At Citibank:
+→ Deployments for all microservices
+→ StatefulSets for Kafka message
+  queues and Redis cluster
+→ Choosing wrong = data loss"
 
-Answer:
-"I write SQL daily for investigation
-and data validation.
-
-Common queries in my role:
-
-Record count validation:
-SELECT COUNT(*)
-FROM transactions
-WHERE process_date = TRUNC(SYSDATE);
-(Verify batch loaded expected records)
-
-Data quality check:
-SELECT COUNT(*)
-FROM transactions
-WHERE amount IS NULL
-OR customer_id IS NULL
-OR process_date IS NULL;
-(Check for unexpected nulls)
-
-Find records processed in last hour:
-SELECT COUNT(*), MIN(created_dt),
-MAX(created_dt)
-FROM transactions
-WHERE created_dt >= SYSDATE - 1/24;
-
-Duplicate detection:
-SELECT customer_id, trade_date,
-COUNT(*) cnt
-FROM trades
-GROUP BY customer_id, trade_date
-HAVING COUNT(*) > 1;
-
-Latest record per customer:
-SELECT *
-FROM transactions t
-WHERE created_dt = (
-  SELECT MAX(created_dt)
-  FROM transactions
-  WHERE customer_id = t.customer_id
-);
-
-Check data for specific date range:
-SELECT trade_date, COUNT(*), SUM(amount)
-FROM trades
-WHERE trade_date BETWEEN
-  TO_DATE('01-JAN-2024','DD-MON-YYYY')
-  AND TO_DATE('31-JAN-2024','DD-MON-YYYY')
-GROUP BY trade_date
-ORDER BY trade_date;
-
-Reconciliation query:
-SELECT
-  a.total_source,
-  b.total_target,
-  a.total_source - b.total_target variance
-FROM
-  (SELECT SUM(amount) total_source FROM source_table) a,
-  (SELECT SUM(amount) total_target FROM target_table) b;
-(Verify source and target match after ETL)"
-
-Q31: What is the difference between DELETE, TRUNCATE, and DROP?
+Q15: How do you manage Kubernetes secrets securely?
 
 Answer:
-"Critical to know — wrong choice
-in production can cause disaster.
+"Kubernetes native Secrets are base64
+encoded — NOT encrypted. Storing them
+in Git exposes credentials. This is
+a critical security problem I solved
+at Citibank using proper secrets management.
 
-DELETE:
-→ DML statement
-→ Removes rows one by one
-→ CAN be rolled back (inside transaction)
-→ Fires triggers
-→ WHERE clause to delete specific rows:
-  DELETE FROM temp_data
-  WHERE process_date < TRUNC(SYSDATE)-30;
-→ Slow for large tables
-→ Undo logs generated
-→ High-water mark NOT reset
+THE PROBLEM with native K8s Secrets:
+→ kubectl get secret mysecret -o yaml
+  → shows base64 encoded value
+→ base64 decode = plaintext
+→ Anyone with kubectl access sees secrets
+→ Stored in etcd unencrypted by default
+→ In GitOps: secrets in Git = disaster
 
-TRUNCATE:
-→ DDL statement
-→ Removes ALL rows instantly
-→ CANNOT be rolled back (implicit commit)
-→ Does NOT fire triggers
-→ No WHERE clause
-→ Much faster than DELETE for full table
-→ Resets high-water mark
-→ Example:
-  TRUNCATE TABLE staging_table;
-→ Use for clearing staging tables
-  before batch load
+MY SOLUTION at Citibank:
 
-DROP:
-→ DDL statement
-→ Removes the TABLE ITSELF
-  (not just the data — the structure too)
-→ CANNOT be rolled back
-→ Table goes to RECYCLE BIN
-  (can be recovered: FLASHBACK TABLE)
-→ Example:
-  DROP TABLE old_archive_table;
-→ Use when table no longer needed
+APPROACH 1: AWS Secrets Manager + External Secrets Operator
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Secrets stored in AWS Secrets Manager
+→ External Secrets Operator installed in K8s
+→ ExternalSecret resource defined:
 
-My production rule:
-→ DELETE when I need WHERE clause
-  or need rollback option
-→ TRUNCATE when clearing entire
-  staging table (safe, fast)
-→ NEVER DROP in production without
-  explicit DBA and business approval
-  and confirmed backup"
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
+metadata:
+  name: db-credentials
+spec:
+  refreshInterval: 1h
+  secretStoreRef:
+    name: aws-secrets-manager
+    kind: ClusterSecretStore
+  target:
+    name: db-credentials  # creates K8s secret
+  data:
+  - secretKey: password
+    remoteRef:
+      key: prod/myapp/db
+      property: password
 
-Q32: What is your experience with database backup and recovery?
+→ ESO fetches secret from AWS SM
+→ Creates K8s Secret automatically
+→ Refreshes every 1 hour
+→ Rotation in AWS SM = automatic
+  pod refresh
 
-Answer:
-"At CBA I do not perform RMAN backups
-myself — that is the DBA team's
-responsibility. But I work with
-backup and recovery regularly
-from a support perspective.
+APPROACH 2: HashiCorp Vault
+→ Vault Agent Injector as sidecar
+→ Secrets injected into pod filesystem
+→ Never stored in K8s etcd at all
 
-What I do:
+APPROACH 3: Sealed Secrets
+→ kubeseal CLI encrypts the secret
+→ Encrypted SealedSecret stored in Git
+→ Controller decrypts in cluster only
+→ Safe for GitOps — encrypted in repo
 
-Verify backup completion:
-→ Check nightly RMAN backup logs
-→ Verify backup job SUCCESS in Autosys
-→ Alert DBA team if backup fails
-→ Track backup SLA (backup must
-  complete by 6 AM daily)
+Secrets rotation:
+→ AWS SM supports automatic rotation
+→ Lambda function rotates DB password
+→ External Secrets picks up new value
+→ Application restarts to get new secret
+→ Zero manual rotation needed"
 
-Backup log check:
-tail -50 /app/logs/rman_backup.log
-→ Look for: 'backup completed'
-→ Look for errors: 'ORA-', 'RMAN-'
-
-Recovery scenarios I handle:
-
-Data recovery request:
-→ Business user: 'We deleted records
-  by mistake last night'
-→ I raise request to DBA team
-  with: table name, time of deletion,
-  approximate row count
-→ DBA uses RMAN or Flashback:
-  SELECT * FROM table_name
-  AS OF TIMESTAMP (SYSTIMESTAMP - INTERVAL '2' HOUR);
-  (Flashback query — my team uses this)
-
-Point-in-time recovery:
-→ Escalated to DBA for full PITR
-→ I coordinate: define exact recovery
-  point, notify business of outage
-  window, verify data after recovery
-
-Export/Import for data migration:
-→ Oracle Data Pump (expdp/impdp)
-→ Used for moving data between
-  environments: PROD → UAT refresh
-
-Key knowledge:
-→ Full backup: complete database
-→ Incremental backup: changes since last
-→ Archive logs: required for PITR
-→ RMAN: Oracle's backup tool
-→ Flashback: quick point-in-time queries"
-SECTION 5 — SERVICENOW & ITSM (Q33-Q38)
-
-Q33: Walk me through how you use ServiceNow in your daily work
+Q16: What is a DaemonSet and when do you use it?
 
 Answer:
-"ServiceNow is the backbone of
-our ITSM operations at CBA and
-I use it throughout my day.
+"A DaemonSet ensures that a specific
+pod runs on EVERY node in the cluster
+(or a selected subset of nodes).
 
-Morning:
-→ Check incident queue:
-  Filter by assignment group,
-  priority order P1 → P4
-→ Check SLA timers — any near breach?
-→ Review overnight incidents
-  resolved by night shift
-→ Read handover notes
+When you add a node: DaemonSet
+pod automatically scheduled on it.
+When you remove a node: DaemonSet
+pod automatically cleaned up.
 
-During shift:
+Use cases (I use all of these):
 
-Incident Management:
-→ New alert fires → Create incident
-→ Fill: Category, subcategory,
-  CI (Configuration Item from CMDB),
-  impact, urgency
-→ ServiceNow auto-calculates priority
-→ Assign to correct team
-→ Work notes: internal updates
-→ Customer notes: external updates
-→ Update every 30 mins on P1/P2
+LOG COLLECTION:
+→ Fluentd or Fluent Bit DaemonSet
+→ Runs on every node
+→ Collects logs from all containers
+→ Ships to Elasticsearch/Splunk
 
-Problem Management:
-→ Recurring incidents get linked
-  to a Problem ticket
-→ Problem ticket tracks RCA
-  and permanent fix
-→ Known errors documented
-  in Known Error Database (KEDB)
+NODE MONITORING:
+→ Prometheus Node Exporter DaemonSet
+→ Runs on every node
+→ Collects CPU, memory, disk metrics
+  for that specific node
+→ Prometheus scrapes each Node Exporter
 
-Change Management:
-→ Raise change requests
-→ Link to release schedule
-→ CAB review workflow
-→ Implementation record post-change
+NETWORKING:
+→ Calico or Flannel CNI plugin
+→ Must run on every node
+  to provide pod networking
+→ Without this: pods cannot communicate
 
-CMDB:
-→ Configuration Items linked to incidents
-→ Helps identify impact of CI failures
-→ Helps identify related incidents
+SECURITY:
+→ Falco DaemonSet
+→ Runtime security monitoring
+→ Must be on every node to monitor
+  all container syscalls
 
-Reporting:
-→ Weekly incident summary reports
-→ SLA compliance reports
-→ MTTR trend reports
+NODE AGENT:
+→ AWS Node Termination Handler
+→ Watches for EC2 spot interruptions
+→ Gracefully drains node before termination
 
-Knowledge Base:
-→ Create articles after P1/P2 resolution
-→ Articles help team resolve faster
-  next time
-→ Reduces escalations"
+DaemonSet vs Deployment:
+→ Deployment: I decide replica count
+  (scale: 3, scale: 10)
+→ DaemonSet: One pod per node
+  automatically — I do not set replicas
 
-Q34: What is ITIL and how do you apply it in your work?
+At Citibank DaemonSets I managed:
+→ Fluent Bit: log collection to ELK
+→ Node Exporter: Prometheus metrics
+→ Datadog Agent: APM and metrics
+→ Falco: runtime security
+→ AWS VPC CNI: pod networking"
+
+Q17: How do you handle pod autoscaling in Kubernetes?
 
 Answer:
-"ITIL — IT Infrastructure Library —
-is a framework of best practices
-for IT service management.
-I apply ITIL principles daily.
+"Autoscaling is critical for
+handling variable traffic in
+banking applications.
 
-Key ITIL processes I use:
+THREE TYPES OF AUTOSCALING:
 
-Incident Management:
-→ Restore service as quickly as possible
-→ Minimise business impact
-→ ITIL priority matrix:
-  Impact (how many users) X
-  Urgency (how time-sensitive)
-  = Priority (P1-P4)
+HPA — Horizontal Pod Autoscaler:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Scales number of pod REPLICAS
+→ Based on: CPU, memory,
+  or custom metrics (requests/sec)
+→ Most commonly used
 
-Problem Management:
-→ Find root cause of recurring incidents
-→ Prevent future occurrence
-→ Known Error Database (KEDB) in ServiceNow
+HPA configuration:
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: myapp-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: myapp
+  minReplicas: 2
+  maxReplicas: 20
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
 
-Change Management:
-→ Control changes to minimise risk
-→ Change types: Standard, Normal, Emergency
-→ CAB review and approval
-→ Rollback plan mandatory
+→ When avg CPU > 70%: scale up
+→ When avg CPU < 70%: scale down
+→ Always minimum 2 pods for HA
+→ Maximum 20 pods (cost control)
 
-Service Level Management:
-→ Monitor against agreed SLAs
-→ Report breaches
-→ Escalate near-breaches proactively
+VPA — Vertical Pod Autoscaler:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Adjusts CPU and memory REQUESTS
+  for existing pods
+→ Right-sizes containers automatically
+→ Recommends or auto-applies changes
 
-Knowledge Management:
-→ Capture resolution steps
-→ Knowledge base in ServiceNow
-→ Continuous improvement of articles
+I use VPA in recommendation mode:
+→ VPA analyzes actual usage
+→ Recommends better resource requests
+→ I review and apply
+→ Prevents over-provisioning
+  and under-provisioning
 
-Configuration Management (CMDB):
-→ Track all CIs and relationships
-→ Impact analysis for incidents
-→ Accurate CMDB helps faster resolution
+KEDA — Kubernetes Event-Driven Autoscaling:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Scale based on external metrics
+→ Examples:
+  Scale based on SQS queue depth
+  Scale based on Kafka lag
+  Scale based on Prometheus metric
+  Scale to ZERO when no messages
 
-Continual Service Improvement:
-→ Monthly review of incident trends
-→ Identify top recurring issues
-→ Drive permanent fixes
-→ This led to our 30% reduction
-  in repeat escalations
+I use KEDA for batch processing:
+→ Consumer pods scale to 0 when idle
+→ Scale up when messages arrive
+→ Cost saving: zero pods = zero cost
+  during quiet periods
 
-I am planning to formalise this
-with ITIL 4 Foundation certification
-as my next professional development step."
+At Citibank combination:
+→ HPA for API services (CPU-based)
+→ VPA recommendations for right-sizing
+→ KEDA for event-driven consumers"
 
-Q35: What is the difference between an Incident and a Problem in ITIL?
-
-Answer:
-"This is a fundamental ITIL concept
-and critical to get right.
-
-INCIDENT:
-→ Unplanned interruption or degradation
-  of an IT service
-→ Focus: RESTORE service FAST
-→ Root cause not the priority
-→ Closed when service is restored
-→ Example: Application down at 2 AM
-→ ServiceNow: INC0012345
-
-PROBLEM:
-→ The underlying cause of one or
-  more incidents
-→ Focus: PREVENT future incidents
-→ Root cause IS the priority
-→ Can stay open for weeks during
-  investigation
-→ Results in: Known Error or permanent fix
-→ Example: Memory leak causing
-  application crashes every 3 days
-→ ServiceNow: PRB0001234
-
-Relationship:
-One PROBLEM → can cause → Many INCIDENTS
-
-Timeline:
-INC → Resolved (service restored)
-PRB → Root cause found → Known Error
-Known Error → Fix developed → Change
-Change → Implemented → PRB Closed
-
-Example from my experience:
-Multiple incidents of DB connection
-failures (INC tickets each time)
-→ Linked to one Problem ticket
-→ RCA identified: connection pool
-  not recycling properly
-→ Known Error raised
-→ Development fix raised as Change
-→ Fix deployed → No more incidents
-→ Problem closed
-
-Managing the distinction is important
-because: fixing incidents without
-Problem management means the same
-issue keeps coming back and consuming
-support time repeatedly."
-
-Q36: How do you manage stakeholder communication during a major incident?
+Q18: How do you troubleshoot a pod that is not starting?
 
 Answer:
-"Stakeholder communication during
-a P1 is just as important as the
-technical resolution. Poor
-communication loses trust even
-if you fix the issue quickly.
+"Pod not starting is one of the
+most common Kubernetes issues.
+Systematic approach every time.
 
-My communication approach:
+STEP 1: Check pod status
+kubectl get pods -n namespace
+→ Look at STATUS column:
+  Pending: not scheduled yet
+  CrashLoopBackOff: crashing repeatedly
+  ImagePullBackOff: cannot pull image
+  OOMKilled: out of memory
+  Error: exited with error
+  Running/0/1: container not ready
 
-First 5 minutes — Initial notification:
-Email/Teams message to all stakeholders:
-'[P1 INCIDENT ACTIVE]
-Application: Credit Risk Portal
-Impact: Users unable to log in
-Started: 02:34 AM EST
-We are investigating. Next update: 03:00 AM'
+STEP 2: Describe the pod
+kubectl describe pod pod-name -n namespace
+→ Look at: Events section at bottom
+→ This tells you EXACTLY what failed:
+  'Failed to pull image':
+    → Wrong image name, tag, or registry
+    → Image pull secret missing
+  'Insufficient cpu/memory':
+    → Node does not have enough resources
+    → Need to scale cluster
+  'FailedScheduling':
+    → No nodes match pod requirements
+    → Check nodeSelector/affinity
+  'Liveness probe failed':
+    → App started but health check failing
 
-Every 30 minutes — Status update:
-'[P1 UPDATE - 03:00 AM]
-Status: Investigating
-Finding: Database connection pool
-  exhausted — root cause being identified
-ETA to resolve: Approx 03:30 AM
-Next update: 03:30 AM'
+STEP 3: Check logs
+kubectl logs pod-name -n namespace
+→ Application logs — what did app print?
+→ If container keeps crashing:
+kubectl logs pod-name --previous
+  (logs from previous crashed container)
 
-On resolution — All-clear:
-'[P1 RESOLVED - 03:28 AM]
-Application: Credit Risk Portal
-Resolution: Connection pool reset,
-  application restarted
-Duration: 54 minutes
-All users can now log in normally
-Post-incident review: Tomorrow 10 AM
-Thank you for your patience.'
+STEP 4: Common issues and fixes
 
-Key principles:
-→ Never go silent — no update IS an update
-  (a bad one)
-→ Give specific ETAs even if uncertain:
-  'Approximately 30-45 minutes'
-  is better than 'unknown'
-→ Use plain language — business
-  stakeholders do not want
-  technical jargon
-→ Acknowledge business impact explicitly:
-  'We understand this is impacting
-  your morning reporting deadline'
-→ Own the communication — do not
-  make stakeholders chase you
+CrashLoopBackOff:
+→ Application is crashing on startup
+→ Check logs: what error is app printing?
+→ Common causes:
+  Missing environment variable
+  Cannot connect to database
+  Port already in use
+  Application bug on startup
 
-After the incident:
-→ Post-Incident Review invitation sent
-→ Full timeline and RCA shared
-→ Prevention actions committed with dates"
+ImagePullBackOff:
+→ kubectl describe pod shows image pull error
+→ Fix: Verify image name and tag exist
+→ Fix: Create imagePullSecret if
+  private registry:
+  kubectl create secret docker-registry
+  regcred --docker-server=registry.io
+  --docker-username=user
+  --docker-password=pass
 
-Q37: What is a Post-Incident Review (PIR) and how do you conduct one?
+OOMKilled:
+→ Container exceeded memory limit
+→ Fix: Increase memory limit in
+  Deployment spec
+→ Investigate memory leak if
+  limit is already reasonable
 
-Answer:
-"A Post-Incident Review — also called
-Post-Mortem or PIR — is a structured
-review of a significant incident
-to learn from it and prevent recurrence.
+Pending forever:
+→ kubectl describe pod → Events
+→ 'Insufficient memory' →
+  scale cluster or reduce request
+→ 'No nodes with label X' →
+  fix node selector or label"
 
-We conduct PIRs for all P1 incidents
-and significant P2s.
-
-When:
-→ Within 24-48 hours of P1 resolution
-→ While details are still fresh
-→ All key participants available
-
-Who attends:
-→ Support team members who worked the incident
-→ Development team (if they were involved)
-→ DBA (if database issue)
-→ Infrastructure (if server issue)
-→ Service manager / application owner
-
-PIR structure I follow:
-
-1. Incident timeline (10 minutes)
-→ When was issue detected?
-→ When was impact confirmed?
-→ When was resolution found?
-→ When was service restored?
-→ Factual — no blame at this stage
-
-2. Impact assessment (5 minutes)
-→ How many users affected?
-→ What business processes impacted?
-→ Any financial or regulatory impact?
-→ Total outage duration?
-
-3. Root cause (15 minutes)
-→ What was the technical root cause?
-→ Why did it happen?
-→ Could monitoring have caught it earlier?
-
-4. What went well (5 minutes)
-→ Celebrate what worked
-→ Fast detection? Good comms?
-→ Quick escalation?
-
-5. What could be better (10 minutes)
-→ Gaps in monitoring?
-→ Runbook missing a step?
-→ Wrong team engaged first?
-→ Communication delays?
-
-6. Action items (10 minutes)
-→ Specific, measurable actions
-→ Owner assigned to each
-→ Due date for each
-→ Tracked in ServiceNow Problem ticket
-
-My PIR output is a document that goes
-to the application owner and service
-manager. Action items reviewed
-in next monthly service review."
-
-Q38: How do you handle a situation where you missed an SLA?
+Q19: What is a Kubernetes Network Policy?
 
 Answer:
-"Missing an SLA is serious in a
-banking environment. How you handle
-it matters as much as preventing it.
+"Network Policy is Kubernetes' firewall
+for pod-to-pod communication. By default
+ALL pods can talk to ALL pods — which
+is a security nightmare in banking.
 
-Immediate response:
-→ Acknowledge the breach honestly —
-  do not minimise or make excuses
-→ Notify service manager immediately
-→ Focus first on resolving the incident
-  before explaining the breach
+Without Network Policy:
+→ Compromised frontend pod can
+  directly query database pods
+→ Any pod can reach any other pod
+→ No segmentation
 
-Post-resolution — explain what happened:
-→ What was the incident?
-→ When was it raised?
-→ When was it resolved?
-→ By how much was SLA missed?
-→ What were the contributing factors?
+With Network Policy:
+→ Define exactly which pods can
+  communicate with which
+→ Default deny all → explicitly allow
 
-Honest contributing factors I would cite:
-→ Incorrect initial categorisation
-  (P3 should have been P2)
-→ Alert notification delayed
-  (monitoring gap identified)
-→ Wrong team engaged first
-  (escalation matrix unclear)
-→ Complexity not anticipated
-  (fair if genuinely complex)
+Default deny all policy
+(I apply this first in every namespace):
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-all
+  namespace: production
+spec:
+  podSelector: {}  # applies to all pods
+  policyTypes:
+  - Ingress
+  - Egress
 
-What I would NOT say:
-→ 'The SLA is too tight' — not helpful
-→ 'It was not our fault' — ownership
-→ 'The development team was slow'
-  — blame culture
+Then explicitly allow what is needed:
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-frontend-to-api
+spec:
+  podSelector:
+    matchLabels:
+      app: api-service
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: frontend
+    ports:
+    - protocol: TCP
+      port: 8080
 
-Action items after missed SLA:
-→ Identify specific gap that caused breach
-→ Fix that specific gap
-→ Update runbook if process gap
-→ Review categorisation guidelines
-  if mis-categorised
-→ Follow up in next service review
+This means:
+→ Only pods with label app: frontend
+  can reach app: api-service on port 8080
+→ Database pods not reachable from frontend
+→ Explicit allow required for each path
 
-Track and report:
-→ SLA breach logged in ServiceNow
-→ Root cause documented
-→ Prevention action tracked
+At Citibank:
+→ Default deny all in every namespace
+→ Explicit policies for each service pair
+→ Required for PCI-DSS and banking
+  security compliance
+→ Istio mTLS + Network Policy = defense
+  in depth for zero-trust networking"
 
-The goal is: this specific
-type of breach never happens again.
-One missed SLA that leads to
-a permanent improvement is more
-valuable than hiding the issue."
-SECTION 6 — SOX COMPLIANCE & AUDIT (Q39-Q42)
-
-Q39: What is SOX compliance and what does it mean for your work?
-
-Answer:
-"SOX — Sarbanes-Oxley Act — is a
-US federal law that sets requirements
-for financial reporting and internal
-controls for publicly traded companies.
-CBA as an Australian bank that
-operates globally follows SOX
-equivalent standards.
-
-What SOX means for application support:
-
-Access Control:
-→ Least privilege principle: everyone
-  gets only the access they need
-→ No shared accounts — individual
-  user IDs for every person
-→ Regular access reviews (quarterly)
-→ Immediate revocation on termination
-→ Privileged access requires approval
-  and is time-limited
-
-Change Management:
-→ ALL changes must be approved
-→ Separation of duties: developer
-  cannot deploy their own code
-→ Change records must be complete
-  and accurate
-→ Emergency changes require
-  post-implementation review
-
-Audit Trails:
-→ All actions logged with user ID
-  and timestamp
-→ Log files must not be modifiable
-→ Audit logs retained for required period
-→ Regular log reviews
-
-My specific SOX activities:
-→ Quarterly user access review:
-  Confirm all users on access list
-  still need that access
-→ Evidence collection for auditors:
-  Change records, access logs,
-  approval records
-→ Ensure no developer has direct
-  production access
-→ Zero unauthorised changes — every
-  production change has an approved CR
-
-Result: Zero audit findings across
-two consecutive SOX audits in my tenure."
-
-Q40: What do you do when an auditor asks for evidence?
+Q20: What is the difference between a ConfigMap and a Secret in Kubernetes?
 
 Answer:
-"Audit evidence requests are common
-in my banking environment and I
-handle them regularly.
+"Both inject configuration into pods
+but for different types of data.
 
-Common audit evidence requests:
+CONFIGMAP:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+→ Non-sensitive configuration data
+→ Stored as PLAIN TEXT in etcd
+→ Visible to anyone with kubectl access
+→ Safe to store in Git (no secrets)
 
-1. Change Management Evidence:
-Auditor asks: 'Provide all changes
-deployed to production in Q3 2024
-with approvals'
-→ Export from ServiceNow:
-  Filter changes by date range,
-  environment = Production,
-  Status = Closed-Successful
-→ Export includes: CR number,
-  approver names, approval dates,
-  implementation dates, results
-→ Provide as CSV or PDF
+Use for:
+→ Application configuration files
+→ Environment-specific settings
+→ Database hostnames and ports
+  (NOT passwords)
+→ Feature flags
+→ Log levels
 
-2. Access Control Evidence:
-Auditor asks: 'Who has production
-database access and when was it last reviewed?'
-→ Pull user access list from
-  Oracle database:
-  SELECT * FROM dba_users WHERE account_status = 'OPEN';
-  SELECT grantee, granted_role FROM dba_role_privs;
-→ Access review records from
-  last quarterly review
+Creating ConfigMap:
+kubectl create configmap app-config
+  --from-literal=DB_HOST=db.prod.svc
+  --from-literal=LOG_LEVEL=INFO
+  --from-file=config.properties
 
-3. Incident Response Evidence:
-Auditor asks: 'Show us your P1
-incident from March with timeline and RCA'
-→ Export ServiceNow incident record
-→ Include: timeline, work notes,
-  resolution, PIR document
+Using in pod:
+env:
+- name: DB_HOST
+  valueFrom:
+    configMapKeyRef:
+      name: app-config
+      key: DB_HOST
 
-4. Backup Evidence:
-→ RMAN backup logs
-→ Recovery test records
+OR mount as file:
+volumeMounts:
+- name: config
+  mountPath: /app/config
+volumes:
+- name: config
+  configMap:
+    name: app-config
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-My approach:
-→ Keep audit evidence organised —
-  I maintain a folder structure
-  by quarter for all evidence
-→ Never provide more than asked —
-  scope creep in audits is risky
-→ If uncertain about a request:
-  escalate to service manager
-  before responding
-→ Meet evidence deadlines — late
-  responses raise red flags with auditors"
-SECTION 7 — SCENARIO BASED (Q41-Q50)
+SECRET:
+→ Sensitive data
+→ Base64 encoded (NOT encrypted by default)
+→ Should be encrypted at rest with KMS
+→ More restricted access via RBAC
+→ Do NOT store in Git unencrypted
 
-Q41: SCENARIO — Application is down at 2 AM. Walk me through exactly what you do
+Use for:
+→ Passwords
+→ API keys and tokens
+→ TLS certificates
+→ SSH keys
+→ OAuth credentials
 
-Answer:
-"This is my routine — I have
-handled dozens of 2 AM P1s.
+As mentioned in Q15: I use External
+Secrets Operator or Sealed Secrets
+rather than native K8s secrets
+for proper security.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-0:00 — Alert received
-→ PagerDuty fires on my phone
-→ Acknowledge within 2 minutes
-→ VPN connected, laptop open
+Key rule I follow:
+→ ConfigMap: anything you would put
+  in a config file (not sensitive)
+→ Secret: anything you would not
+  want visible in plain text
+→ Secret stored in AWS Secrets Manager,
+  NOT in Kubernetes or Git"
+SECTION 3 — TERRAFORM & INFRASTRUCTURE AS CODE (Q21-Q27)
 
-0:02 — Initial assessment
-→ Open ServiceNow — is there already
-  an incident or do I need to create?
-→ Check monitoring dashboard:
-  What exactly is down?
-  Whole application or one component?
-→ Try to access application myself:
-  curl -s http://appserver:8080/health
-
-0:05 — First response
-→ Create P1 ServiceNow incident if not exists
-→ Send initial notification to
-  incident channel:
-  'P1 ACTIVE: Application X unreachable
-   as of 02:01 AM. Investigating.
-   Update in 15 mins.'
-
-0:05 to 0:20 — Investigation
-→ SSH to application server
-→ Check if app process is running:
-  ps -ef | grep appname
-→ Check application logs:
-  tail -100 /app/logs/app.log | grep -i error
-→ Check disk space (common cause):
-  df -h
-→ Check if Autosys jobs are hung:
-  autorep -J BOX_APP_JOBS -s
-→ Check database connectivity:
-  sqlplus -s user/pass@db
-  'select 1 from dual;'
-→ Check server resources: top, free -m
-
-0:20 — Decision point
-Based on findings:
-
-If app process died:
-→ Check for OOME (out of memory):
-  grep 'OutOfMemory' app.log
-→ Check heap dump generated?
-→ Restart application:
-  sudo systemctl restart appservice
-→ Monitor startup: tail -f app.log
-
-If database issue:
-→ Wake up DBA on-call immediately
-→ Do not attempt DB fixes alone
-
-If disk full:
-→ Clear log archives:
-  find /app/logs -name '*.log.gz'
-  -mtime +7 -delete
-→ Restart application
-
-0:45 — Resolution or escalation
-→ Service restored: send all-clear
-→ Not resolved: wake up development
-  lead — full war room
-
-Post-resolution:
-→ Update ServiceNow ticket
-→ All-clear communication
-→ Schedule PIR for next morning"
-
-Q42: SCENARIO — Business reports data missing from a report for yesterday. How do you investigate?
+Q21: Walk me through how you use Terraform in production
 
 Answer:
-"Data missing from reports is a
-common and serious issue in banking.
-Systematic investigation:
+"Terraform is my primary IaC tool —
+I use it to provision all cloud
+infrastructure across AWS and Azure
+at Citibank.
 
-Step 1: Understand the problem exactly
-→ Which report?
-→ What data is missing?
-  All data or specific subset?
-→ What date range is affected?
-→ When was the issue noticed?
-→ Was yesterday's report correct?
-  (Is this new or ongoing?)
+MY TERRAFORM WORKFLOW:
 
-Step 2: Check the ETL/batch process
-→ Did the batch job run for that date?
-  autorep -J BATCH_JOB_NAME -s
-→ Did it complete with SUCCESS or FAILURE?
-→ Check job log for errors:
-  grep -i 'error\|warning\|records' /app/logs/batch.log
+Project structure:
+terraform/
+  modules/
+    vpc/
+    eks-cluster/
+    rds/
+    iam/
+  environments/
+    dev/
+      main.tf
+      variables.tf
+      terraform.tfvars
+    staging/
+      main.tf
+      terraform.tfvars
+    prod/
+      main.tf
+      terraform.tfvars
+  global/
+    s3-backend/
+    iam-base/
 
-Step 3: Check source data
-→ Did source data arrive?
-  ls -la /app/inbound/data_20240115.csv
-→ Record count in source file:
-  wc -l /app/inbound/data_20240115.csv
-→ Is count as expected?
+REMOTE STATE (critical for teams):
+→ State stored in S3, not locally
+→ State locking with DynamoDB
+→ Multiple engineers cannot apply
+  at same time (prevents corruption)
 
-Step 4: Check database
-→ How many records loaded vs expected?
-  SELECT COUNT(*) FROM fact_table
-  WHERE process_date = TO_DATE('15-JAN-2024','DD-MON-YYYY');
-→ Are records there but filtered
-  incorrectly in the report?
-  Run the report SQL directly to check
+backend.tf:
+terraform {
+  backend 's3' {
+    bucket         = 'citibank-tf-state'
+    key            = 'prod/eks/terraform.tfstate'
+    region         = 'us-east-1'
+    dynamodb_table = 'tf-state-lock'
+    encrypt        = true
+  }
+}
 
-Step 5: Check report itself
-→ Is the report filtering correctly?
-→ Date parameter correct?
-→ Has report SQL changed recently?
-  (Check change records)
+MODULES for reusability:
+module 'eks_cluster' {
+  source       = '../../modules/eks-cluster'
+  cluster_name = 'prod-cluster'
+  node_type    = 't3.large'
+  min_nodes    = 3
+  max_nodes    = 10
+  vpc_id       = module.vpc.vpc_id
+}
 
-Step 6: Communicate finding
-→ Inform business with specific answer:
-  'Source file received 50,000 records.
-   Batch processed 49,800. 200 records
-   rejected due to validation errors.
-   I am investigating the rejections.
-   ETA: 30 minutes.'
+WORKFLOW per change:
+1. terraform fmt → format code
+2. terraform validate → syntax check
+3. terraform plan → preview changes
+   (ALWAYS review plan before apply)
+4. Peer review of plan output
+5. terraform apply -auto-approve
+   (only in CI/CD after approval)
+6. Verify resources in console
 
-Step 7: Resolution
-→ If batch failed: rerun
-→ If records rejected: fix and rerun
-→ If report bug: escalate to dev
-→ If data issue in source: notify upstream"
+DRIFT DETECTION:
+→ terraform plan regularly
+→ If plan shows changes but
+  no code change: someone made
+  manual change in console
+→ Either import or fix manually
+→ Manual changes are anti-pattern"
 
-Q43: SCENARIO — You notice a pattern of the same incident occurring every Monday. What do you do?
-
-Answer:
-"A repeating pattern is a textbook
-Problem Management scenario.
-
-Step 1: Confirm the pattern
-→ Review last 4-6 Monday incidents
-→ Document: exactly what fails,
-  exactly what time, exact error
-→ Is it always the same application?
-→ Is it always the same component?
-
-Step 2: Ask key questions
-→ What runs specifically on Mondays?
-→ Is there a weekly batch job?
-→ Is there a weekly maintenance window?
-→ Does more users come online Monday?
-→ Is there a weekly data feed arriving?
-→ Did anything change recently?
-
-Step 3: Raise a Problem ticket
-→ ServiceNow Problem record
-→ Link all the related Monday incidents
-→ Document the pattern clearly:
-  'Occurred 4 consecutive Mondays
-   at approximately 08:30 AM EST.
-   Same error: database connection
-   timeout on batch_weekly_job.'
-
-Step 4: Root cause investigation
-→ Check Autosys: what runs at 08:30 Mondays?
-→ Check database: any heavy queries?
-→ Check if any batch job runs weekly
-  and competes for resources
-→ Review server metrics from past Mondays:
-  CPU, memory, I/O at 08:30 AM
-
-Step 5: Identify root cause
-In my experience this turned out to be:
-→ Weekly statistics gathering job running
-  same time as business users logging in
-→ Resource contention causing timeouts
-
-Step 6: Permanent fix
-→ Reschedule statistics job to 06:00 AM
-→ Change implemented via Change Request
-
-Step 7: Verify
-→ Next Monday: monitor at 08:30 AM
-→ No incident = fix confirmed
-→ Close Problem ticket after 2-3
-  incident-free Mondays
-
-Step 8: Knowledge article
-→ Document the pattern and fix
-→ Future support team knows
-  what to check if Monday issues recur"
-
-Q44: SCENARIO — A change was deployed and immediately caused issues. What do you do?
+Q22: What is Terraform state and why is it important?
 
 Answer:
-"Post-change incidents are urgent —
-rollback may be the fastest path
-to service restoration.
+"Terraform state is the most critical
+concept in Terraform — misunderstanding
+it causes serious production issues.
 
-First 5 minutes:
-→ Confirm correlation: issue started
-  immediately after change deployment
-→ Check change record: What was changed?
-  What files? What config? What DB?
+WHAT IS STATE:
+→ A JSON file (terraform.tfstate)
+→ Records what Terraform has created:
+  Which resources exist
+  Their IDs (ami-12345, i-67890)
+  Their current configuration
+  Relationships between resources
 
-Decision: Rollback or fix-forward?
+WHY IT EXISTS:
+→ Terraform does not query AWS/Azure
+  every time to find your resources
+→ State is the source of truth
+  for what Terraform manages
+→ plan compares: code vs state
+→ apply makes actual match code
 
-Rollback if:
-→ Rollback plan exists (it always should)
-→ Rollback is fast (< 15 minutes)
-→ Root cause not yet clear
-→ Business impact is high
+WHAT HAPPENS WITHOUT STATE:
+→ Terraform loses track of resources
+→ Cannot update or destroy them
+→ May create duplicates
+→ Catastrophic for production
 
-Fix-forward if:
-→ Simple config change that can be
-  quickly corrected
-→ Rollback would cause data issues
-  (if DB changes involved)
-→ Team knows exactly what is wrong
+REMOTE STATE (I use S3):
+Why not local state:
+→ Only works on your laptop
+→ Team cannot collaborate
+→ Lost if laptop dies
+→ No locking — concurrent applies
+  corrupt state
 
-Rollback process:
-→ Notify all stakeholders:
-  'Rolling back change DEP-12345
-   due to production impact.
-   ETA to restore: 15 minutes.'
-→ Follow rollback steps from change record
-→ Verify service restored
-→ Confirm with business
+S3 backend with DynamoDB locking:
+→ State stored in S3
+→ DynamoDB record prevents concurrent apply
+→ Any team member can run Terraform
+→ State versioning for recovery
 
-Post-rollback:
-→ Update ServiceNow change record:
-  Status = Failed, Rolled Back
-→ Create incident linked to change
-→ Notify application owner and manager
-→ Schedule emergency review:
-  What caused the issue?
-  What testing was missed?
-  When can we redeploy (fixed)?
+STATE COMMANDS I USE:
 
-Prevention:
-→ Was this change tested in staging?
-→ Was the test environment representative?
-→ Was rollback plan tested?
-→ Was deployment done in correct window?
-→ Were the right people on the bridge call?
+terraform state list
+→ List all resources in state
 
-Honest assessment:
-→ In banking: ANY production issue
-  after a change is treated seriously
-→ Even if change is not the cause —
-  timing correlation means it must
-  be investigated before ruling out"
+terraform state show aws_instance.web
+→ Show details of specific resource
 
-Q45: SCENARIO — You are new to a team and production goes down on your first week. How do you handle it?
+terraform import aws_instance.web i-1234567
+→ Import existing resource into state
+→ Used when someone created resource
+  manually in AWS console
 
-Answer:
-"This tests your composure and
-your ability to contribute
-even without deep context.
+terraform state rm aws_s3_bucket.logs
+→ Remove resource from state
+  WITHOUT destroying it
+→ Used when transferring management
 
-What I would do:
+terraform state mv
+→ Rename resource in state
 
-Immediately:
-→ Announce yourself clearly:
-  'I am Prabal, new to the team.
-   I am here to help. Tell me
-   what you need from me.'
-→ Do not pretend to know things
-  you do not know
-→ Do not disappear — your presence
-  and support matters
+SENSITIVE DATA IN STATE:
+→ State may contain passwords, keys
+→ S3 bucket must be encrypted
+→ Access restricted by IAM
+→ Enable versioning for recovery"
 
-Listen and learn:
-→ Let experienced team members lead
-→ Watch and understand the process
-→ Ask quick clarifying questions
-  only when needed: 'Where are the logs?'
-  'Which server should I check?'
-
-Take on tasks assigned to you:
-→ 'Can you monitor the batch jobs
-  while we handle the DB issue?'
-→ 'Can you update the stakeholder
-  communication every 15 minutes?'
-→ 'Can you check the disk space
-  on all three servers?'
-→ Take ownership of whatever you are given
-→ Report back quickly and clearly
-
-Communicate what you see:
-→ 'I see 50,000 ERROR lines in this log
-  starting at 02:34 AM'
-→ Even new to the team: fresh eyes
-  sometimes catch things others miss
-
-After resolution:
-→ Read the PIR document carefully
-→ Ask questions about decisions made:
-  'Why did we rollback vs fix-forward?'
-→ Update your own notes for next time
-
-What NOT to do:
-→ Panic or freeze
-→ Make changes without guidance
-→ Disappear to 'read documentation'
-→ Stay silent because you are new
-
-Every experienced support engineer
-was once new in a P1.
-What matters is attitude and effort."
-
-Q46: How do you keep your skills current in production support?
+Q23: What is the difference between Terraform and Ansible?
 
 Answer:
-"The production support landscape
-evolves constantly and I stay
-current through:
+"Both are IaC tools but they serve
+fundamentally different purposes.
+I use BOTH together at Citibank.
 
-On the job learning:
-→ Every P1 and complex incident
-  teaches something new
-→ PIR reviews build pattern recognition
-→ Cross-training with colleagues
-  on different application areas
+TERRAFORM:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Purpose: Infrastructure PROVISIONING
+→ Creates and manages cloud resources:
+  VPCs, EC2 instances, EKS clusters,
+  RDS databases, S3 buckets, IAM roles
 
-Self-directed learning:
-→ Read Oracle documentation
-  for new error codes I encounter
-→ Linux man pages for commands
-→ Autosys documentation for
-  advanced features
-→ ServiceNow release notes
-  (new features quarterly)
+Type: Declarative
+→ You describe WHAT you want
+→ Terraform figures out HOW to get there
+→ Plan shows the delta
 
-Community and forums:
-→ Stack Overflow for Linux/SQL questions
-→ Oracle support community for ORA- errors
-→ ITIL community resources
+State management: YES
+→ Tracks what it created
+→ Knows what to update vs create
 
-Certifications planned:
-→ ITIL 4 Foundation: formalises
-  the ITSM practices I already use
-→ AWS Cloud Practitioner: cloud
-  awareness for where infrastructure
-  is moving
+Idempotent: YES
+→ Run same config 10 times =
+  same result every time
+→ Second run: no changes if first worked
 
-Internal knowledge:
-→ Read knowledge base articles
-  written by senior colleagues
-→ Shadow senior engineers on
-  complex P1s when possible
-→ Volunteer for cross-team
-  projects to learn adjacent systems
+Best for:
+→ Cloud infrastructure provisioning
+→ Immutable infrastructure
+→ Multi-cloud management
+→ Network topology
 
-Documentation habit:
-→ Every complex resolution
-  I document in detail
-→ This forces me to understand
-  what I did and why
-→ Six months later that article
-  saves an hour of investigation
-  for a junior team member"
+Provider: 1000+ providers
+(AWS, Azure, GCP, Kubernetes,
+GitHub, PagerDuty...)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Q47: What is your experience with Salesforce in production support?
+ANSIBLE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Purpose: Configuration MANAGEMENT
+→ Configures what is already running:
+  Install packages on servers
+  Deploy application configs
+  Manage services (start/stop)
+  Apply OS patches
+  Configure users and permissions
 
-Answer:
-"In my role at CBA I use Salesforce
-alongside ServiceNow for case management.
+Type: Procedural (playbooks = steps)
+→ You describe the STEPS to take
+→ Ansible executes them in order
 
-How I use Salesforce:
+State management: NO
+→ No state file
+→ Checks current state before acting
 
-Case Management:
-→ Business users and relationship managers
-  log support cases in Salesforce
-→ Cases come to our support queue
-→ I triage, investigate, and update
-  cases within Salesforce
+Agentless: YES
+→ Uses SSH only
+→ No agent installed on target
 
-Case lifecycle in Salesforce:
-→ New: Just logged by user
-→ In Progress: Being investigated
-→ Pending: Waiting on info from user
-→ Resolved: Fix applied
-→ Closed: User confirmed resolution
+Best for:
+→ Application configuration
+→ Server hardening
+→ Patch management
+→ Ad-hoc operations
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-What I handle in Salesforce:
-→ Data query issues:
-  'The account balance is wrong'
-  → I check Oracle DB to verify data
-  → Identify if application or data issue
-→ Access issues:
-  'I cannot see the dashboard'
-  → Permission/role issue
-  → Check Salesforce profile or
-    application access
-→ Application errors:
-  'Getting error when submitting report'
-  → Check application logs
-  → Replicate the error if possible
-  → Escalate to development
+HOW I USE THEM TOGETHER:
+Terraform creates the EC2 instance
+↓
+Ansible configures the EC2 instance
+(installs Java, deploys app config,
+sets up monitoring agent)
 
-Integration between ServiceNow and Salesforce:
-→ Complex technical issues raised
-  in Salesforce get mirrored in
-  ServiceNow as incidents
-→ Ensures ITSM tracking and SLA
-  management applies to all issues
+Never use Ansible to create cloud
+resources → use Terraform
+Never use Terraform to configure
+application inside a server → use Ansible"
 
-I use Salesforce primarily as a
-case management and communication
-tool rather than for Salesforce
-administration or development."
-
-Q48: How do you document a resolution for the knowledge base?
+Q24: How do you handle Terraform in a team environment?
 
 Answer:
-"Good knowledge base articles are
-one of the most valuable things
-a support engineer can produce.
-I have written 50+ articles at CBA.
+"Team Terraform usage without proper
+controls leads to state corruption,
+drift, and production disasters.
 
-My knowledge base article structure:
+PRACTICES I IMPLEMENT:
 
-Title:
-Clear and searchable — use the
-exact error message if applicable:
-'Autosys Job CREDIT_RISK_EXTRACT
-fails with ORA-12170'
-(Not: 'Database connection issue')
+1. Remote State with Locking:
+→ S3 for state storage
+→ DynamoDB for state locking
+→ Only one person applies at a time
+→ Encrypted state bucket
 
-Summary (2-3 lines):
-What the issue is and when it occurs.
-'This article covers the resolution
-for ORA-12170 TNS timeout errors
-occurring during the nightly
-CREDIT_RISK_EXTRACT Autosys job,
-typically between 01:00-03:00 AM.'
+2. Terraform in CI/CD (not local):
+→ Engineers submit PR with
+  Terraform code changes
+→ CI pipeline runs:
+  terraform fmt --check (format)
+  terraform validate (syntax)
+  terraform plan (preview)
+→ Plan output posted as PR comment
+→ Review the PLAN not just code
+→ Approver reviews impact
+→ Merge triggers terraform apply
+  in CI/CD with appropriate permissions
 
-Symptoms:
-Exactly what the engineer sees:
-→ Autosys job status: FAILURE
-→ Exit code: 1
-→ Log location: /app/logs/extract.log
-→ Log error: ORA-12170: TNS:Connect
-  timeout occurred
+3. Workspace or directory per environment:
+→ environments/dev/
+→ environments/staging/
+→ environments/prod/
+→ Never use same state for
+  multiple environments
+→ Changes tested in dev first
 
-Root Cause:
-What actually caused it:
-'Oracle listener service becomes
-unresponsive under high connection
-load during nightly batch window.
-Typically occurs when more than
-80 concurrent sessions hit the DB.'
+4. Module versioning:
+→ Modules pinned to specific versions:
+  source = './modules/eks?ref=v1.2.0'
+→ Prevents unexpected changes
+  when module updated
 
-Resolution Steps (numbered):
-1. Check if listener is running:
-   lsnrctl status
-2. If listener down: restart it:
-   lsnrctl start
-3. Verify listener responding:
-   tnsping ORCL
-4. Restart Autosys job:
-   sendevent -J CREDIT_RISK_EXTRACT
-   -E STARTJOB
-5. Monitor job to completion:
-   autorep -J CREDIT_RISK_EXTRACT -s
+5. Terraform plan review process:
+→ Plan must be reviewed by
+  at least one senior engineer
+  before production apply
+→ Look for: unexpected destroys,
+  resource replacements,
+  security group changes
 
-Escalation:
-If steps above do not resolve:
-→ Escalate to DBA team (contact: DBA-support)
-→ Provide: listener log, alert log,
-  session count at time of failure
+6. Drift detection:
+→ Scheduled terraform plan in CI/CD
+→ Alert if plan shows drift
+  (someone made manual change)
+→ Zero tolerance for manual
+  console changes in prod
 
-Prevention:
-→ DBA to review listener configuration
-→ Connection pool review recommended
+7. Variable management:
+→ Sensitive variables in
+  CI/CD secrets or Vault
+→ Never hardcode credentials
+→ terraform.tfvars in .gitignore
+  for local development"
 
-This structure means any team member
-can resolve this at 2 AM without
-needing to call me or escalate."
+Q25: What are Terraform modules and why do you use them?
 
-Q49: Where do you see yourself in 3 years?
+Answer:
+"Modules are reusable packages of
+Terraform configuration. They are
+the building blocks of well-structured
+Terraform code.
+
+WITHOUT modules:
+→ Copy-paste VPC code for every environment
+→ Change something → update 5 places
+→ Inconsistency creeps in over time
+→ Hard to maintain at scale
+
+WITH modules:
+→ Write VPC code once in a module
+→ Call the module in each environment
+→ Change module once → all environments
+  get the update
+→ Standardized, consistent resources
+
+Module I created for EKS:
+modules/eks-cluster/
+  main.tf      (EKS resource definitions)
+  variables.tf (input parameters)
+  outputs.tf   (output values)
+
+main.tf inside module:
+resource 'aws_eks_cluster' 'this' {
+  name     = var.cluster_name
+  role_arn = aws_iam_role.eks.arn
+  version  = var.kubernetes_version
+  vpc_config {
+    subnet_ids         = var.subnet_ids
+    security_group_ids = [aws_security_group.eks.id]
+  }
+}
+
+variables.tf:
+variable 'cluster_name' {
+  type        = string
+  description = 'EKS cluster name'
+}
+variable 'node_instance_type' {
+  type    = string
+  default = 't3.medium'
+}
+variable 'min_nodes' { type = number }
+variable 'max_nodes' { type = number }
+
+Using the module in prod:
+module 'prod_eks' {
+  source              = '../../modules/eks-cluster'
+  cluster_name        = 'citibank-prod'
+  node_instance_type  = 'm5.xlarge'
+  min_nodes           = 3
+  max_nodes           = 20
+  kubernetes_version  = '1.28'
+  subnet_ids          = module.vpc.private_subnets
+}
+
+Using the same module in dev:
+module 'dev_eks' {
+  source              = '../../modules/eks-cluster'
+  cluster_name        = 'citibank-dev'
+  node_instance_type  = 't3.medium'
+  min_nodes           = 1
+  max_nodes           = 5
+  kubernetes_version  = '1.28'
+  subnet_ids          = module.vpc.private_subnets
+}
+
+Benefits I see daily at Citibank:
+→ 80% less Terraform code to maintain
+→ Consistent security settings
+  enforced in module
+→ Easier to upgrade Kubernetes version
+  across all clusters: change once"
+
+Q26: How do you manage multiple environments with Terraform?
+
+Answer:
+"Managing dev, staging, and prod
+environments with Terraform requires
+clear separation strategy.
+
+MY APPROACH: Directory per environment
+
+terraform/
+  modules/          (shared modules)
+  environments/
+    dev/
+      main.tf
+      variables.tf
+      terraform.tfvars  (.gitignored)
+      backend.tf        (dev state bucket)
+    staging/
+      main.tf
+      variables.tf
+      backend.tf        (staging state bucket)
+    prod/
+      main.tf
+      variables.tf
+      backend.tf        (prod state bucket)
+
+Each environment:
+→ Has its OWN state file
+→ In its OWN S3 bucket
+→ With its OWN DynamoDB table
+→ Changes to prod DO NOT affect dev
+
+dev/main.tf:
+module 'eks' {
+  source     = '../../modules/eks-cluster'
+  cluster_name = 'dev-cluster'
+  node_type    = 't3.medium'  # cheap
+  min_nodes    = 1
+  max_nodes    = 3
+}
+
+prod/main.tf:
+module 'eks' {
+  source     = '../../modules/eks-cluster'
+  cluster_name = 'prod-cluster'
+  node_type    = 'm5.xlarge'  # powerful
+  min_nodes    = 3
+  max_nodes    = 20
+}
+
+PROMOTION WORKFLOW:
+1. Change tested in dev
+2. Same change promoted to staging:
+   cd environments/staging
+   terraform plan
+   (review diff)
+   terraform apply
+3. Validated in staging
+4. PR raised for prod change
+5. Reviewed and approved
+6. Applied via CI/CD in maintenance window
+
+This ensures:
+→ No prod changes without dev/staging validation
+→ Independent state per environment
+→ Different sizing for cost optimization
+→ Full audit trail via Git history"
+
+Q27: What is Terraform import and when do you use it?
+
+Answer:
+"Terraform import brings existing
+infrastructure that was created
+OUTSIDE of Terraform under
+Terraform management.
+
+When I need it:
+→ Someone created a resource manually
+  in AWS Console (bad practice but happens)
+→ Migrating existing infrastructure
+  to Terraform management
+→ Taking over a project with
+  manually created resources
+
+The process:
+
+Step 1: Write the Terraform resource
+  first (empty placeholder):
+resource 'aws_security_group' 'web' {
+  # configuration here
+}
+
+Step 2: Run import command:
+terraform import aws_security_group.web sg-0123456789
+
+Step 3: Terraform reads the actual resource
+  and adds it to state
+
+Step 4: Run terraform plan
+→ Plan shows the differences between
+  your code and the actual resource
+→ You MUST update your code to match
+  the actual configuration
+→ Plan should show: No changes
+  when your code matches reality
+
+Step 5: Commit the Terraform code
+→ Now this resource is under
+  Terraform management
+
+IMPORTANT LIMITATIONS:
+→ Import adds to state but does NOT
+  generate the Terraform code
+→ You still need to write the code yourself
+→ terraform plan will show what is different
+
+Alternative in newer Terraform (1.5+):
+import block in code:
+import {
+  to = aws_instance.web
+  id = 'i-1234567890'
+}
+
+Then run:
+terraform plan -generate-config-out=generated.tf
+→ Auto-generates the Terraform code
+→ Much faster than writing manually
+
+At Citibank I used import when
+inheriting infrastructure that was
+built before Terraform was adopted.
+Took 3 weeks to import all resources
+but worth it for full IaC management."
+SECTION 4 — MONITORING & OBSERVABILITY (Q28-Q33)
+
+Q28: Explain your monitoring stack and how you set it up
+
+Answer:
+"I have set up and operated the
+full observability stack at Citibank.
+
+Three pillars of observability:
+1. Metrics → Prometheus + Grafana
+2. Logs → ELK Stack
+3. Traces → Jaeger (via Istio)
+
+METRICS — PROMETHEUS + GRAFANA:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Deployment:
+→ Prometheus Operator via Helm
+→ Creates: Prometheus, AlertManager,
+  Grafana, Node Exporter, kube-state-metrics
+
+What Prometheus scrapes:
+→ Node Exporter: CPU, memory, disk, network
+→ kube-state-metrics: pod counts,
+  deployment status, HPA status
+→ Application metrics (custom):
+  HTTP request rate, error rate, latency
+→ JVM metrics: heap usage, GC pauses
+→ Istio metrics: service-to-service latency
+
+ServiceMonitor example:
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: myapp-metrics
+spec:
+  selector:
+    matchLabels:
+      app: myapp
+  endpoints:
+  - port: metrics
+    path: /metrics
+    interval: 30s
+
+Grafana dashboards I build:
+→ Kubernetes cluster overview
+→ Per-namespace resource usage
+→ Application RED metrics
+  (Rate, Errors, Duration)
+→ JVM performance dashboard
+→ Istio service mesh topology
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LOGS — ELK STACK:
+→ Fluent Bit DaemonSet on every node
+→ Collects all container logs
+→ Ships to Logstash for processing
+→ Stored in Elasticsearch
+→ Kibana for search and visualization
+
+Index pattern: logs-prod-*
+Kibana dashboards:
+→ Error rate over time
+→ Top error messages
+→ Application logs per service
+→ Security events
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ALERTS — AlertManager:
+Critical alert example:
+- alert: HighErrorRate
+  expr: |
+    rate(http_requests_total
+    {status=~'5..'}[5m]) /
+    rate(http_requests_total[5m]) > 0.05
+  for: 2m
+  labels:
+    severity: critical
+  annotations:
+    summary: 'Error rate above 5%'
+
+Routes: PagerDuty for critical,
+Slack for warning."
+
+Q29: What is the difference between Datadog and Prometheus/Grafana?
+
+Answer:
+"Both are monitoring solutions but
+with fundamentally different approaches.
+I have used both in production.
+
+PROMETHEUS + GRAFANA:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Type: Open source, self-hosted
+Cost: Free (infrastructure costs only)
+
+Deployment:
+→ You run Prometheus on your cluster
+→ You manage Grafana dashboards
+→ You configure scrape targets
+→ You manage retention and storage
+
+Strengths:
+→ No data leaves your environment
+  (critical for banking data)
+→ Highly customizable
+→ Native Kubernetes integration
+→ Large community, many exporters
+→ No per-host cost
+→ PromQL is very powerful
+
+Weaknesses:
+→ You manage the infrastructure
+→ Long-term storage needs Thanos/Cortex
+→ More setup and maintenance
+
+I use Prometheus+Grafana for:
+→ Kubernetes cluster metrics
+→ Application custom metrics
+→ Cost-sensitive environments
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DATADOG:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Type: SaaS, commercial, fully managed
+Cost: Per-host licensing (expensive)
+
+What you get:
+→ Infrastructure monitoring
+→ APM (Application Performance Monitoring)
+  — distributed tracing without Jaeger
+→ Log management (replaces ELK)
+→ RUM (Real User Monitoring)
+→ Security monitoring
+→ Synthetics (uptime testing)
+→ Everything in ONE platform
+
+Strengths:
+→ No infrastructure to manage
+→ Excellent out-of-box dashboards
+→ APM is best-in-class
+→ Correlation: logs + metrics + traces
+  in one click
+→ Easy to set up
+→ Excellent alerting
+
+Weaknesses:
+→ Very expensive at scale
+→ Data goes to Datadog cloud
+  (data sovereignty concerns)
+→ Vendor lock-in
+→ Less flexible than Prometheus
+
+I use Datadog for:
+→ APM and distributed tracing
+→ When budget allows
+→ When team lacks infra expertise
+
+At Citibank:
+→ Prometheus+Grafana for cluster metrics
+→ Datadog for APM and distributed tracing
+→ ELK for log aggregation
+→ Splunk for security events
+  (SIEM use case)"
+
+Q30: How do you set up alerting and what makes a good alert?
+
+Answer:
+"Alerting is one of the most
+important and most frequently
+misconfigured parts of observability.
+Bad alerts cause alert fatigue —
+engineers ignore them — and real
+incidents get missed.
+
+PRINCIPLES FOR GOOD ALERTS:
+
+1. Alert on SYMPTOMS not CAUSES:
+Bad: 'CPU above 80%'
+  → May not affect users at all
+
+Good: 'Error rate above 1%'
+  → Users are experiencing errors
+
+2. Alert on SLOs (Service Level Objectives):
+→ Define: 99.9% of requests
+  must complete in < 500ms
+→ Alert: 'Error budget burning fast'
+  → This alerts when you are
+    about to miss your SLO
+
+3. Every alert needs a runbook:
+→ Alert fires → engineer looks at
+  runbook: what to check, what to do
+→ No runbook = useless alert at 2 AM
+
+4. Reduce noise:
+→ Set appropriate 'for' duration:
+  for: 5m (not just 1 spike)
+→ Deduplicate in AlertManager
+→ Group similar alerts
+
+ALERT LEVELS I CONFIGURE:
+
+Critical (PagerDuty — wake someone up):
+→ Service completely down
+→ Error rate > 5% for 2 minutes
+→ P99 latency > 2 seconds
+
+Warning (Slack notification):
+→ Error rate > 1% for 5 minutes
+→ CPU > 80% for 10 minutes
+→ Disk > 85%
+→ Pod restart count > 3
+
+Info (Dashboard only):
+→ Deployment triggered
+→ Scaling event occurred
+
+ALERTMANAGER ROUTING:
+route:
+  group_by: [alertname, cluster]
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+  receiver: slack-warning
+  routes:
+  - match:
+      severity: critical
+    receiver: pagerduty-critical
+  - match:
+      severity: warning
+    receiver: slack-warning
+
+At Citibank I reduced alert noise
+by 60% by converting CPU/memory alerts
+to error-rate and latency-based alerts.
+Fewer pages, more meaningful pages."
+
+Q31: What is OpenTelemetry and how is it different from traditional monitoring?
+
+Answer:
+"OpenTelemetry (OTel) is a CNCF
+project that standardizes how
+observability data (metrics, logs,
+traces) is collected and exported.
+
+THE PROBLEM before OpenTelemetry:
+→ Using Datadog: instrument with Datadog SDK
+→ Switch to Jaeger: re-instrument everything
+→ Vendor lock-in for observability
+→ Different SDKs for each tool
+→ Inconsistent data formats
+
+WHAT OPENTELEMETRY SOLVES:
+→ Single standard for all three signals:
+  Metrics, Logs, and Traces
+→ Instrument once, export anywhere
+→ Open standard: vendor neutral
+→ CNCF graduated project
+
+Components:
+OTel SDK: Instruments your application
+  → Collects traces, metrics, logs
+  → Language specific (Java, Python, Go)
+  → Auto-instrumentation available
+    (no code changes for common frameworks)
+
+OTel Collector: Central processing
+  → Receives from all services
+  → Processes, filters, batches
+  → Exports to multiple backends
+
+OTel Collector pipeline example:
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+
+processors:
+  batch:
+  resource:
+    attributes:
+    - action: insert
+      key: environment
+      value: production
+
+exporters:
+  jaeger:
+    endpoint: jaeger:14250
+  prometheus:
+    endpoint: '0.0.0.0:8889'
+  elasticsearch:
+    endpoints: ['http://es:9200']
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch, resource]
+      exporters: [jaeger]
+    metrics:
+      receivers: [otlp]
+      exporters: [prometheus]
+
+At Citibank:
+→ Java microservices auto-instrumented
+  with OTel Java agent
+→ OTel Collector deployed as DaemonSet
+→ Traces → Jaeger
+→ Metrics → Prometheus
+→ Switch backends without code changes"
+
+Q32: How do you use Splunk in your environment?
+
+Answer:
+"Splunk is the SIEM (Security Information
+and Event Management) and log analysis
+platform I use at Citibank alongside
+ELK Stack.
+
+Why both ELK and Splunk:
+→ ELK: Application and infrastructure logs
+  (development and operations focused)
+→ Splunk: Security events, audit logs,
+  compliance reporting
+  (security and compliance focused)
+
+What I send to Splunk:
+→ Kubernetes audit logs
+  (who did what in the cluster)
+→ AWS CloudTrail events
+  (API calls to AWS)
+→ Application security events
+  (failed logins, privilege escalation)
+→ Network flow logs
+→ Container runtime events (Falco)
+
+Splunk searches I use:
+Find failed login attempts:
+index=security sourcetype=k8s-audit
+  verb=create user=*
+  responseStatus.code=403
+  | stats count by user, sourceIP
+  | sort -count
+
+Find suspicious pod creation:
+index=security sourcetype=k8s-audit
+  verb=create kind=Pod
+  namespace=production
+  | where user != 'system:serviceaccount*'
+
+Find API calls from unusual IPs:
+index=aws sourcetype=cloudtrail
+  | stats count by sourceIPAddress, userIdentity.userName
+  | where count > 100
+
+Splunk dashboards I maintain:
+→ Security events summary
+→ Failed authentication attempts
+→ Privileged access usage
+→ Change management activity
+→ Compliance reporting dashboard
+
+At Citibank Splunk is primarily
+the security and compliance team's
+tool — I feed data into it and
+use it for security investigations
+during incident response."
+
+Q33: How do you use Prometheus PromQL for alerting?
+
+Answer:
+"PromQL is Prometheus Query Language —
+essential for writing meaningful alerts
+and dashboards.
+
+KEY FUNCTIONS I USE:
+
+rate(): Request rate over time
+rate(http_requests_total[5m])
+→ Requests per second
+   averaged over 5 minutes
+
+Error rate calculation:
+sum(rate(http_requests_total{code=~'5..'}[5m]))
+/
+sum(rate(http_requests_total[5m]))
+→ Proportion of 5xx responses
+
+Latency p99:
+histogram_quantile(0.99,
+  sum(rate(http_request_duration_seconds_bucket[5m]))
+  by (le))
+→ 99th percentile latency
+
+CPU usage per pod:
+sum(rate(container_cpu_usage_seconds_total
+  {namespace='production'}[5m]))
+by (pod)
+
+Memory usage:
+container_memory_working_set_bytes
+  {namespace='production'}
+/ container_spec_memory_limit_bytes
+  {namespace='production'}
+→ Memory usage as percentage of limit
+
+Pod restart rate:
+rate(kube_pod_container_status_restarts_total[1h])
+> 0
+→ Pods that are restarting
+
+Disk space alert:
+(node_filesystem_avail_bytes
+  {mountpoint='/'} /
+node_filesystem_size_bytes
+  {mountpoint='/'}) < 0.15
+→ Less than 15% disk free
+
+ALERT RULES:
+groups:
+- name: application
+  rules:
+  - alert: HighErrorRate
+    expr: |
+      sum(rate(http_requests_total
+        {status=~'5..'}[5m]))
+      /
+      sum(rate(http_requests_total[5m]))
+      > 0.05
+    for: 2m
+    labels:
+      severity: critical
+    annotations:
+      summary: 'Error rate is {{ $value | humanizePercentage }}'
+
+  - alert: SlowRequests
+    expr: |
+      histogram_quantile(0.99,
+        rate(http_duration_seconds_bucket[5m]))
+      > 2
+    for: 5m
+    labels:
+      severity: warning"
+SECTION 5 — AWS & AZURE (Q34-Q39)
+
+Q34: What AWS services do you use most in production?
+
+Answer:
+"I use AWS extensively at Citibank.
+Key services I work with daily:
+
+COMPUTE:
+EKS (Elastic Kubernetes Service):
+→ Primary container platform
+→ Managed Kubernetes control plane
+→ Node groups: on-demand + spot mix
+→ IRSA for pod IAM permissions
+
+EC2 and Auto Scaling:
+→ Worker nodes for EKS
+→ Bastion hosts for secure access
+→ Launch Templates for node config
+
+Lambda:
+→ Event-driven automation
+→ Secrets rotation
+→ Cost optimization triggers
+→ CI/CD event handlers
+
+NETWORKING:
+VPC:
+→ Separate VPCs per environment
+→ Private subnets for workloads
+→ Public subnets only for load balancers
+→ VPC peering between environments
+
+Security Groups:
+→ Least privilege ingress/egress
+→ No 0.0.0.0/0 rules in prod
+→ Managed by Terraform
+
+Load Balancers:
+→ ALB for HTTP/HTTPS
+→ NLB for TCP
+→ AWS Load Balancer Controller
+  for Kubernetes Ingress
+
+STORAGE:
+S3:
+→ Terraform state storage
+→ Application artifacts
+→ Log archival
+→ Static assets
+
+EBS:
+→ Kubernetes PersistentVolumes
+→ Database storage
+
+EFS:
+→ Shared storage across pods
+→ ReadWriteMany workloads
+
+SECURITY & IAM:
+IAM roles and policies:
+→ Least privilege for all services
+→ IRSA (IAM Roles for Service Accounts)
+  → Pods get IAM permissions
+    without static credentials
+
+AWS Secrets Manager:
+→ All application secrets stored here
+→ Automatic rotation configured
+→ Accessed via External Secrets Operator
+
+CloudTrail:
+→ All API calls logged
+→ Sent to Splunk for SIEM
+
+MONITORING:
+CloudWatch:
+→ EKS control plane logs
+→ Lambda function logs
+→ RDS metrics
+→ Custom application metrics"
+
+Q35: What is IRSA (IAM Roles for Service Accounts) and why is it important?
+
+Answer:
+"IRSA is a critical AWS EKS security
+feature I implement at Citibank.
+Without it: serious security risk.
+
+THE PROBLEM without IRSA:
+
+Option 1 (bad): Static credentials
+→ Create IAM user
+→ Put access key/secret in pod
+→ ALL pods on node share credentials
+→ If any pod is compromised:
+  attacker has all credentials
+→ Rotation is painful
+
+Option 2 (bad): Node IAM role
+→ Give worker node an IAM role
+→ ALL pods on that node inherit
+  the node's permissions
+→ Over-privileged pods
+→ No pod-level granularity
+
+IRSA (correct approach):
+→ Each Kubernetes ServiceAccount
+  gets its own IAM role
+→ Only that specific pod
+  gets those specific permissions
+→ Credentials are temporary (rotated by AWS)
+→ No static credentials in code
+→ Least privilege per pod
+
+How I configure it:
+
+Step 1: Enable OIDC on EKS cluster
+(Terraform does this automatically)
+
+Step 2: Create IAM role with
+trust policy for the ServiceAccount:
+{
+  'Effect': 'Allow',
+  'Principal': {
+    'Federated': 'arn:aws:iam::123456789:
+    oidc-provider/oidc.eks.us-east-1...'
+  },
+  'Action': 'sts:AssumeRoleWithWebIdentity',
+  'Condition': {
+    'StringEquals': {
+      'oidc...sub':
+      'system:serviceaccount:
+       production:myapp-sa'
+    }
+  }
+}
+
+Step 3: Annotate ServiceAccount:
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: myapp-sa
+  namespace: production
+  annotations:
+    eks.amazonaws.com/role-arn:
+      arn:aws:iam::123456789:role/myapp-role
+
+Step 4: Use ServiceAccount in pod:
+spec:
+  serviceAccountName: myapp-sa
+
+Result: Pod gets exactly the permissions
+assigned to myapp-role and nothing else.
+At Citibank: every microservice has
+its own ServiceAccount and IAM role."
+
+Q36: What is the difference between AWS EKS and Azure AKS?
+
+Answer:
+"I manage both EKS and AKS at
+Citibank in a multi-cloud setup.
+Both are managed Kubernetes services
+but with platform-specific differences.
+
+AWS EKS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Control plane: Managed by AWS
+  → You pay per cluster per hour
+  → You manage node groups
+
+IAM Integration:
+→ IRSA for pod permissions
+→ aws-auth ConfigMap for
+  cluster access control
+→ Very mature IAM integration
+
+Networking:
+→ AWS VPC CNI (pods get VPC IPs)
+→ Good for VPC-native networking
+→ ALB/NLB via Load Balancer Controller
+
+Storage:
+→ EBS for block storage
+→ EFS for shared storage
+→ S3 via IRSA credentials
+
+Monitoring:
+→ CloudWatch Container Insights
+→ CloudTrail for audit
+→ Excellent AWS ecosystem integration
+
+Add-ons:
+→ AWS manages: CoreDNS, kube-proxy,
+  VPC CNI
+→ AWS Marketplace add-ons
+
+Upgrade:
+→ AWS manages control plane upgrade
+→ You manage node group upgrade
+→ In-place node group rolling upgrade
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+AZURE AKS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Control plane: FREE (no control
+  plane charge unlike EKS)
+
+IAM Integration:
+→ Azure Active Directory integration
+→ Azure RBAC for Kubernetes
+→ Workload Identity (similar to IRSA)
+→ Very tight Azure AD integration
+
+Networking:
+→ Azure CNI (pods get VNet IPs)
+→ Application Gateway Ingress Controller
+→ Azure Load Balancer native
+
+Storage:
+→ Azure Disks (like EBS)
+→ Azure Files (like EFS)
+→ Native Azure integration
+
+Monitoring:
+→ Azure Monitor Container Insights
+→ Log Analytics Workspace
+→ Good but less mature than AWS CloudWatch
+
+Add-ons:
+→ Managed via AKS add-on profiles
+→ Azure Policy for AKS
+
+Upgrade:
+→ One-click upgrade via portal
+  or az aks upgrade command
+→ Control plane first, then nodes
+
+KEY PRACTICAL DIFFERENCE:
+→ EKS: More control, more complexity,
+  AWS-native tooling is excellent
+→ AKS: Easier setup, free control plane,
+  Azure AD integration is seamless
+
+At Citibank: AKS for Azure-resident
+workloads, EKS for AWS-resident workloads.
+Same Helm charts deploy to both —
+abstraction via GitOps."
+
+Q37: How do you implement cost optimization in AWS?
+
+Answer:
+"Cloud cost optimization is a
+continuous responsibility. At Citibank
+I implemented several strategies.
+
+KUBERNETES COST OPTIMIZATION:
+
+1. Right-sizing with VPA:
+→ VPA analyzes actual usage
+→ Identifies over-provisioned pods
+→ Reduced average pod resource
+  requests by 30%
+
+2. Cluster Autoscaler:
+→ Scale down nodes when underutilized
+→ Scale up when pods pending
+→ Nodes not needed at 2 AM scaled down
+→ Significant overnight savings
+
+3. Spot instances for non-critical:
+→ Batch jobs on spot instances
+→ Dev/test environments on spot
+→ Spot saves 70-90% vs on-demand
+→ Node Termination Handler for graceful drain
+
+4. Ingress Controller optimization:
+→ My 20% improvement:
+  Right-sized controller resources
+→ More pods per node = fewer nodes needed
+
+AWS RESOURCE OPTIMIZATION:
+
+5. Reserved Instances / Savings Plans:
+→ Commit to 1-3 year for consistent workloads
+→ EKS worker nodes on 1-year RI
+→ Saves 40% vs on-demand
+
+6. S3 Lifecycle policies:
+→ Move old logs to Glacier after 30 days
+→ Delete after 1 year
+→ Reduced S3 costs by 60%
+
+7. Right-size EC2:
+→ CloudWatch metrics show CPU/memory usage
+→ Downsize underutilized instances
+→ Use Graviton (ARM) instances:
+  20-40% cheaper, often same performance
+
+8. Clean up unused resources:
+→ Terraform drift detection finds
+  orphaned resources
+→ Unattached EBS volumes deleted
+→ Old AMIs cleaned up
+→ Unused Elastic IPs released
+
+9. Cost allocation tags:
+→ Every resource tagged:
+  Environment, Team, Application
+→ Cost Explorer shows spend by team
+→ Accountability drives behavior
+
+Monthly cost review:
+→ AWS Cost Explorer dashboard
+→ Spot outliers and investigate
+→ Rightsize based on utilization data"
+
+Q38: What is Docker volume and how did you use it at CBA?
+
+Answer:
+"Docker volumes provide persistent
+storage that survives container
+restarts and removals.
+
+WHY VOLUMES ARE NEEDED:
+→ Container filesystem is ephemeral
+→ When container stops: all data lost
+→ For databases, logs, uploads:
+  data must persist
+
+TYPES OF DOCKER STORAGE:
+
+Volume (managed by Docker):
+→ Stored in /var/lib/docker/volumes/
+→ Docker manages lifecycle
+→ Best practice for container data
+→ Can be shared between containers
+
+Bind Mount:
+→ Maps host directory to container
+→ /host/path:/container/path
+→ Direct access to host filesystem
+→ Good for development (live code reload)
+
+tmpfs Mount:
+→ Stored in host memory
+→ Never written to disk
+→ For temporary, sensitive data
+
+HOW I CONFIGURED AT CBA:
+
+Production PostgreSQL with persistent storage:
+volumes:
+  postgres_data:
+    driver: local
+
+services:
+  postgres:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD_FILE: /run/secrets/pg_password
+
+→ Data in postgres_data volume
+→ Survives container restart
+→ Database data not lost on update
+
+Shared log volume between containers:
+services:
+  app:
+    volumes:
+      - app_logs:/app/logs
+
+  log_shipper:
+    volumes:
+      - app_logs:/logs:ro  # read-only
+
+→ App writes logs to volume
+→ Log shipper reads same volume
+→ Sends to ELK stack
+
+In Kubernetes context (my main env):
+→ Docker volumes map to
+  PersistentVolumeClaims
+→ StorageClass determines backend
+  (EBS for block, EFS for shared)
+→ ConfigMap + VolumeMount for config files
+
+At CBA specifically: I configured
+Docker volumes for stateful components
+in our docker-compose development
+environments and validated the same
+patterns worked in Kubernetes PVCs
+for production."
+
+Q39: How do you implement Docker security hardening?
+
+Answer:
+"Container security hardening is
+part of my DevSecOps work.
+At CBA I implemented these practices:
+
+IMAGE SECURITY:
+
+1. Use minimal base images:
+→ alpine: 5MB vs ubuntu: 77MB
+→ distroless: no shell, no package manager
+→ Smaller attack surface
+→ FROM gcr.io/distroless/java17
+
+2. Pin specific image versions:
+→ FROM nginx:1.25.3 NOT nginx:latest
+→ latest tag changes silently
+→ Pin = reproducible, auditable builds
+
+3. Multi-stage builds:
+→ Stage 1: Build environment (has compiler,
+  build tools — not needed at runtime)
+→ Stage 2: Runtime (only the artifact)
+
+FROM maven:3.9 AS builder
+WORKDIR /app
+COPY pom.xml .
+RUN mvn dependency:go-offline
+COPY src ./src
+RUN mvn package -DskipTests
+
+FROM gcr.io/distroless/java17
+COPY --from=builder /app/target/app.jar /app.jar
+ENTRYPOINT ['java', '-jar', '/app.jar']
+
+Result: production image has no Maven,
+no JDK, no shell — only JRE and the JAR.
+
+4. Scan images before push:
+trivy image myapp:v1.0
+→ Fails pipeline on Critical CVEs
+→ Every image scanned before
+  pushed to registry
+
+RUNTIME SECURITY:
+
+5. Non-root user:
+RUN addgroup -S appgroup
+    && adduser -S appuser -G appgroup
+USER appuser
+→ Container runs as non-root
+→ Even if compromised:
+  no root on host
+
+6. Read-only root filesystem:
+securityContext:
+  readOnlyRootFilesystem: true
+  → Cannot write to container filesystem
+  → Forces use of explicit volume mounts
+  → Prevents attackers writing malware
+
+7. Drop capabilities:
+securityContext:
+  capabilities:
+    drop: ['ALL']
+    add: ['NET_BIND_SERVICE']  # only if needed
+→ Containers get no Linux capabilities
+→ Cannot perform privileged operations
+
+8. No privileged containers:
+securityContext:
+  privileged: false  # enforce this
+→ Privileged = root on host = dangerous
+
+At CBA: All these implemented as
+Kubernetes Pod Security Standards
+(Restricted profile) — enforced
+at namespace level, not individual pod."
+SECTION 6 — SCENARIO BASED (Q40-Q50)
+
+Q40: Production deployment failed and rolled back. Walk me through your process
+
+Answer:
+"This happened at Citibank and
+my structured approach resolved it
+within our SLA.
+
+THE SCENARIO:
+Deployed v2.4.1 to production
+Application started returning 503 errors
+Error rate spiked to 15% (threshold: 1%)
+Prometheus alert fired immediately
+
+IMMEDIATE RESPONSE (first 5 minutes):
+
+Step 1: Confirm it is the deployment
+→ Check when errors started:
+  Kibana: grep errors by timestamp
+→ Check deployment time:
+  kubectl get deployment myapp -o yaml
+  | grep 'deployment.kubernetes.io/revision'
+→ Timeline matches: deployment = cause
+
+Step 2: Decision — rollback immediately
+→ Error rate 15% → rollback first
+→ Do not debug in production
+  with users impacted
+
+Step 3: Execute rollback
+→ Kubernetes deployment rollback:
+  kubectl rollout undo deployment/myapp
+  -n production
+
+→ Helm rollback (I use Helm):
+  helm rollback myapp 5
+  (reverts to revision 5)
+
+Step 4: Monitor rollback
+→ kubectl rollout status deployment/myapp
+→ Watch Prometheus: error rate dropping?
+→ Within 3 minutes: error rate back to 0%
+
+Step 5: Communicate
+→ All-clear message sent:
+  'Service restored via rollback.
+   v2.4.1 rolled back to v2.4.0.
+   Investigating root cause.
+   Update in 1 hour.'
+
+ROOT CAUSE INVESTIGATION:
+
+Step 6: Compare versions
+→ What changed between v2.4.0 and v2.4.1?
+→ git diff v2.4.0..v2.4.1
+
+Step 7: Check application logs for v2.4.1
+→ Logs from failed pods (before rollback):
+  kubectl logs myapp-xyz --previous
+→ Found: NullPointerException on
+  new configuration property
+  that was not set in production
+
+Step 8: Root cause
+→ New feature required new environment
+  variable DB_POOL_SIZE
+→ Added in code but not in
+  production ConfigMap
+→ Application crashed on startup
+  with NPE
+
+FIX AND REDEPLOY:
+→ Add DB_POOL_SIZE to ConfigMap
+→ Test in staging: works
+→ Redeploy v2.4.1 to production
+→ Success — no errors
+
+PREVENTION:
+→ Added configuration validation
+  on startup: fail fast with
+  clear error if config missing
+→ Staging environment ConfigMap
+  now maintained identically to prod"
+
+Q41: A Kubernetes pod is in CrashLoopBackOff. How do you debug it?
+
+Answer:
+"CrashLoopBackOff means the container
+is crashing repeatedly. Kubernetes
+keeps trying but keeps failing.
+Systematic debug:
+
+STEP 1: Get pod name
+kubectl get pods -n production
+→ See: myapp-xyz123 CrashLoopBackOff
+
+STEP 2: Describe the pod
+kubectl describe pod myapp-xyz123 -n production
+
+LOOK AT:
+Events section:
+  'Back-off restarting failed container'
+  'OOMKilled' → memory issue
+  'Error: failed to create containerd task'
+  → image issue
+
+Last State section:
+  'Exit Code: 1' → application error
+  'Exit Code: 137' → OOMKilled
+  'Exit Code: 143' → SIGTERM received
+
+STEP 3: Check current logs
+kubectl logs myapp-xyz123 -n production
+→ See what error the app prints
+  before crashing
+
+STEP 4: Check PREVIOUS container logs
+kubectl logs myapp-xyz123 -n production --previous
+→ CRITICAL — shows logs from
+  the container that crashed
+→ Current container may not have
+  enough log yet
+
+COMMON CAUSES AND FIXES:
+
+Exit Code 1 — Application error:
+→ Read the exception in logs
+→ Common: missing environment variable
+  SOLUTION: Add to ConfigMap or Secret
+
+→ Cannot connect to database
+  SOLUTION: Check database is running,
+  check credentials, check network policy
+  Test connectivity:
+  kubectl run debug --image=busybox --rm -it
+  -- nc -zv db-service 5432
+
+Exit Code 137 — OOMKilled:
+→ Container exceeded memory limit
+  kubectl describe pod → OOMKilled confirmed
+  SOLUTION: Increase memory limit:
+  resources:
+    limits:
+      memory: 512Mi  # was 256Mi
+→ Or investigate memory leak
+
+ImagePullBackOff (different status):
+→ kubectl describe shows image pull error
+→ Check image name and tag exist
+→ Check imagePullSecret exists
+
+Exit Code 126/127 — Script not found/executable:
+→ Entrypoint script missing or not executable
+  SOLUTION: chmod +x the script in Dockerfile
+
+AFTER IDENTIFYING ISSUE:
+→ Fix Helm values or Dockerfile
+→ Rebuild and push new image
+→ Update deployment:
+  helm upgrade myapp ./chart
+  --set image.tag=v2.4.2"
+
+Q42: Your Terraform apply is failing in CI/CD. How do you debug?
+
+Answer:
+"Terraform failures in CI/CD need
+systematic debugging. I have
+hit most common errors at Citibank.
+
+STEP 1: Read the error message carefully
+→ Terraform errors are usually descriptive
+→ Note: which resource, which provider,
+  what specific error
+
+COMMON ERRORS AND MY FIXES:
+
+Error: State lock acquired by another process
+Message: 'Error acquiring the state lock'
+→ Another apply is running
+→ OR previous apply crashed leaving lock
+→ Check DynamoDB table for lock entry
+→ If confirmed stale lock:
+  terraform force-unlock LOCK-ID
+→ Do NOT force-unlock if someone
+  is actively applying
+
+Error: Insufficient permissions
+Message: 'AccessDenied' or 'Unauthorized'
+→ CI/CD IAM role lacks permissions
+→ Check which resource was being created
+→ Add required permission to CI/CD role:
+  terraform plan shows: aws_s3_bucket
+  → Add S3 permissions to role
+→ Always least privilege but complete
+
+Error: Resource already exists
+Message: 'already exists'
+→ Resource exists in AWS but not in state
+→ Options:
+  1. Import it: terraform import aws_s3_bucket.logs myapp-logs-prod
+  2. Use a different name in Terraform
+  3. Delete the existing resource (dangerous)
+
+Error: Provider version mismatch
+Message: 'provider constraints not satisfied'
+→ Run: terraform init -upgrade
+→ Pin provider versions in terraform.tf:
+  required_providers {
+    aws = {
+      source  = 'hashicorp/aws'
+      version = '~> 5.0'
+    }
+  }
+
+Error: Cycle detected
+Message: 'cycle: resource_a, resource_b'
+→ Circular dependency in resources
+→ Resource A depends on B
+  and B depends on A
+→ Break the cycle using depends_on
+  carefully or restructure
+
+Error: Timeout
+→ AWS resource took too long to create
+→ Increase timeout in resource:
+  timeouts {
+    create = '30m'
+  }
+→ Check if resource was created partially
+
+DEBUGGING APPROACH:
+1. terraform plan -out=tfplan first
+   (review what will happen)
+2. Enable detailed logging:
+   TF_LOG=DEBUG terraform apply
+3. Target specific resource:
+   terraform apply -target=aws_eks_cluster.main
+   (isolate the failing resource)"
+
+Q43: How do you handle a security vulnerability found in your Docker image?
+
+Answer:
+"Security vulnerability discovery
+and response is part of my DevSecOps
+work at Citibank.
+
+THE SCENARIO:
+Trivy scan in CI/CD pipeline detects:
+CVE-2024-XXXX: Critical severity
+In: base image ubuntu:20.04
+Component: libssl 1.1.1
+Fix available: libssl 1.1.1t
+
+IMMEDIATE ASSESSMENT:
+
+Step 1: Understand the CVE
+→ What does it allow? RCE? Data exposure?
+→ Is the vulnerable component
+  actually used by our application?
+→ Is this exploitable in our context?
+  (container without network access
+  may not be exploitable even if
+  vulnerable)
+→ Is there a fix available?
+
+Step 2: Check scope
+→ How many images are affected?
+→ Are they in production already?
+→ When was the last image rebuild?
+
+RESOLUTION:
+
+If base image update fixes it:
+→ Update Dockerfile:
+  FROM ubuntu:20.04 → FROM ubuntu:22.04
+  OR: FROM ubuntu:20.04 (with apt upgrade)
+→ Rebuild all affected images
+→ Test in staging
+→ Deploy to production via normal pipeline
+
+If only library needs update:
+→ Add to Dockerfile:
+  RUN apt-get update && apt-get upgrade -y
+  → Forces latest security patches
+→ Rebuild and redeploy
+
+If no fix available yet:
+→ Assess actual risk in context
+→ Add compensating controls:
+  Network policy blocking external access
+  Non-root container (limits impact)
+  Runtime security monitoring
+→ Track CVE for when fix is released
+→ Document risk acceptance with approver
+
+PREVENTION:
+
+→ Trivy scan in CI/CD blocks Critical/High
+  before images reach registry
+→ Trivy scan scheduled weekly on
+  existing production images
+  (new CVEs may affect old images)
+→ Base image rebuild automation:
+  Weekly scheduled pipeline rebuilds
+  all base images with latest patches
+→ Grype/Trivy in JFrog Xray scans
+  all artifacts at promotion time
+
+At Citibank: Log4Shell (CVE-2021-44228)
+was a real incident.
+We identified all affected images in
+2 hours using Trivy + JFrog Xray scan
+and redeployed all services within 8 hours."
+
+Q44: How do you onboard a new microservice into your DevOps platform?
+
+Answer:
+"Onboarding new services efficiently
+is important as Citibank teams
+release many microservices.
+
+I have streamlined this into a
+repeatable process:
+
+STEP 1: Repository setup (Day 1)
+→ Create GitHub repository
+→ Add standard files:
+  .github/workflows/ci.yml (pipeline)
+  Dockerfile (standardized template)
+  Helm chart (from our template)
+  .gitignore
+  README.md
+  CODEOWNERS
+→ Branch protection: main requires
+  PR review + CI passing
+
+STEP 2: CI/CD pipeline
+→ Copy standard GitHub Actions workflow
+→ Customize: language (Java/Python/Node),
+  test commands, artifact type
+→ Pipeline automatically does:
+  Build → Test → Scan → Push to registry
+
+STEP 3: Container configuration
+→ Dockerfile from our secure template
+→ Developer fills: base image, build steps
+→ I review: ensure non-root user,
+  multi-stage build, no secrets
+→ Image added to approved registry
+
+STEP 4: Kubernetes namespace
+→ Create namespace for the service:
+  kubectl create namespace myservice-prod
+→ Apply network policies (default deny)
+→ Configure RBAC for the service account
+→ Create IRSA role if AWS permissions needed
+
+STEP 5: Helm chart customization
+→ Start from our standard Helm template
+→ Developer fills: resource requests,
+  health check paths, environment variables
+→ I review: security contexts set,
+  resource limits defined
+
+STEP 6: Monitoring
+→ Add Prometheus ServiceMonitor:
+  configure metrics scrape
+→ Add Grafana dashboard:
+  start from standard template
+  customize for service-specific metrics
+→ Add AlertManager rules:
+  error rate, latency, restart alerts
+
+STEP 7: Secrets
+→ Store secrets in AWS Secrets Manager
+→ Create ExternalSecret resource
+→ No secrets in Git or ConfigMaps
+
+STEP 8: First deployment
+→ Deploy to dev → staging → prod
+→ Verify all health checks green
+→ Verify metrics appearing in Grafana
+→ Verify logs appearing in Kibana
+
+Total time: 2-3 days for a new service
+From zero to production-ready."
+
+Q45: What do you do when a Kubernetes cluster runs out of resources?
+
+Answer:
+"Resource exhaustion is a serious
+production situation. I have
+managed this at Citibank.
+
+DETECTION:
+→ Prometheus alert: node CPU > 90% for 10 mins
+→ kubectl get pods shows: Pending pods
+→ kubectl describe pod pending-pod-xyz shows:
+  'Insufficient cpu' or 'Insufficient memory'
+
+IMMEDIATE INVESTIGATION:
+
+Check node resources:
+kubectl top nodes
+→ See CPU and memory per node
+→ Which nodes are saturated?
+
+Check what is consuming resources:
+kubectl top pods -n production
+  --sort-by=cpu | head -20
+→ Find the top CPU consumers
+→ Any runaway process?
+
+Check for pods without limits:
+kubectl get pods -n production -o json
+  | jq '.items[] | select(
+    .spec.containers[].resources.limits
+    == null) | .metadata.name'
+→ Pods without limits can consume
+  unlimited resources
+
+IMMEDIATE ACTIONS:
+
+If runaway pod consuming everything:
+→ kubectl delete pod problematic-pod
+→ Check what caused the resource spike
+→ Fix and redeploy with proper limits
+
+If legitimately need more capacity:
+→ Check Cluster Autoscaler logs:
+  kubectl logs -n kube-system
+  -l app=cluster-autoscaler
+→ Is it already scaling up nodes?
+→ If not: check autoscaler configuration
+→ Manually add nodes if urgent:
+  Update node group min/max in AWS console
+  OR update Terraform and apply
+
+If pending pods are non-critical:
+→ Cordon the saturated node:
+  kubectl cordon node-name
+  (no new pods scheduled here)
+→ Prioritise critical pods with
+  PriorityClass
+
+LONG TERM FIX:
+
+→ Set resource requests on ALL pods
+  (VPA helps automate this)
+→ Set PodDisruptionBudgets
+→ Review HPA max replicas vs
+  cluster capacity
+→ Implement capacity planning:
+  Quarterly review of growth vs capacity
+→ Ensure Cluster Autoscaler is
+  properly configured and has
+  IAM permissions to add nodes"
+
+Q46: How do you manage a multi-cloud environment (AWS + Azure)?
+
+Answer:
+"Managing AWS and Azure simultaneously
+is my daily reality at Citibank.
+
+WHY MULTI-CLOUD AT CITIBANK:
+→ Some applications already on Azure
+  (legacy migration path)
+→ Azure AD integration for certain
+  enterprise applications
+→ Regulatory: no single cloud dependency
+→ Best-of-breed services:
+  Azure AD for identity,
+  AWS for containers and compute
+
+CHALLENGES AND HOW I HANDLE THEM:
+
+Challenge 1: Different tooling
+→ AWS has eksctl/terraform aws provider
+→ Azure has az CLI/terraform azurerm provider
+→ SOLUTION: Abstract with Terraform modules
+  Same module interface, different backends:
+
+module 'kubernetes_cluster' {
+  source = '../../modules/k8s-cluster'
+  provider = var.cloud_provider  # aws or azure
+  cluster_name = var.name
+  node_count   = var.nodes
+}
+
+Challenge 2: Different networking concepts
+→ AWS: VPC, Security Groups, NACLs
+→ Azure: VNet, NSGs, Route Tables
+→ SOLUTION: Document network architecture
+  separately per cloud
+  Consistent IP allocation strategy
+  across both (non-overlapping CIDRs)
+
+Challenge 3: Different IAM models
+→ AWS: IAM roles and IRSA
+→ Azure: Managed Identities and
+  Workload Identity Federation
+→ SOLUTION: Same Kubernetes approach
+  (annotate ServiceAccount)
+  Implementation differs per cloud
+
+Challenge 4: Observability across clouds
+→ Different monitoring endpoints
+→ SOLUTION: OpenTelemetry Collector
+  aggregates from both environments
+  Single Grafana with both data sources
+  Single ELK cluster receives from both
+
+Challenge 5: DNS and service discovery
+→ Services in AWS need to reach Azure
+→ SOLUTION: VPN Gateway or ExpressRoute
+  Private DNS resolution across clouds
+  Istio can route cross-cloud
+
+CONSISTENCY:
+→ Same Helm charts for both clouds
+→ Same Kubernetes manifests
+→ Same CI/CD pipeline:
+  Build once → deploy to both
+→ Same monitoring dashboards
+→ GitOps: ArgoCD manages both clusters
+  from same Git repo
+→ Different values files per cloud"
+
+Q47: Explain how you approach a new DevOps project from scratch
+
+Answer:
+"Starting a new project from scratch
+is something I have done at Citibank.
+Here is my structured approach:
+
+WEEK 1: DISCOVERY AND ASSESSMENT
+
+Questions I ask:
+→ What application type? (Java, Python, Node)
+→ What environments needed? (dev/staging/prod)
+→ What cloud? (AWS, Azure, or both)
+→ What compliance requirements? (PCI-DSS, SOX)
+→ What is the team's DevOps maturity?
+→ What is the deployment frequency goal?
+→ What is the acceptable downtime?
+→ What monitoring exists today?
+
+WEEK 2: FOUNDATION
+
+Infrastructure provisioning:
+→ VPCs and networking (Terraform)
+→ EKS/AKS clusters (Terraform)
+→ IAM roles and policies (least privilege)
+→ S3 buckets for state and artifacts
+→ Container registry (ECR or ACR)
+
+WEEK 3: CI/CD PIPELINE
+
+→ Repository setup with branch protection
+→ Basic pipeline:
+  Build → Test → Security scan
+  → Push image → Deploy to dev
+→ Quality gates configured
+→ Artifact management (Nexus or Artifactory)
+
+WEEK 4: SECURITY (DevSecOps)
+
+→ SAST tool (SonarQube) configured
+→ Container scanning (Trivy) in pipeline
+→ Secrets management (AWS SM + ESO)
+→ Network policies applied
+→ Pod security standards enforced
+
+WEEK 5: MONITORING
+
+→ Prometheus + Grafana deployed
+→ Standard dashboards configured
+→ AlertManager with proper routing
+→ ELK for log aggregation
+→ Runbooks for common alerts
+
+WEEK 6: DEPLOYMENT STRATEGIES
+
+→ Blue-Green for production
+→ Canary via Istio if needed
+→ HPA configured for scalability
+→ Rollback tested and documented
+
+WEEK 7-8: VALIDATION AND HANDOVER
+
+→ Load testing in staging
+→ Security penetration test
+→ Disaster recovery test
+→ Runbook documentation
+→ Team training
+→ Handover to development team
+
+ONGOING:
+→ Weekly cost review
+→ Monthly security scan review
+→ Quarterly capacity planning"
+
+Q48: How do you stay current with DevOps technologies?
+
+Answer:
+"The DevOps landscape changes rapidly —
+continuous learning is not optional.
+
+WHAT I DO ACTIVELY:
+
+Community resources:
+→ CNCF blog and announcements
+  (cncf.io) — first source for
+  Kubernetes and cloud-native news
+→ KubeWeekly newsletter
+→ DevOps Weekly newsletter
+→ AWS and Azure blogs for
+  service updates
+
+Hands-on practice:
+→ Home lab on AWS free tier or
+  local Kind cluster
+→ Every tool I recommend to
+  production: I test it first
+→ KodeKloud labs for structured
+  hands-on practice
+
+Certifications I am targeting:
+→ AWS Solutions Architect Associate
+  validates my AWS knowledge formally
+→ CKA (Certified Kubernetes Administrator)
+  validates Kubernetes operations depth
+→ HashiCorp Terraform Associate
+  validates IaC expertise
+
+Conference content:
+→ KubeCon talks on YouTube
+  (free, excellent quality)
+→ AWS re:Invent recordings
+→ HashiConf sessions
+
+How I validated new tools at Citibank:
+→ Tekton: read docs → built POC locally
+  → proposed to team → implemented
+→ External Secrets Operator: tested
+  against dev cluster before recommending
+→ OpenTelemetry: attended virtual KubeCon
+  session → implemented collector pattern
+
+What I am learning now:
+→ Platform Engineering patterns
+  (Internal Developer Platforms)
+→ eBPF for networking and security
+  (Cilium, Falco eBPF)
+→ WASM in containers
+  (Kubernetes wasm integration)
+→ AI/ML in DevOps
+  (intelligent monitoring, AIOps)"
+
+Q49: What is SRE and how does it relate to DevOps?
+
+Answer:
+"SRE — Site Reliability Engineering —
+was invented by Google and is a
+discipline I apply principles from
+in my DevOps work at Citibank.
+
+SRE IN A NUTSHELL:
+→ Apply software engineering
+  to operations problems
+→ Write code to solve ops problems
+  rather than doing them manually
+→ Measure everything with SLOs
+→ Manage operations work vs
+  engineering work balance
+
+KEY SRE CONCEPTS I APPLY:
+
+SLI (Service Level Indicator):
+→ Metric that measures service behavior
+→ Examples:
+  Request success rate
+  API latency p99
+  Availability percentage
+
+SLO (Service Level Objective):
+→ Target value for an SLI
+→ Examples:
+  99.9% of requests succeed
+  p99 latency < 200ms
+  99.9% availability per month
+
+SLA (Service Level Agreement):
+→ Business contract based on SLOs
+→ Consequence if SLO is breached
+
+Error Budget:
+→ 99.9% SLO = 0.1% allowed failures
+→ 0.1% of monthly requests = error budget
+→ Budget remaining → ship features
+→ Budget exhausted → freeze releases
+  and focus on reliability
+
+Toil reduction:
+→ Toil = manual repetitive operations work
+→ SRE principle: automate toil away
+→ My shell scripts and Python automation
+  directly reduces toil
+→ Goal: ops team spends more time
+  on engineering, less on manual tasks
+
+ERROR BUDGET IN PRACTICE at Citibank:
+→ Monthly reliability review
+→ How much error budget consumed?
+→ If less than 10% consumed:
+  deploy more frequently (safe to)
+→ If more than 50% consumed:
+  slow down releases, focus on reliability
+→ If budget exhausted:
+  feature freeze until budget recovers
+
+DEVOPS vs SRE:
+→ DevOps: culture and practices
+  for dev-ops collaboration
+→ SRE: implementation of DevOps
+  with engineering rigor
+→ Not competing — complementary
+→ I bring SRE principles
+  (SLOs, error budgets, toil reduction)
+  into DevOps workflows"
+
+Q50: Where do you see yourself in 3 years and what is your next step?
 
 Answer:
 "In 3 years I want to have grown
-from a solid production support
-specialist into a senior application
-support lead or service delivery role.
+into a Senior DevOps Engineer or
+Platform Engineering role where
+I am not just maintaining pipelines
+but architecting the developer
+platform that entire product teams
+rely on.
 
-Specifically I want to:
+TECHNICAL DEPTH I WANT TO BUILD:
 
-Technical depth:
-→ Become the go-to expert for
-  complex Oracle database issues
-  in the support context
-→ Deepen my Linux and automation
-  skills — more sophisticated
-  monitoring and scripting
-→ Build cloud platform knowledge
-  as infrastructure migrates to AWS/Azure
+Kubernetes at architect level:
+→ Currently: operational expertise
+→ Goal: design multi-cluster architectures,
+  build platform teams' Kubernetes
+  abstraction layers
+→ CKA first, then CKAD and CKS
 
-Functional growth:
-→ ITIL 4 certified — formalise
-  the ITSM knowledge I have built
-→ Lead PIR sessions rather than
-  just attend them
-→ Own service improvement initiatives:
-  identify patterns, drive fixes
+Cloud architecture:
+→ AWS Solutions Architect Associate
+  is my immediate certification goal
+→ Validates and formalizes what I practice
 
-Leadership:
-→ Mentor newer support engineers
-→ Build and maintain the knowledge base
-  as a team resource not just my own
-→ Be the first call for the team
-  on complex incidents — not because
-  I have to be but because I have
-  earned that trust
+Platform Engineering:
+→ Build Internal Developer Platforms (IDP)
+→ Give developers self-service
+  infrastructure provisioning
+→ This is where DevOps is evolving —
+  from per-project CI/CD to
+  standardized platforms
 
-What this organisation can give me:
-→ Exposure to more complex systems
-→ Opportunity to work with
-  more experienced engineers
-→ Structured career progression
-→ Challenging production environment
-  that keeps skills sharp
+FinOps:
+→ Deeper cloud cost engineering
+→ FinOps Foundation certification
+→ Cost optimization at architecture level
 
-I am not someone who wants to
-stay still — every year I want
-to be meaningfully better than
-the year before."
+WHAT I WANT FROM THIS ROLE:
+→ More complex architecture challenges
+  than my current scope
+→ Exposure to larger-scale infrastructure
+→ Mentoring from senior architects
+→ Opportunity to lead technical decisions
+  not just implement them
 
-Q50: Do you have any questions for us?
+MY COMMITMENT:
+→ I am not someone who wants to
+  collect tools — I want to go
+  deep on fewer things and become
+  genuinely expert
+→ The CKA certification this year
+  is my concrete next step
+→ Every year I want a meaningful
+  before and after — something
+  I could not do before
+  that I can do now
 
-Answer — Always ask 2-3 strong questions:
-
-Question 1 (About the role):
-"What does a typical first 90 days
-look like for someone joining this
-team? Is there a structured onboarding
-to the applications and environments
-or is it more learn-by-doing?"
-
-Question 2 (About the team):
-"What is the current biggest
-operational challenge the support
-team is facing — whether that is
-a specific application, a tooling
-gap, or a process improvement area?"
-
-Question 3 (About growth):
-"How does the organisation support
-production support engineers who
-want to grow — are there opportunities
-to move into senior support roles
-or adjacent areas like release
-management or service delivery?"
-
-Question 4 (About the environment):
-"What is the on-call rotation like?
-How many people share on-call duties
-and what is the typical frequency
-of after-hours incidents?"
-
-Why these questions work:
-→ Question 1: Shows you are
-  serious about succeeding in the role
-→ Question 2: Shows commercial awareness
-  and problem-solving orientation
-→ Question 3: Shows ambition
-  without seeming impatient
-→ Question 4: Shows you are realistic
-  and want to set clear expectations
-
-Never ask about salary in first interview.
-Never say 'No I have no questions.'
-Questions show engagement and interest.
-No questions sends the wrong signal."
+I believe this role gives me
+that trajectory and I am genuinely
+excited about what I could
+contribute and learn here."
 INTERVIEW CHEAT SHEET
-YOUR 5 KEY NUMBERS — MEMORISE THESE:
+YOUR KEY NUMBERS — MEMORISE THESE:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-→ 4+ years production support
-→ 99.9% application uptime
-→ 35% MTTR reduction
-→ 40% manual effort reduced
-→ 100+ Autosys jobs managed
-→ 50+ knowledge base articles
-→ Zero SOX audit findings
-→ Zero unauthorised changes
+→ 4+ years DevOps experience
+→ 20% Kubernetes resource improvement
+   (Ingress Controller POC)
+→ 20% Maven pipeline speed improvement
+   (CBA — caching + parallelization)
+→ Zero production security incidents
+   (DevSecOps integration)
+→ Zero-downtime deployments
+   (Blue-Green + Canary)
+→ Two banking clients
+   (Citibank + CBA)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-QUESTIONS MOST LIKELY TO BE ASKED:
+QUESTIONS MOST LIKELY ASKED:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⭐ Tell me about your experience (Q1)
-⭐ How do you handle a P1? (Q4)
-⭐ What do you do when Autosys fails? (Q12)
-⭐ Linux commands you use? (Q19)
-⭐ Oracle errors encountered? (Q28)
-⭐ What is ITIL? (Q34)
-⭐ Scenario: App down at 2 AM (Q41)
-⭐ What is your greatest achievement?
-   → 99.9% uptime / 35% MTTR reduction
-⭐ What is your weakness?
-   → Limited cloud hands-on experience
-     actively addressing with learning
+⭐ Walk me through a CI/CD pipeline (Q1)
+⭐ Jenkins vs GitHub Actions vs Tekton (Q2)
+⭐ Blue-Green vs Canary deployment (Q3)
+⭐ How do you implement DevSecOps? (Q4)
+⭐ Explain your Kubernetes experience (Q11)
+⭐ What is Istio and how used? (Q12)
+⭐ Terraform state and why important (Q22)
+⭐ Terraform vs Ansible difference (Q23)
+⭐ Monitoring stack explanation (Q28)
+⭐ Production deployment failed — what do? (Q40)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 GOLDEN ANSWER FORMULA:
-Every answer = Situation + Action + Result
-→ What was the problem?
-→ What did YOU specifically do?
-→ What was the measurable outcome?
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Every answer = Context + What I did
+             + Result + Why it matters
 
-STAY CALM. YOU KNOW THIS WORK.
-YOU DO IT EVERY DAY. 🚀
+CONFIDENCE REMINDER:
+You have done ALL of this in
+production at Citibank and CBA.
+Two of the most demanding banking
+environments in the world.
+Speak with confidence — you have
+earned every answer. 🚀
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+You are out of free messages until 7:30 PM
+
+
+
+
+Claude is AI and can make mistakes. Please double-check responses.
