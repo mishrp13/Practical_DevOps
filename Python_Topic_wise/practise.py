@@ -1,19 +1,21 @@
+import math
 class Solution:
 
-    def largest_num(self,n):
 
-        largest=0
+    def is_prime(self,n):
 
-        while n >0:
-            last_digit= n%10
-            if last_digit > largest:
-                largest=last_digit
-            n=n//10
-
-        return largest
+        if n<2:
+            return False
 
 
-n=12568249
+        for i in range(2,n):
+            if n%i==0:
+                return False
+
+        return True
+
+n=17
+
 sol=Solution()
-ans=sol.largest_num(n)
+ans= sol.is_prime(n)
 print(f"{ans}")
