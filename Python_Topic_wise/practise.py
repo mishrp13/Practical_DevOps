@@ -1,16 +1,19 @@
-def update_server_conf(file_path,key,value):
+class Solution:
 
-    with open(file_path,'r') as file:
-        lines= file.readlines()
+    def largest_num(self,n):
 
-    with open(file_path,'w') as file:
-        for line in lines:
+        largest=0
 
-            if key in line:
-                file.write(key + "=" + value + "\n")
-            else:
-                file.write(line)
+        while n >0:
+            last_digit= n%10
+            if last_digit > largest:
+                largest=last_digit
+            n=n//10
+
+        return largest
 
 
-update_server_conf("server.conf","PORT","9090")
-            
+n=12568249
+sol=Solution()
+ans=sol.largest_num(n)
+print(f"{ans}")
