@@ -1,21 +1,44 @@
-import math
 class Solution:
 
+    def reverse_array(self,arr,n):
 
-    def is_prime(self,n):
-
-        if n<2:
-            return False
+        p1=0
+        p2=n-1
 
 
-        for i in range(2,n):
-            if n%i==0:
-                return False
+        while p1<p2:
 
-        return True
+            temp=arr[p1]
+            arr[p1]=arr[p2]
+            arr[p2]=temp
+            p1+=1
+            p2-=1
 
-n=17
+        return 
 
-sol=Solution()
-ans= sol.is_prime(n)
-print(f"{ans}")
+
+def printArray(arr,n):
+
+    for i in range(n):
+        print(arr[i],end= " ")
+
+    print()
+
+
+if __name__=="__main__":
+    arr= [1,2,3,4,5]
+    n=len(arr)
+    sol=Solution()
+    print(f"Before Reversal")
+    printArray(arr,n)
+    sol.reverse_array(arr,n)
+    print(f"After Reversal: ")
+    printArray(arr,n)
+    
+
+
+
+
+
+
+    
