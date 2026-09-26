@@ -1,40 +1,24 @@
 class Solution:
 
-    def maxOccurence(self,nums):
+    def largestOddNumber(self, s:str)-> str:
 
-        n= len(nums)
+        ind=-1
 
-        maxele=0
-        maxfreq=0
-
-        visited= [False]*n
-
-        for i in range(n):
-            if visited[i]:
-                continue
+        for i in range(len(s)-1,-1,-1):
+            if(int(s[i])%2==1):
+                ind=i
+                break
 
 
-            freq=0
+        i=0
 
-            for j in range(i,n):
-                if nums[i]==nums[j]:
-                    freq+=1
-                    visited[j]=True
+        while i<=ind and s[i]=='0':
+            i+=1
 
-            if freq> maxfreq:
-                maxfreq=freq
-                maxele=nums[i]
-            elif freq==maxfreq:
-                maxele=min(maxele,nums[i])
-            
-        
-
-        return maxele
-
+        return s[i:ind + 1]
 
 if __name__=="__main__":
-    nums= [1,2,2,3,4,4,4,4,5]
     sol=Solution()
-    ans=sol.maxOccurence(nums)
+    n="04792"
+    ans=sol.largestOddNumber(n)
     print(f"{ans}")
-        
